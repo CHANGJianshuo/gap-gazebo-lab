@@ -1,0 +1,32 @@
+status: implemented_ground_truth_planning_demo
+confirmed_requirements:
+  robot: aubo_S3
+  camera: wrist_realsense_d435i
+  simulator: gazebo_harmonic
+  ros: humble
+  geometry: original_pdf_exact_scale
+  battery_source: 电池道具.stp
+  perception_input: gazebo_ground_truth_authorized_by_user
+simulation_assumptions:
+  battery_mass_kg: 0.4
+  battery_friction: 0.8
+  battery_dimensions_m: [0.07, 0.08, 0.08]
+  camera_mass_kg: 0.075
+  table_top_z_m: 0.65
+  table_size_m: [0.68, 0.86, 0.05]
+  latch_joint_open_m: 0.022
+  latch_inner_radius_m: 0.0155
+  latch_closed_gate_position_m: 0.0025
+  latch_closed_gate_axis_dot: 0.995
+  latch_attachment: gated_rigid_constraint_without_teleportation
+  acceleration_limits_rad_s2: [4, 4, 4, 6, 6, 6]
+  jerk_limits_rad_s3: [28, 28, 28, 45, 45, 45]
+  acceleration_jerk_source: simulation_commissioning_not_vendor_certified
+competition:
+  demo_sequence: CAB
+  demo_sequence_source: reproducible_test_example_not_official_command
+  inner_circle_diameter_m: 0.08
+  battery_minimum_enclosing_circle_diameter_m: 0.106301458
+  inner_score_claimed: false
+  task_manager_owner: SJM
+  motion_planning_owner: 常建烁

@@ -1,0 +1,27 @@
+{
+  "http": {
+    "errors": [],
+    "status": "已完成 · 仿真验收通过",
+    "rows": 2,
+    "video": {
+      "duration": 38.36,
+      "width": 1280,
+      "height": 720,
+      "error": null
+    },
+    "overflow": false
+  },
+  "plot_loaded": true,
+  "mobile_overflow": false,
+  "file_open": {
+    "status": "已完成 · 仿真验收通过",
+    "video_error": null
+  },
+  "links": {
+    "../../data/videos/sequence_demo.mp4": 200,
+    "../../data/videos/basic_demo_final.mp4": 200,
+    "../VALIDATION.md": 200,
+    "../../data/runs/sequence_demo/summary.json": 200
+  },
+  "pass": true
+}

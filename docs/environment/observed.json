@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-09-05T02:28:43.531819+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "environment": {
+    "ROS_VERSION": "2",
+    "ROS_DISTRO": "humble",
+    "ROS_PYTHON_VERSION": "3",
+    "RMW_IMPLEMENTATION": "rmw_cyclonedds_cpp",
+    "AMENT_PREFIX_PATH": "/opt/ros/humble",
+    "DISPLAY": ":0",
+    "WAYLAND_DISPLAY": "wayland-0"
+  },
+  "executables": {
+    "ros2": "/opt/ros/humble/bin/ros2",
+    "gz": "/usr/bin/gz",
+    "ign": "/usr/bin/ign",
+    "gazebo": null,
+    "colcon": "/usr/bin/colcon",
+    "xacro": "/opt/ros/humble/bin/xacro",
+    "nvidia-smi": "/usr/lib/wsl/lib/nvidia-smi"
+  },
+  "checks": [
+    {
+      "command": [
+        "gz",
+        "sim",
+        "--versions"
+      ],
+      "returncode": 0,
+      "stdout": "8.12.0",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ign",
+        "gazebo",
+        "--versions"
+      ],
+      "returncode": 0,
+      "stdout": "6.17.1",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "dpkg-query",
+        "-W",
+        "-f=${Package} ${Version}\n",
+        "ros-humble-desktop",
+        "ros-humble-ros2cli",
+        "ros-humble-moveit",
+        "ros-humble-controller-manager",
+        "ros-humble-gz-ros2-control",
+        "ros-humble-ros-gzharmonic-bridge",
+        "ros-humble-ros-gzharmonic-sim",
+        "ros-humble-realsense2-description",
+        "ros-humble-realsense2-camera",
+        "gz-sim8-cli",
+        "libignition-gazebo6"
+      ],
+      "returncode": 0,
+      "stdout": "gz-sim8-cli 8.12.0-1~jammy\nlibignition-gazebo6 6.17.1-1~jammy\nros-humble-controller-manager 2.54.0-1jammy.20260505.181842\nros-humble-desktop 0.10.0-1jammy.20260423.142311\nros-humble-gz-ros2-control 0.7.19-1jammy.20260505.183411\nros-humble-moveit 2.5.9-1jammy.20260505.203245\nros-humble-realsense2-camera 4.57.7-4jammy.20260422.083832\nros-humble-realsense2-description 4.57.7-4jammy.20260421.080616\nros-humble-ros-gzharmonic-bridge 0.244.12-3jammy\nros-humble-ros-gzharmonic-sim 0.244.12-3jammy\nros-humble-ros2cli 0.18.18-1jammy.20260421.071921",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.total,driver_version",
+        "--format=csv,noheader"
+      ],
+      "returncode": 0,
+      "stdout": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 592.27",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ros2",
+        "pkg",
+        "prefix",
+        "gz_ros2_control"
+      ],
+      "returncode": 0,
+      "stdout": "/opt/ros/humble",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ldd",
+        "/opt/ros/humble/lib/libgz_ros2_control-system.so"
+      ],
+      "returncode": 0,
+      "stdout": "\tlibignition-gazebo6.so.6 => /lib/x86_64-linux-gnu/libignition-gazebo6.so.6 (0x000072b104000000)\n\tlibignition-common4.so.4 => /lib/x86_64-linux-gnu/libignition-common4.so.4 (0x000072b1043b4000)\n\tlibignition-fuel_tools7.so.7 => /lib/x86_64-linux-gnu/libignition-fuel_tools7.so.7 (0x000072b103e6a000)\n\tlibignition-plugin1-loader.so.1 => /lib/x86_64-linux-gnu/libignition-plugin1-loader.so.1 (0x000072b103e58000)\n\tlibignition-transport11-parameters.so.11 => /lib/x86_64-linux-gnu/libignition-transport11-parameters.so.11 (0x000072b1039d0000)\n\tlibignition-transport11.so.11 => /lib/x86_64-linux-gnu/libignition-transport11.so.11 (0x000072b103953000)\n\tlibignition-msgs8.so.8 => /lib/x86_64-linux-gnu/libignition-msgs8.so.8 (0x000072b102a00000)\n\tlibignition-plugin1.so.1 => /lib/x86_64-linux-gnu/libignition-plugin1.so.1 (0x000072b103948000)\n\tlibignition-common4-events.so.4 => /lib/x86_64-linux-gnu/libignition-common4-events.so.4 (0x000072b103926000)\n\tlibignition-math6.so.6 => /lib/x86_64-linux-gnu/libignition-math6.so.6 (0x000072b1038d3000)",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ros2",
+        "pkg",
+        "prefix",
+        "ros_gz_bridge"
+      ],
+      "returncode": 0,
+      "stdout": "/opt/ros/humble",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ldd",
+        "/opt/ros/humble/lib/ros_gz_bridge/parameter_bridge"
+      ],
+      "returncode": 0,
+      "stdout": "\tlibgz-transport13.so.13 => /lib/x86_64-linux-gnu/libgz-transport13.so.13 (0x000071770ed45000)\n\tlibgz-msgs10.so.10 => /lib/x86_64-linux-gnu/libgz-msgs10.so.10 (0x000071770d000000)\n\tlibgz-utils2.so.2 => /lib/x86_64-linux-gnu/libgz-utils2.so.2 (0x000071770da61000)",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "《2026年挑战赛FAQ》.pdf",
+      "sha256": "acf81837cde660adf9cdfe8a84c9cfe40e370c09d7d4a303b3e68f1bdb12a3cd",
+      "size_bytes": 465478
+    },
+    {
+      "path": "《2026年挑战赛任务底图》.pdf",
+      "sha256": "f537b63235542f3a509b6f695651a486232e65c02d21fc457a876f893eb277c6",
+      "size_bytes": 70710
+    },
+    {
+      "path": "《2026年挑战赛规则及赛题说明》.pdf",
+      "sha256": "5320ec0efb30520cdfba8b26eef6610417b673bc2eb5209018154dc76df52f48",
+      "size_bytes": 621332
+    }
+  ],
+  "inspection_date": "2026-09-05",
+  "notes": "Original PDFs retained at repository root. Rules PDF has no usable text layer; preliminary pages 2–4 read visually."
+}

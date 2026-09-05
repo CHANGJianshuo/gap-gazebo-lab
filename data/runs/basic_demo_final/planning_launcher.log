@@ -1,0 +1,18 @@
+[INFO] [1788593787.419753860] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[INFO] [1788593787.419829564] [moveit_robot_model.robot_model]: Loading robot model 'mtc_s3'...
+[INFO] [1788593787.419835742] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1788593787.432547505] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1788593787.447901200] [mtc_motion_planner]: S3 planner ready: multi-seed IK, Ruckig, quintic B-spline, RRT-Connect fallback, full-tree dynamics and FCL
+[INFO] [1788593797.342581207] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 1.613s, execution 1.201s
+[INFO] [1788593812.996573030] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 0.808s, execution 1.002s
+[INFO] [1788593834.437962741] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 1.408s, execution 1.038s
+[INFO] [1788593870.678264599] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 1.906s, execution 1.173s
+[INFO] [1788593887.123252548] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 0.893s, execution 1.045s
+[INFO] [1788593908.772210223] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 0.814s, execution 1.045s
+[INFO] [1788593961.874542303] [mtc_motion_planner]: Plan PASS: VALIDATED, compute 0.603s, execution 0.470s
+[INFO] [1788593962.616063051] [mtc_motion_planner]: Plan FAIL: NO_VALID_IK_SOLUTION, compute 0.638s, execution 0.000s
+[INFO] [1788593962.706412910] [mtc_motion_planner]: Plan FAIL: Invalid target quaternion, compute 0.088s, execution 0.000s
+[INFO] [1788593962.793112199] [mtc_motion_planner]: Plan FAIL: Target frame must be world or base_link, compute 0.085s, execution 0.000s
+[INFO] [1788593962.880664964] [mtc_motion_planner]: Plan FAIL: START_JOINT_LIMIT, compute 0.086s, execution 0.000s
+[INFO] [1788593962.993961725] [mtc_motion_planner]: Plan FAIL: START_COLLISION foreArm_Link / table, compute 0.088s, execution 0.000s
+[INFO] [1788593963.276404282] [rclcpp]: signal_handler(SIGINT/SIGTERM)

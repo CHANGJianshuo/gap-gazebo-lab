@@ -1,0 +1,43 @@
+joint_limits:
+  shoulder_joint:
+    has_velocity_limits: true
+    max_velocity: 2.3
+    has_acceleration_limits: true
+    max_acceleration: 4.0
+    has_jerk_limits: true
+    max_jerk: 28.0
+  upperArm_joint:
+    has_velocity_limits: true
+    max_velocity: 2.3
+    has_acceleration_limits: true
+    max_acceleration: 4.0
+    has_jerk_limits: true
+    max_jerk: 28.0
+  foreArm_joint:
+    has_velocity_limits: true
+    max_velocity: 2.3
+    has_acceleration_limits: true
+    max_acceleration: 4.0
+    has_jerk_limits: true
+    max_jerk: 28.0
+  wrist1_joint:
+    has_velocity_limits: true
+    max_velocity: 2.8
+    has_acceleration_limits: true
+    max_acceleration: 6.0
+    has_jerk_limits: true
+    max_jerk: 45.0
+  wrist2_joint:
+    has_velocity_limits: true
+    max_velocity: 2.8
+    has_acceleration_limits: true
+    max_acceleration: 6.0
+    has_jerk_limits: true
+    max_jerk: 45.0
+  wrist3_joint:
+    has_velocity_limits: true
+    max_velocity: 2.8
+    has_acceleration_limits: true
+    max_acceleration: 6.0
+    has_jerk_limits: true
+    max_jerk: 45.0

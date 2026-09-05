@@ -1,0 +1,49 @@
+{
+  "sequence_demo": {
+    "source": "data/runs/sequence_demo/summary.json",
+    "source_sha256": "90e52ccb43cdf932d725852e8cc0f6f7f99f971d4c79c0bf95bc609f607996f4",
+    "transfers": 3,
+    "segments": 18,
+    "candidate_count": 62,
+    "candidate_reasons": {
+      "ok": 56,
+      "PAYLOAD_TILT": 5,
+      "COLLISION battery_B / upperArm_Link": 1
+    },
+    "selected_algorithms": {
+      "ruckig_direct": 6,
+      "quintic_bspline_16": 10,
+      "quintic_bspline_10": 2
+    },
+    "simulation_duration_s": 37.544000000000004,
+    "total_planned_motion_s": 19.315277715423782,
+    "total_planning_wall_s": 22.670917148000004,
+    "wall_duration_s": 409.4064561720006,
+    "max_tracking_error_deg": 0.2389135056536891,
+    "max_placement_error_mm": 0.04504773483122096
+  },
+  "basic_demo_final": {
+    "source": "data/runs/basic_demo_final/summary.json",
+    "source_sha256": "448cc0aaea155e330ae2d7c19116b08cea632759bea4ce34b85e6085de2e8372",
+    "transfers": 1,
+    "segments": 6,
+    "candidate_count": 20,
+    "candidate_reasons": {
+      "ok": 17,
+      "COLLISION battery_C / upperArm_Link": 1,
+      "PAYLOAD_TILT": 2
+    },
+    "selected_algorithms": {
+      "ruckig_direct": 2,
+      "quintic_bspline_16": 2,
+      "quintic_bspline_10": 2
+    },
+    "simulation_duration_s": 14.612,
+    "total_planned_motion_s": 6.504177302756529,
+    "total_planning_wall_s": 7.440914652,
+    "wall_duration_s": 161.3199798669957,
+    "max_tracking_error_deg": 0.23886836483976098,
+    "max_placement_error_mm": 0.01243533582645436
+  },
+  "scope": "Two final runs only; candidate counts use coarse validation outcomes."
+}

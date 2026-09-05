@@ -1,0 +1,521 @@
+{
+  "success": true,
+  "error": "",
+  "task": "basic",
+  "demo_order": "C",
+  "plan_only": false,
+  "wall_duration_s": 161.3199798669957,
+  "simulation_duration_s": 14.612,
+  "total_planned_motion_s": 6.504177302756529,
+  "total_planning_wall_s": 7.440914652,
+  "max_tracking_error_rad": 0.004169039445308886,
+  "rms_tracking_error_rad": 0.0002736722483766219,
+  "controller_samples": 624,
+  "placements": [
+    {
+      "object": "battery_C",
+      "target": "T0",
+      "requested_xyz": [
+        0.299848413,
+        -0.115038402,
+        0.65
+      ],
+      "actual_xyz": [
+        0.2998508377517589,
+        -0.11502620535472254,
+        0.6499998541913934
+      ],
+      "xy_error_m": 1.243533582645436e-05,
+      "drift_over_3s_m": 0.0,
+      "upright_cosine": 0.9999999999985754,
+      "success": true
+    }
+  ],
+  "plans": [
+    {
+      "candidates": [
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 1.20099483571655,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.30839651770619436,
+          "valid": true
+        },
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 2.0643867560992453,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3224418554506543,
+          "valid": true
+        }
+      ],
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 2.220446049250313e-16,
+      "duration": 1.20099483571655,
+      "ik_solutions": 2,
+      "max_cartesian_line_error_m": 0.0,
+      "maximum_torque_ratio": 0.3091315316059447,
+      "minimum_clearance_m": 0.03704697931899266,
+      "payload_mass_kg": 0.0,
+      "planning_time": 1.612513021,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "ruckig_direct",
+      "success": true,
+      "validation_samples": 478,
+      "label": "C：到达把手上方",
+      "mode": "free",
+      "touching_object": "",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.2578319943719322,
+            "y": 0.2147784729417861,
+            "z": 0.8339990927850771
+          },
+          "orientation": {
+            "x": 0.7071067811523032,
+            "y": 0.7071067812205789,
+            "z": 4.622260981149426e-08,
+            "w": -5.468354357730202e-07
+          }
+        }
+      }
+    },
+    {
+      "candidates": [
+        {
+          "algorithm": "quintic_bspline_10",
+          "duration": 1.0026822494357504,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.28204010767520227,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_16",
+          "duration": 1.0017451955620762,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.28204010767520227,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_24",
+          "duration": 1.0078283564035255,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.28204010767520227,
+          "valid": true
+        }
+      ],
+      "cartesian_waypoints": 29,
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 1.3322676295501878e-15,
+      "duration": 1.0017451955620762,
+      "max_cartesian_line_error_m": 1.029880775086332e-05,
+      "maximum_torque_ratio": 0.28204010767520227,
+      "minimum_clearance_m": 0.03705650927210391,
+      "payload_mass_kg": 0.0,
+      "planning_time": 0.808208381,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "quintic_bspline_16",
+      "success": true,
+      "validation_samples": 267,
+      "label": "C：垂直接近把手",
+      "mode": "cartesian",
+      "touching_object": "battery_C",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.2578319943719322,
+            "y": 0.2147784729417861,
+            "z": 0.7239990927850771
+          },
+          "orientation": {
+            "x": 0.7071067811523032,
+            "y": 0.7071067812205789,
+            "z": 4.622260981149426e-08,
+            "w": -5.468354357730202e-07
+          }
+        }
+      }
+    },
+    {
+      "candidates": [
+        {
+          "algorithm": "quintic_bspline_10",
+          "duration": 1.0384470396644474,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3185586395819256,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_16",
+          "duration": 1.0383117214418403,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3185586395819256,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_24",
+          "duration": 1.043384903727357,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3185586395819256,
+          "valid": true
+        }
+      ],
+      "cartesian_waypoints": 31,
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 1.3322676295501878e-15,
+      "duration": 1.0383117214418403,
+      "max_cartesian_line_error_m": 9.974109602214233e-06,
+      "maximum_torque_ratio": 0.3185586395819256,
+      "minimum_clearance_m": 0.021226088642148516,
+      "payload_mass_kg": 0.4,
+      "planning_time": 1.407845408,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "quintic_bspline_16",
+      "success": true,
+      "validation_samples": 281,
+      "label": "C：锁住后垂直抬升",
+      "mode": "cartesian",
+      "touching_object": "battery_C",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.25783760314669374,
+            "y": 0.21478951007127836,
+            "z": 0.8440118016534266
+          },
+          "orientation": {
+            "x": 0.707106787498096,
+            "y": 0.7071067744467131,
+            "z": 2.323114291996483e-05,
+            "w": -8.124610397785153e-06
+          }
+        }
+      }
+    },
+    {
+      "candidates": [
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 1.1733836706808287,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3230302732466625,
+          "valid": true
+        },
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 1.6072139734243804,
+          "reason": "COLLISION battery_C / upperArm_Link",
+          "time_scale": 1.0,
+          "torque_ratio": 0.36651933575336365,
+          "valid": false
+        },
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 1.7219629272254586,
+          "reason": "PAYLOAD_TILT",
+          "time_scale": 1.0,
+          "torque_ratio": 0.41354304790844326,
+          "valid": false
+        },
+        {
+          "algorithm": "ruckig_direct",
+          "duration": 2.232077852990286,
+          "reason": "PAYLOAD_TILT",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3771528671926673,
+          "valid": false
+        },
+        {
+          "algorithm": "quintic_bspline_10",
+          "duration": 1.4650240190174535,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.31856254416010177,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_16",
+          "duration": 1.3491662771703874,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.31856254416010177,
+          "valid": true
+        }
+      ],
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 2.220446049250313e-16,
+      "duration": 1.1733836706808287,
+      "ik_solutions": 4,
+      "max_cartesian_line_error_m": 0.0,
+      "maximum_torque_ratio": 0.3231977104618597,
+      "minimum_clearance_m": 0.021225213090301374,
+      "payload_mass_kg": 0.4,
+      "planning_time": 1.905618082,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "ruckig_direct",
+      "success": true,
+      "validation_samples": 456,
+      "label": "C：搬运至 T0 上方",
+      "mode": "free",
+      "touching_object": "",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.2998521061150185,
+            "y": -0.11503126754388501,
+            "z": 0.8445119166015916
+          },
+          "orientation": {
+            "x": 0.7071067620646382,
+            "y": 0.7071067981737812,
+            "z": 5.207157036952391e-05,
+            "w": -1.753413372156608e-05
+          }
+        }
+      }
+    },
+    {
+      "candidates": [
+        {
+          "algorithm": "quintic_bspline_10",
+          "duration": 1.0447032918399484,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3183722209786382,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_16",
+          "duration": 1.0454723429501773,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3182871076489482,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_24",
+          "duration": 1.050297129407893,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.3182783985616208,
+          "valid": true
+        }
+      ],
+      "cartesian_waypoints": 32,
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 1.3322676295501878e-15,
+      "duration": 1.0447032918399484,
+      "max_cartesian_line_error_m": 3.969951199924346e-05,
+      "maximum_torque_ratio": 0.3183809706352794,
+      "minimum_clearance_m": 0.02122581798985593,
+      "payload_mass_kg": 0.4,
+      "planning_time": 0.892550407,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "quintic_bspline_10",
+      "success": true,
+      "validation_samples": 283,
+      "label": "C：垂直放下",
+      "mode": "cartesian",
+      "touching_object": "battery_C",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.2998521061150185,
+            "y": -0.11503126754388501,
+            "z": 0.7245119166015916
+          },
+          "orientation": {
+            "x": 0.7071067620646382,
+            "y": 0.7071067981737812,
+            "z": 5.207157036952391e-05,
+            "w": -1.753413372156608e-05
+          }
+        }
+      }
+    },
+    {
+      "candidates": [
+        {
+          "algorithm": "quintic_bspline_10",
+          "duration": 1.045038587515285,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.28185714383038357,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_16",
+          "duration": 1.0457883846726068,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.28179813021744843,
+          "valid": true
+        },
+        {
+          "algorithm": "quintic_bspline_24",
+          "duration": 1.0505153275790078,
+          "reason": "ok",
+          "time_scale": 1.0,
+          "torque_ratio": 0.2817691295615678,
+          "valid": true
+        }
+      ],
+      "cartesian_waypoints": 32,
+      "collision_joint_step_rad_target": 0.003,
+      "collision_step_s_max": 0.004,
+      "collision_validation": "adaptive discrete FCL, whole robot and payload; finite resolution, not a formal continuous proof",
+      "controller_representation_error_rad": 1.3322676295501878e-15,
+      "duration": 1.045038587515285,
+      "max_cartesian_line_error_m": 3.95980857134122e-05,
+      "maximum_torque_ratio": 0.28186202557342643,
+      "minimum_clearance_m": 0.03706307995033057,
+      "payload_mass_kg": 0.0,
+      "planning_time": 0.814179353,
+      "reason": "VALIDATED",
+      "scope": "fastest validated candidate; no global obstacle-constrained optimum claim",
+      "selected": "quintic_bspline_10",
+      "success": true,
+      "validation_samples": 283,
+      "label": "C：打开后垂直脱离",
+      "mode": "cartesian",
+      "touching_object": "battery_C",
+      "target": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": "world"
+        },
+        "pose": {
+          "position": {
+            "x": 0.301971438809455,
+            "y": -0.11490763173329412,
+            "z": 0.8464508447121045
+          },
+          "orientation": {
+            "x": 0.7070970219467988,
+            "y": 0.7071037125635565,
+            "z": 0.003214802809543187,
+            "w": 0.002793971314531922
+          }
+        }
+      }
+    }
+  ],
+  "assumptions": {
+    "battery_mass_kg": 0.4,
+    "battery_friction": 0.8,
+    "joint_acceleration_jerk": "simulation commissioning limits, not certified AUBO specifications",
+    "camera_mass_kg": 0.075,
+    "latch": "parameterized split collar; gated rigid constraint when closed, no teleportation"
+  },
+  "contacts": {
+    "pairs": {
+      "mtc::battery_C::body / mtc::mtc_s3::latch_right": {
+        "example_collision_pair": "mtc::battery_C::body::part_3 / mtc::mtc_s3::latch_right::latch_right_11_collision_11",
+        "first_sim_time": 10.47,
+        "kind": "latch_handle_contact",
+        "last_sim_time": 10.575000000000001,
+        "max_depth_m": 1.800199898316116e-05,
+        "steps": 106
+      },
+      "mtc::table::table / mtc::battery_A::body": {
+        "example_collision_pair": "mtc::table::table::top / mtc::battery_A::body::part_0",
+        "first_sim_time": 0.015000000000000001,
+        "kind": "battery_table_support",
+        "last_sim_time": 15.501000000000001,
+        "max_depth_m": 2.899999999992492e-05,
+        "steps": 15487
+      },
+      "mtc::table::table / mtc::battery_B::body": {
+        "example_collision_pair": "mtc::table::table::top / mtc::battery_B::body::part_0",
+        "first_sim_time": 0.015000000000000001,
+        "kind": "battery_table_support",
+        "last_sim_time": 15.501000000000001,
+        "max_depth_m": 2.899999999992492e-05,
+        "steps": 15487
+      },
+      "mtc::table::table / mtc::battery_C::body": {
+        "example_collision_pair": "mtc::table::table::top / mtc::battery_C::body::part_0",
+        "first_sim_time": 0.015000000000000001,
+        "kind": "battery_table_support",
+        "last_sim_time": 15.501000000000001,
+        "max_depth_m": 3.658185195740821e-05,
+        "steps": 9556
+      },
+      "mtc::table::table / mtc::battery_D::body": {
+        "example_collision_pair": "mtc::table::table::top / mtc::battery_D::body::part_0",
+        "first_sim_time": 0.015000000000000001,
+        "kind": "battery_table_support",
+        "last_sim_time": 15.501000000000001,
+        "max_depth_m": 2.899999999992492e-05,
+        "steps": 15487
+      }
+    },
+    "physics_steps_observed": 15501
+  },
+  "unexpected_contact_pairs": 0,
+  "contact_monitor_present": true,
+  "max_command_effort_ratio": 0.32287879571521727
+}

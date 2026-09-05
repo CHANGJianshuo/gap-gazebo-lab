@@ -1,0 +1,27 @@
+[INFO] [1788593781.523948030] [robot_state_publisher]: got segment base_link
+[INFO] [1788593781.524065603] [robot_state_publisher]: got segment camera_accel_frame
+[INFO] [1788593781.524073994] [robot_state_publisher]: got segment camera_accel_optical_frame
+[INFO] [1788593781.524079150] [robot_state_publisher]: got segment camera_bottom_screw_frame
+[INFO] [1788593781.524083650] [robot_state_publisher]: got segment camera_color_frame
+[INFO] [1788593781.524087834] [robot_state_publisher]: got segment camera_color_optical_frame
+[INFO] [1788593781.524092083] [robot_state_publisher]: got segment camera_depth_frame
+[INFO] [1788593781.524096164] [robot_state_publisher]: got segment camera_depth_optical_frame
+[INFO] [1788593781.524100376] [robot_state_publisher]: got segment camera_gyro_frame
+[INFO] [1788593781.524104514] [robot_state_publisher]: got segment camera_gyro_optical_frame
+[INFO] [1788593781.524109038] [robot_state_publisher]: got segment camera_infra1_frame
+[INFO] [1788593781.524113383] [robot_state_publisher]: got segment camera_infra1_optical_frame
+[INFO] [1788593781.524117535] [robot_state_publisher]: got segment camera_infra2_frame
+[INFO] [1788593781.524121839] [robot_state_publisher]: got segment camera_infra2_optical_frame
+[INFO] [1788593781.524125999] [robot_state_publisher]: got segment camera_link
+[INFO] [1788593781.524130180] [robot_state_publisher]: got segment foreArm_Link
+[INFO] [1788593781.524134394] [robot_state_publisher]: got segment latch_left
+[INFO] [1788593781.524138324] [robot_state_publisher]: got segment latch_mount
+[INFO] [1788593781.524142353] [robot_state_publisher]: got segment latch_right
+[INFO] [1788593781.524146276] [robot_state_publisher]: got segment shoulder_Link
+[INFO] [1788593781.524150646] [robot_state_publisher]: got segment tcp
+[INFO] [1788593781.524154747] [robot_state_publisher]: got segment upperArm_Link
+[INFO] [1788593781.524158783] [robot_state_publisher]: got segment world
+[INFO] [1788593781.524162814] [robot_state_publisher]: got segment wrist1_Link
+[INFO] [1788593781.524166831] [robot_state_publisher]: got segment wrist2_Link
+[INFO] [1788593781.524170793] [robot_state_publisher]: got segment wrist3_Link
+[INFO] [1788593963.316322249] [rclcpp]: signal_handler(SIGINT/SIGTERM)

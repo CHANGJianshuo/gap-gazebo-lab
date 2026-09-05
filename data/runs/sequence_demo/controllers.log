@@ -1,0 +1,7 @@
+[INFO] [1788593322.087287647] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1788593323.609868812] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[INFO] [1788593327.244408564] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[INFO] [1788593327.264649804] [spawner_joint_state_broadcaster]: [94mLoaded [1marm_controller[0m
+[INFO] [1788593327.290449739] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1marm_controller[0m
+[INFO] [1788593327.458904066] [spawner_joint_state_broadcaster]: [94mLoaded [1mlatch_controller[0m
+[INFO] [1788593327.480993530] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mlatch_controller[0m

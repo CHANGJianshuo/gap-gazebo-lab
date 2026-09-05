@@ -1,0 +1,113 @@
+{
+  "status": "已完成 · 仿真验收通过",
+  "stage": 5,
+  "events": [
+    {
+      "time": "2026-09-05T13:42:15+08:00",
+      "title": "开始实现规划演示",
+      "message": "已确认用户授权 ground truth 输入；找到电池 STEP，现有 ROS 2 Humble 与 Gazebo Harmonic 开发库可用于实现。正在转换 CAD 并构建匹配 Harmonic 的控制插件。"
+    },
+    {
+      "time": "2026-09-05T14:02:59+08:00",
+      "title": "模型与接口已生成",
+      "message": "从 STEP 保留 70×80×80 mm 几何；已生成两张原底图场景、半圆锁扣、腕部 D435i 和 ROS action 接口。Harmonic 控制插件已构建，正在加入电机力矩限幅并联调执行反馈。"
+    },
+    {
+      "time": "2026-09-05T14:28:55+08:00",
+      "title": "轨迹内核与仿真启动已打通",
+      "message": "已实现多候选 IK、Ruckig、五次 B 样条、RRT-Connect 后备规划，以及全模型逆动力学和 FCL 验证。数学测试通过；Gazebo 已返回真实状态，正在调节腕部控制增益并验证图像和执行跟踪。"
+    },
+    {
+      "time": "2026-09-05T14:48:00+08:00",
+      "title": "首次真实场景规划通过",
+      "message": "已加载完整机械臂碰撞网格。C 电池上方目标通过多逆解候选比较、FCL、力矩及控制器插值检查；首条轨迹 2.030 秒，尚待实际搬运验证。"
+    },
+    {
+      "time": "2026-09-05T14:51:17+08:00",
+      "title": "动力学独立交叉验证通过",
+      "message": "64 组静态和动态状态覆盖空载、偏置相机、锁扣和电池，Newton–Euler 与 PyBullet 最大力矩差 2.41×10⁻¹² N·m。底图纹理已修复，保持 PDF 原尺寸和坐标。"
+    },
+    {
+      "time": "2026-09-05T14:57:00+08:00",
+      "title": "第一块电池抓放实测通过",
+      "message": "C→P1 全流程执行通过：纯运动累计 6.395 秒，最大关节跟踪误差 0.001102 rad；释放后落点误差 0.018 mm，静置 3 秒无漂移。这是理想仿真结果，后续将加入物理接触监测并连续搬运三块。"
+    },
+    {
+      "time": "2026-09-05T15:12:28+08:00",
+      "title": "三块连续搬运通过",
+      "message": "CAB→P1/P2/P3 连续完成，仿真流程 37.416 秒，纯运动 19.142 秒；38301 个物理步未记录非预期接触。正在验证基础任务，并修复录像字幕和收尾归档。"
+    },
+    {
+      "time": "2026-09-05T15:29:18+08:00",
+      "title": "短动作插值修复通过",
+      "message": "1000 组短动作不再出现 jerk 超限；实际 JTC 的 40875 个采样检查通过，最大位置表示误差 1.88×10⁻⁸ rad。基础任务视频已生成，最终三块录像正在重跑。"
+    },
+    {
+      "time": "2026-09-05T15:43:11+08:00",
+      "title": "最终版本交付完成",
+      "message": "基础 1 次与序列 3 次抓放全部通过；两个场景的 14 项接口检查通过。视频、CSV、物理接触、候选轨迹和独立验证记录已归档。"
+    },
+    {
+      "time": "2026-09-05T16:24:45+08:00",
+      "title": "详细技术报告完成",
+      "message": "已整理 14 章、19 页技术报告：从 IK、多项式与 B 样条讲到动力学、控制器插值、实际规划案例和最终验收数据。网页、PDF 与 Markdown 均已生成，包含章节导航、实测图和 SJM 对接说明。"
+    }
+  ],
+  "metrics": {
+    "success": "4 / 4",
+    "execution_time": "37.54 s",
+    "tracking_error": "0.239°",
+    "validation": "零非预期碰撞"
+  },
+  "artifacts": {
+    "video": "../../data/videos/sequence_demo.mp4",
+    "poster": "../../data/videos/sequence_demo_poster.png",
+    "caption": "1280×720 / 25 fps，按仿真时间播放，序列视频 38.36 秒。右上角为腕部相机；本机完成序列实际耗时 409.4 秒。",
+    "links": [
+      {
+        "url": "../reports/motion_planning_report.html",
+        "label": "详细通俗技术报告"
+      },
+      {
+        "url": "../reports/motion_planning_report.pdf",
+        "label": "下载技术报告 PDF"
+      },
+      {
+        "url": "../../data/videos/sequence_demo.mp4",
+        "label": "下载序列视频"
+      },
+      {
+        "url": "../../data/videos/basic_demo_final.mp4",
+        "label": "查看基础任务视频"
+      },
+      {
+        "url": "../VALIDATION.md",
+        "label": "验收记录"
+      },
+      {
+        "url": "../../data/runs/sequence_demo/summary.json",
+        "label": "完整数据"
+      }
+    ],
+    "results": [
+      {
+        "task": "序列 CAB → P1/P2/P3",
+        "success": "3 / 3",
+        "times": "19.32 / 37.54 s",
+        "compute": "22.67 s",
+        "placement": "0.045 mm"
+      },
+      {
+        "task": "基础 C → T0",
+        "success": "1 / 1",
+        "times": "6.50 / 14.61 s",
+        "compute": "7.44 s",
+        "placement": "0.012 mm"
+      }
+    ],
+    "plot": "../../data/runs/sequence_demo/figures/tracking.svg"
+  },
+  "updated": "2026-09-05T16:24:45+08:00",
+  "current": "已整理 14 章、19 页技术报告：从 IK、多项式与 B 样条讲到动力学、控制器插值、实际规划案例和最终验收数据。网页、PDF 与 Markdown 均已生成，包含章节导航、实测图和 SJM 对接说明。",
+  "assumptions": "理想输入；电池质量 0.4 kg。半圆锁扣闭合并对准后建立刚性机械连接，不瞬移物体。相机噪声、实机控制和锁扣强度尚未验证；本页结果仅覆盖所记录的仿真条件。"
+}
