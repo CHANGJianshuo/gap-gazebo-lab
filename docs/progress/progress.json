@@ -1,5 +1,5 @@
 {
-  "status": "已完成 · 仿真验收通过",
+  "status": "基线已验收 · GaP 论文与方案已整理",
   "stage": 5,
   "events": [
     {
@@ -51,6 +51,11 @@
       "time": "2026-09-05T16:24:45+08:00",
       "title": "详细技术报告完成",
       "message": "已整理 14 章、19 页技术报告：从 IK、多项式与 B 样条讲到动力学、控制器插值、实际规划案例和最终验收数据。网页、PDF 与 Markdown 均已生成，包含章节导航、实测图和 SJM 对接说明。"
+    },
+    {
+      "time": "2026-09-05T21:01:21+08:00",
+      "title": "GaP 论文与 S3 研究方案完成",
+      "message": "feat/motion-planning-v2 转向 GaP 研究：已归档 52 页论文，保留公式、结果表、插图与原始提示词，核对官方轨迹与 ROS 接口并制定分阶段对照方案。下一步是人工单电池图和 ROS 适配器；当前尚无 GaP 运行结果。"
     }
   ],
   "metrics": {
@@ -64,6 +69,14 @@
     "poster": "../../data/videos/sequence_demo_poster.png",
     "caption": "1280×720 / 25 fps，按仿真时间播放，序列视频 38.36 秒。右上角为腕部相机；本机完成序列实际耗时 409.4 秒。",
     "links": [
+      {
+        "url": "../research/gap/README.md",
+        "label": "GaP 研究入口"
+      },
+      {
+        "url": "../research/gap/paper/gap_2607.05369v1.pdf",
+        "label": "GaP 原论文"
+      },
       {
         "url": "../reports/motion_planning_report.html",
         "label": "详细通俗技术报告"
@@ -107,7 +120,7 @@
     ],
     "plot": "../../data/runs/sequence_demo/figures/tracking.svg"
   },
-  "updated": "2026-09-05T16:24:45+08:00",
-  "current": "已整理 14 章、19 页技术报告：从 IK、多项式与 B 样条讲到动力学、控制器插值、实际规划案例和最终验收数据。网页、PDF 与 Markdown 均已生成，包含章节导航、实测图和 SJM 对接说明。",
+  "updated": "2026-09-05T21:01:21+08:00",
+  "current": "feat/motion-planning-v2 转向 GaP 研究：已归档 52 页论文，保留公式、结果表、插图与原始提示词，核对官方轨迹与 ROS 接口并制定分阶段对照方案。下一步是人工单电池图和 ROS 适配器；当前尚无 GaP 运行结果。",
   "assumptions": "理想输入；电池质量 0.4 kg。半圆锁扣闭合并对准后建立刚性机械连接，不瞬移物体。相机噪声、实机控制和锁扣强度尚未验证；本页结果仅覆盖所记录的仿真条件。"
 }

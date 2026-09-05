@@ -1,0 +1,39 @@
+    ```python
+from vos.builder import Subgraph, Ref, START, END
+
+sg = Subgraph(name="container_sg", skill="perception_single")
+
+# Add nodes for the perception pipeline
+sg.add_node("observe", type="tool", tool="observation.GetObservation")
+
+sg.add_node("perceive", type="script",
+            script="scripts/perceive_dino_vlm.py",
+            inputs={
+                "cameras": Ref("observe.cameras"),
+                "object_name": "container"
+            })
+
+sg.add_node("filter_obb", type="tool",
+            tool="geometry_svc.FilterAndComputeOBB",
+            inputs={"point_cloud": Ref("perceive.cloud")})
+
+# Success marker
+sg.add_exit("found")
+
+# Wiring
+sg.add_edge(START, "observe")
+sg.add_edge("observe", "perceive")
+sg.add_edge("perceive", "filter_obb")
+sg.add_edge("filter_obb", "found")
+sg.add_edge("found", END)
+
+# Bind outputs
+sg.set_outputs(
+    container_obb=Ref("filter_obb"),
+    container_mask=Ref("perceive.mask"),
+    container_cloud=Ref("perceive.cloud")
+)
+
+# Failure path
+sg.set_on_error("not_found")
+```

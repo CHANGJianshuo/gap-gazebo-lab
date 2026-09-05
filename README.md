@@ -4,6 +4,8 @@ ROS 2 Humble + MoveIt 2 + Gazebo Harmonic。使用官方 S3 模型、腕部 D435
 
 [打开制作过程与演示网页](docs/progress/index.html) · [实际验证记录](docs/VALIDATION.md) · [规划原理与方案](docs/architecture/MOTION_PLANNING_PLAN.md) · [给 SJM 的接口说明](docs/architecture/INTERFACES.md)
 
+当前分支 `feat/motion-planning-v2` 转向 **GaP（Graph-as-Policy）在 S3 上的应用研究**：[研究入口](docs/research/gap/README.md) · [论文全文 Markdown](docs/research/gap/paper/gap_2607.05369v1.md) · [中文阅读笔记](docs/research/gap/READING_NOTES.md) · [接入与实验方案](docs/research/gap/S3_RESEARCH_PLAN.md)。目前完成论文整理和方案，尚未运行 GaP；以下演示结果属于保存在 `main` 与 `v0.1.0-sim-demo` 的运动规划基线。
+
 详细通俗技术报告：[网页阅读](docs/reports/motion_planning_report.html) · [19 页 PDF](docs/reports/motion_planning_report.pdf) · [Markdown 原稿](docs/reports/motion_planning_report.md)。包含 IK、B 样条与 Ruckig、动力学和控制、实际规划案例、最终数据及团队对接。
 
 最终录像：[序列 CAB](data/videos/sequence_demo.mp4) · [基础 C→T0](data/videos/basic_demo_final.mp4)。两次最终运行及接口检查均通过，详细数值见验收记录。

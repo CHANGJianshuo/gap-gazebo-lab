@@ -19,3 +19,6 @@ data/runs/** -whitespace linguist-generated=true
 docs/competition/extracted/** -whitespace linguist-generated=true
 docs/reports/motion_planning_report.html -diff -whitespace linguist-generated=true
 third_party/** -whitespace linguist-vendored=true
+# Licensed paper transcription and pinned upstream excerpts retain source formatting.
+docs/research/gap/paper/** -whitespace linguist-generated=true
+docs/research/gap/upstream/** -whitespace linguist-vendored=true
