@@ -1,0 +1,20 @@
+diff --git a/gz_ros2_control/src/gz_system.cpp b/gz_ros2_control/src/gz_system.cpp
+index aa273a2..4dd2f8c 100644
+--- a/gz_ros2_control/src/gz_system.cpp
++++ b/gz_ros2_control/src/gz_system.cpp
+@@ -1,3 +1,4 @@
++#include <algorithm>
+ // Copyright 2021 Open Source Robotics Foundation, Inc.
+ //
+ // Licensed under the Apache License, Version 2.0 (the "License");
+@@ -868,7 +869,9 @@ hardware_interface::return_type GazeboSimSystem::write(
+           this->dataPtr->ecm->Component<sim::components::JointForceCmd>(
+           this->dataPtr->joints_[i].sim_joint);
+         *jointEffortCmd = sim::components::JointForceCmd(
+-          {this->dataPtr->joints_[i].joint_effort_cmd});
++          {std::clamp(this->dataPtr->joints_[i].joint_effort_cmd,
++            -std::abs(this->dataPtr->joints_[i].joint_axis.Effort()),
++             std::abs(this->dataPtr->joints_[i].joint_axis.Effort()))}); // MTC: finite actuator effort
+       }
+     } else if (this->dataPtr->joints_[i].is_actuated) {
+       // Fallback case is a velocity command of zero (only for actuated joints)

@@ -1,0 +1,1431 @@
+{
+  "sha": "925d78eaf4873c3130c79b9b8f21971ec4e8b887",
+  "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/925d78eaf4873c3130c79b9b8f21971ec4e8b887",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f48dbbbf6bb2dc88d9442548982d42fe29ae9dd",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/6f48dbbbf6bb2dc88d9442548982d42fe29ae9dd"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e92be3cae30c9d1c9ad71ff940dcb2497453a5c0",
+      "size": 1405,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e92be3cae30c9d1c9ad71ff940dcb2497453a5c0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ee6eab5312457f0db1de1a2ebb89a39ee86932a",
+      "size": 215,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/5ee6eab5312457f0db1de1a2ebb89a39ee86932a"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d734c7e68f6ce5316e5395fcd3b628c425d83bdc",
+      "size": 13043,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d734c7e68f6ce5316e5395fcd3b628c425d83bdc"
+    },
+    {
+      "path": "policies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1cc80d2d30bced7d25f81ffc97e383b20b3af39e",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/1cc80d2d30bced7d25f81ffc97e383b20b3af39e"
+    },
+    {
+      "path": "policies/molmoact-libero",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5a035710eaebf9c8bfde98f965eab79d99c2f37",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/e5a035710eaebf9c8bfde98f965eab79d99c2f37"
+    },
+    {
+      "path": "policies/molmoact-libero/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "policies/molmoact-libero/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f1a51d728ad2315e3e717ff5702666ec397921",
+      "size": 5348,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/55f1a51d728ad2315e3e717ff5702666ec397921"
+    },
+    {
+      "path": "policies/molmoact-libero/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178adea6bed057ab764c4cd6af2ce6e7c4a5ed63",
+      "size": 1623,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/178adea6bed057ab764c4cd6af2ce6e7c4a5ed63"
+    },
+    {
+      "path": "policies/molmoact-libero/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f4ca9bf0a69582e4f8ae6e9095da41fef67dd5",
+      "size": 1685,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/98f4ca9bf0a69582e4f8ae6e9095da41fef67dd5"
+    },
+    {
+      "path": "policies/molmoact-libero/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c888dc92c434d93b19f78d782872dd936720c291",
+      "size": 4477,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c888dc92c434d93b19f78d782872dd936720c291"
+    },
+    {
+      "path": "policies/molmoact-libero/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1fc16ca580282e7d37c3100e4748bf6916cf3b1",
+      "size": 958970,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c1fc16ca580282e7d37c3100e4748bf6916cf3b1"
+    },
+    {
+      "path": "policies/pi05-libero",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8411908eb7d4f8296e57f577d0765e47978da414",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/8411908eb7d4f8296e57f577d0765e47978da414"
+    },
+    {
+      "path": "policies/pi05-libero/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "policies/pi05-libero/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6355311a1d3149a9ac2d2046a2fbc5c960243d67",
+      "size": 4732,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6355311a1d3149a9ac2d2046a2fbc5c960243d67"
+    },
+    {
+      "path": "policies/pi05-libero/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dedaa9cbb815fd67ba8aabf6ec581cc2e0d572e",
+      "size": 1671,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/7dedaa9cbb815fd67ba8aabf6ec581cc2e0d572e"
+    },
+    {
+      "path": "policies/pi05-libero/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "076019382947bf3a4b8d65a799e1d355b6fe2adb",
+      "size": 4247,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/076019382947bf3a4b8d65a799e1d355b6fe2adb"
+    },
+    {
+      "path": "policies/pi05-libero/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a68aa1228bd2fbbc0c7956ab087d7bcf6663f1",
+      "size": 4425,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e7a68aa1228bd2fbbc0c7956ab087d7bcf6663f1"
+    },
+    {
+      "path": "policies/pi05-libero/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b92db5ab6cf29e8b344fe2f350d8d754b67fc6d",
+      "size": 958966,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/3b92db5ab6cf29e8b344fe2f350d8d754b67fc6d"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8eb45ad1ce27c6627c96b0ad557bfef871d7b5f",
+      "size": 4484,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c8eb45ad1ce27c6627c96b0ad557bfef871d7b5f"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e26c4469b829b739d729ce6853a894cc3e18f89",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/0e26c4469b829b739d729ce6853a894cc3e18f89"
+    },
+    {
+      "path": "skills/grasping-direct-ik",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4239ba023a1fd25141f120192e988fb0dcf867ed",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/4239ba023a1fd25141f120192e988fb0dcf867ed"
+    },
+    {
+      "path": "skills/grasping-direct-ik/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcba798690718a9f1bfb56d4c68b91c54b8ffabc",
+      "size": 5657,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/fcba798690718a9f1bfb56d4c68b91c54b8ffabc"
+    },
+    {
+      "path": "skills/grasping-direct-ik/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "949950a72fd95590835ec7cf94bed61278a9a5eb",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/949950a72fd95590835ec7cf94bed61278a9a5eb"
+    },
+    {
+      "path": "skills/grasping-direct-ik/references/design_align_then_descend.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e0f3cb06c703baf744ee500d3c341303e60e40",
+      "size": 2018,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e0e0f3cb06c703baf744ee500d3c341303e60e40"
+    },
+    {
+      "path": "skills/grasping-direct-ik/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e7dd675baeb0636aa24cf6842a4aa05e39ed5cb",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/8e7dd675baeb0636aa24cf6842a4aa05e39ed5cb"
+    },
+    {
+      "path": "skills/grasping-direct-ik/scripts/compute_align_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3cc361b87d6d6243a328d1278d51c3287a5b227",
+      "size": 1354,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/f3cc361b87d6d6243a328d1278d51c3287a5b227"
+    },
+    {
+      "path": "skills/grasping-direct-ik/scripts/plan_to_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99672e597a641ad192a7d25487f50626d5ff6732",
+      "size": 1378,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/99672e597a641ad192a7d25487f50626d5ff6732"
+    },
+    {
+      "path": "skills/grasping-short-axis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4eb0e3c7038b122e02da4ecca06b1dc493836d31",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/4eb0e3c7038b122e02da4ecca06b1dc493836d31"
+    },
+    {
+      "path": "skills/grasping-short-axis/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb02a3dd82aa82d50ad8e769bb3859ca5b8681ce",
+      "size": 13835,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/cb02a3dd82aa82d50ad8e769bb3859ca5b8681ce"
+    },
+    {
+      "path": "skills/grasping-short-axis/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cac4a1027fa04af7ed3fa4bb6aa4c17251a2ff1",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/4cac4a1027fa04af7ed3fa4bb6aa4c17251a2ff1"
+    },
+    {
+      "path": "skills/grasping-short-axis/references/design_grasp_curobo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a66835767884f5358da4d53379f5322f87a6bcf",
+      "size": 1777,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/4a66835767884f5358da4d53379f5322f87a6bcf"
+    },
+    {
+      "path": "skills/grasping-short-axis/references/gripper_settle_constants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b027d2edde1bf790e016db3dd2df5e1683bcb8c9",
+      "size": 1273,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b027d2edde1bf790e016db3dd2df5e1683bcb8c9"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d726852e818f67a7701b52ba62e73981080f1de",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/8d726852e818f67a7701b52ba62e73981080f1de"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dbd64a31e3259af3613847a80f8dc6d12f78d39",
+      "size": 3352,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/7dbd64a31e3259af3613847a80f8dc6d12f78d39"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/build_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ab24db49597591793bf58ffeb11fdb8981673a",
+      "size": 2241,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/44ab24db49597591793bf58ffeb11fdb8981673a"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/finalize_trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7b38e4ff6d88b3301b4bed0cb4f3a5e4a511f28",
+      "size": 1610,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b7b38e4ff6d88b3301b4bed0cb4f3a5e4a511f28"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/offset_grasp_from_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c52b53c36bd317c127271e9a3bcfa870dced8e",
+      "size": 4582,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/a2c52b53c36bd317c127271e9a3bcfa870dced8e"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/plan_grasp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f568afe0e16ea167690bcd5802e5107c1a5e5d8",
+      "size": 5549,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/1f568afe0e16ea167690bcd5802e5107c1a5e5d8"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/plan_grasp_motion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e88cce226c4f922e695f2265c17ce2031935493",
+      "size": 5365,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/0e88cce226c4f922e695f2265c17ce2031935493"
+    },
+    {
+      "path": "skills/grasping-short-axis/scripts/short_axis_grasp_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c4fa82cc0b55091668a16325680588babf104d",
+      "size": 6183,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c5c4fa82cc0b55091668a16325680588babf104d"
+    },
+    {
+      "path": "skills/grasping-with-planner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e05ba7c0a761bc4243126656f6b68d950f9c02d",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/1e05ba7c0a761bc4243126656f6b68d950f9c02d"
+    },
+    {
+      "path": "skills/grasping-with-planner/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ad03a07474a14665f5580d1d38e050347112ce",
+      "size": 10943,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/21ad03a07474a14665f5580d1d38e050347112ce"
+    },
+    {
+      "path": "skills/grasping-with-planner/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c22c1d79756d61499f3145e7b1258a9566b6996f",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/c22c1d79756d61499f3145e7b1258a9566b6996f"
+    },
+    {
+      "path": "skills/grasping-with-planner/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8192be97a94cd1712dbec4603a5e17a86adb0a7",
+      "size": 1418,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/a8192be97a94cd1712dbec4603a5e17a86adb0a7"
+    },
+    {
+      "path": "skills/grasping-with-planner/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cac4a1027fa04af7ed3fa4bb6aa4c17251a2ff1",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/4cac4a1027fa04af7ed3fa4bb6aa4c17251a2ff1"
+    },
+    {
+      "path": "skills/grasping-with-planner/references/design_grasp_curobo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a66835767884f5358da4d53379f5322f87a6bcf",
+      "size": 1777,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/4a66835767884f5358da4d53379f5322f87a6bcf"
+    },
+    {
+      "path": "skills/grasping-with-planner/references/gripper_settle_constants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b027d2edde1bf790e016db3dd2df5e1683bcb8c9",
+      "size": 1273,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b027d2edde1bf790e016db3dd2df5e1683bcb8c9"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d29ff410d51e9f958990eac6389a38a7fe50a5f6",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/d29ff410d51e9f958990eac6389a38a7fe50a5f6"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24d5dc0747d95958e07517157b208a99a57d00f",
+      "size": 2467,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c24d5dc0747d95958e07517157b208a99a57d00f"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/build_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ab24db49597591793bf58ffeb11fdb8981673a",
+      "size": 2241,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/44ab24db49597591793bf58ffeb11fdb8981673a"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/compute_align_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b757a81d2513691a98acfc31ea301033e08c6ec8",
+      "size": 1069,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b757a81d2513691a98acfc31ea301033e08c6ec8"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/grasp_descend_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b19289f763037bcc87330257adb116df7d474226",
+      "size": 19715,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b19289f763037bcc87330257adb116df7d474226"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/plan_grasp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b5a1fbd217f94a704818416e738202aa6265a09",
+      "size": 2642,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/4b5a1fbd217f94a704818416e738202aa6265a09"
+    },
+    {
+      "path": "skills/grasping-with-planner/scripts/select_short_axis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af870a404d9efc5339369f3a7f770a8669a30a4",
+      "size": 4070,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6af870a404d9efc5339369f3a7f770a8669a30a4"
+    },
+    {
+      "path": "skills/perceiving-next-item",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c7d6478cc0486b4abf142914a7bcc3478381009",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/5c7d6478cc0486b4abf142914a7bcc3478381009"
+    },
+    {
+      "path": "skills/perceiving-next-item/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f69d49b5bfb0495d43af3e11243b972f0190995",
+      "size": 13522,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/1f69d49b5bfb0495d43af3e11243b972f0190995"
+    },
+    {
+      "path": "skills/perceiving-next-item/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f59a00c1256eab74278e2b596413a94de2c6c550",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/f59a00c1256eab74278e2b596413a94de2c6c550"
+    },
+    {
+      "path": "skills/perceiving-next-item/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b52d9599e12b19d551ec5c675e9c1ab57d798a",
+      "size": 2504,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/f2b52d9599e12b19d551ec5c675e9c1ab57d798a"
+    },
+    {
+      "path": "skills/perceiving-next-item/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbd7aba8ea30a3adb6080c53e35cf89c48816c65",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/bbd7aba8ea30a3adb6080c53e35cf89c48816c65"
+    },
+    {
+      "path": "skills/perceiving-next-item/prompts/vlm_pairwise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a662d37fd524b7dc0e38436b315fb6579149e7",
+      "size": 718,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/23a662d37fd524b7dc0e38436b315fb6579149e7"
+    },
+    {
+      "path": "skills/perceiving-next-item/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80335e58461635f38e0bf516b330ded3b87315dc",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/80335e58461635f38e0bf516b330ded3b87315dc"
+    },
+    {
+      "path": "skills/perceiving-next-item/references/geometry_calling_conventions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb05632f32b714653939d71936ee261e82f5a59",
+      "size": 1777,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/dcb05632f32b714653939d71936ee261e82f5a59"
+    },
+    {
+      "path": "skills/perceiving-next-item/references/perception_pipeline_invariants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c84f5cb0b333ddd0c550959e14c86bde078852",
+      "size": 1254,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/09c84f5cb0b333ddd0c550959e14c86bde078852"
+    },
+    {
+      "path": "skills/perceiving-next-item/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c9d789ae688a1ad4b7e3d69659cc284f3d9e440",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/1c9d789ae688a1ad4b7e3d69659cc284f3d9e440"
+    },
+    {
+      "path": "skills/perceiving-next-item/scripts/decide_next_item.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6589774d8e1820eca7da4fe69b52ad5d90580e0",
+      "size": 9536,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/a6589774d8e1820eca7da4fe69b52ad5d90580e0"
+    },
+    {
+      "path": "skills/perceiving-next-item/scripts/exterior_view.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499dfa4f14b99d61b3ad4cbebf02067fcadfb8af",
+      "size": 771,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/499dfa4f14b99d61b3ad4cbebf02067fcadfb8af"
+    },
+    {
+      "path": "skills/perceiving-next-item/scripts/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dfa76639fa3486443b7f646c04a51b413f873c6",
+      "size": 36979,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/7dfa76639fa3486443b7f646c04a51b413f873c6"
+    },
+    {
+      "path": "skills/perceiving-object-parts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98e85ce5f65747695f14d02b737b66e438861a63",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/98e85ce5f65747695f14d02b737b66e438861a63"
+    },
+    {
+      "path": "skills/perceiving-object-parts/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d2c6c09a056d72750d298d2018239751f339ebc",
+      "size": 7870,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/9d2c6c09a056d72750d298d2018239751f339ebc"
+    },
+    {
+      "path": "skills/perceiving-object-parts/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23441e600a1392bffa2e7f477071182944b4343d",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/23441e600a1392bffa2e7f477071182944b4343d"
+    },
+    {
+      "path": "skills/perceiving-object-parts/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbe3cf0e1a121b140e323417b8bcc2b8565b14e8",
+      "size": 1037,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/bbe3cf0e1a121b140e323417b8bcc2b8565b14e8"
+    },
+    {
+      "path": "skills/perceiving-object-parts/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3908eeb1722321b3370a5c9e4b98402e5cbdc402",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/3908eeb1722321b3370a5c9e4b98402e5cbdc402"
+    },
+    {
+      "path": "skills/perceiving-object-parts/scripts/perceive_subpart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a4bce1aaafdda6063056d0d42ace121dad58c9",
+      "size": 25167,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e7a4bce1aaafdda6063056d0d42ace121dad58c9"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35660ebb29ddd2fbf6fcd986f43158f2a7cc7b7a",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/35660ebb29ddd2fbf6fcd986f43158f2a7cc7b7a"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c4304ee23e2782ff830ef91f15075c5104cc05",
+      "size": 5871,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/a9c4304ee23e2782ff830ef91f15075c5104cc05"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a5205288f9c5734bf039949fa5837cf76ea5c8b",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/2a5205288f9c5734bf039949fa5837cf76ea5c8b"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe2ca44d595ee00aba778f51607c4833f4e7ef9",
+      "size": 973,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/fbe2ca44d595ee00aba778f51607c4833f4e7ef9"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6bd8bb5219cefa2437a079b7fe31df748f08c41",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/f6bd8bb5219cefa2437a079b7fe31df748f08c41"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/prompts/vlm_one_shot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05479ee79ed581a6b486fe29aa9a7c2a62240e3e",
+      "size": 1669,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/05479ee79ed581a6b486fe29aa9a7c2a62240e3e"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80335e58461635f38e0bf516b330ded3b87315dc",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/80335e58461635f38e0bf516b330ded3b87315dc"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/references/geometry_calling_conventions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb05632f32b714653939d71936ee261e82f5a59",
+      "size": 1777,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/dcb05632f32b714653939d71936ee261e82f5a59"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/references/perception_pipeline_invariants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c84f5cb0b333ddd0c550959e14c86bde078852",
+      "size": 1254,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/09c84f5cb0b333ddd0c550959e14c86bde078852"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65ee417f61083e200723774fafbd6719c554d001",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/65ee417f61083e200723774fafbd6719c554d001"
+    },
+    {
+      "path": "skills/perceiving-objects-oneshot/scripts/perceive_simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b2a7763b7b8df6456c7d1207a278a73a0abf412",
+      "size": 8661,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6b2a7763b7b8df6456c7d1207a278a73a0abf412"
+    },
+    {
+      "path": "skills/perceiving-objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00c8ef52bc544aaaf140bb8bae8f6191b357fee8",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/00c8ef52bc544aaaf140bb8bae8f6191b357fee8"
+    },
+    {
+      "path": "skills/perceiving-objects/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f17f2b00ac187a74ed040cd7ad56e51d72812f",
+      "size": 9673,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/18f17f2b00ac187a74ed040cd7ad56e51d72812f"
+    },
+    {
+      "path": "skills/perceiving-objects/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d9a2e57d2ec05a8001c5b4f983c44f6c03d319c",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/5d9a2e57d2ec05a8001c5b4f983c44f6c03d319c"
+    },
+    {
+      "path": "skills/perceiving-objects/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6513f79df940d75c6a5134869249134461e57124",
+      "size": 1051,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6513f79df940d75c6a5134869249134461e57124"
+    },
+    {
+      "path": "skills/perceiving-objects/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbd7aba8ea30a3adb6080c53e35cf89c48816c65",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/bbd7aba8ea30a3adb6080c53e35cf89c48816c65"
+    },
+    {
+      "path": "skills/perceiving-objects/prompts/vlm_pairwise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a662d37fd524b7dc0e38436b315fb6579149e7",
+      "size": 718,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/23a662d37fd524b7dc0e38436b315fb6579149e7"
+    },
+    {
+      "path": "skills/perceiving-objects/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80335e58461635f38e0bf516b330ded3b87315dc",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/80335e58461635f38e0bf516b330ded3b87315dc"
+    },
+    {
+      "path": "skills/perceiving-objects/references/geometry_calling_conventions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb05632f32b714653939d71936ee261e82f5a59",
+      "size": 1777,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/dcb05632f32b714653939d71936ee261e82f5a59"
+    },
+    {
+      "path": "skills/perceiving-objects/references/perception_pipeline_invariants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c84f5cb0b333ddd0c550959e14c86bde078852",
+      "size": 1254,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/09c84f5cb0b333ddd0c550959e14c86bde078852"
+    },
+    {
+      "path": "skills/perceiving-objects/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd3347cedb2b502c8da95b974e51078c24285a1d",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/bd3347cedb2b502c8da95b974e51078c24285a1d"
+    },
+    {
+      "path": "skills/perceiving-objects/scripts/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060da023411873273f125fb099cfdc08c7c2cb43",
+      "size": 52304,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/060da023411873273f125fb099cfdc08c7c2cb43"
+    },
+    {
+      "path": "skills/tracking-objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47e7ec2f53db36b8cdd3983f3b3e6e84e6245c94",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/47e7ec2f53db36b8cdd3983f3b3e6e84e6245c94"
+    },
+    {
+      "path": "skills/tracking-objects/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0029cc11eef4cd1790cf5bffdfd57b89ba2751",
+      "size": 2717,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/ec0029cc11eef4cd1790cf5bffdfd57b89ba2751"
+    },
+    {
+      "path": "skills/tracking-objects/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e78b59a2752ddf2936d23534f7c20d3387da6410",
+      "size": 8285,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e78b59a2752ddf2936d23534f7c20d3387da6410"
+    },
+    {
+      "path": "skills/transporting-objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cbd6120c839453ae34a2207dd77df5295c7fe3b",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/0cbd6120c839453ae34a2207dd77df5295c7fe3b"
+    },
+    {
+      "path": "skills/transporting-objects/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6c465cc8fd8e8b10d8a190d42832440efca0cf",
+      "size": 17339,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/ef6c465cc8fd8e8b10d8a190d42832440efca0cf"
+    },
+    {
+      "path": "skills/transporting-objects/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08367aa4b2daef85584a163ff2c7976474eb3666",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/08367aa4b2daef85584a163ff2c7976474eb3666"
+    },
+    {
+      "path": "skills/transporting-objects/examples/canonical_subgraph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "933a900b77914998ba2fc0ecd76affb761bf2569",
+      "size": 832,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/933a900b77914998ba2fc0ecd76affb761bf2569"
+    },
+    {
+      "path": "skills/transporting-objects/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3cc677c893bb1826b7c3f5dcfa54c2b21cdfd1c",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/c3cc677c893bb1826b7c3f5dcfa54c2b21cdfd1c"
+    },
+    {
+      "path": "skills/transporting-objects/prompts/vlm_select_box.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c7d327a01ffcececb1d48e07fc885b7d23bb22",
+      "size": 536,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/35c7d327a01ffcececb1d48e07fc885b7d23bb22"
+    },
+    {
+      "path": "skills/transporting-objects/prompts/vlm_select_zone.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cec46574bab068edced952f918eb90b6829fa31",
+      "size": 900,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/5cec46574bab068edced952f918eb90b6829fa31"
+    },
+    {
+      "path": "skills/transporting-objects/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76d88d833424be2dd940b5bad6fae4febaf6ba0a",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/76d88d833424be2dd940b5bad6fae4febaf6ba0a"
+    },
+    {
+      "path": "skills/transporting-objects/references/clearance_constants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d6e98b7a20fc34c5bd24ab4a021ef753c645a0",
+      "size": 1875,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/24d6e98b7a20fc34c5bd24ab4a021ef753c645a0"
+    },
+    {
+      "path": "skills/transporting-objects/references/design_transport.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d94c626376e9ad0f0c56209bc2685972ba562e4",
+      "size": 1357,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/0d94c626376e9ad0f0c56209bc2685972ba562e4"
+    },
+    {
+      "path": "skills/transporting-objects/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de2baf13a35b696e524c09d1e0e1f1ecbb75c4cb",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/de2baf13a35b696e524c09d1e0e1f1ecbb75c4cb"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24d5dc0747d95958e07517157b208a99a57d00f",
+      "size": 2467,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c24d5dc0747d95958e07517157b208a99a57d00f"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/compute_drop_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b16fc8cd00ffda3e0119107fb8cbc781be2b4b",
+      "size": 9252,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/81b16fc8cd00ffda3e0119107fb8cbc781be2b4b"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/descend_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e699f26749a5cedb9b1233b22aca11e3ca2cbcb4",
+      "size": 2350,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/e699f26749a5cedb9b1233b22aca11e3ca2cbcb4"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/descend_release_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d776808b33026207dcef5a652ceb2974b4e85ef",
+      "size": 2880,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/1d776808b33026207dcef5a652ceb2974b4e85ef"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/drop_offset_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9953a0f45e5f90c5be1b569c71b6275606e0f47",
+      "size": 5029,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b9953a0f45e5f90c5be1b569c71b6275606e0f47"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/lift_grasped.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7ce38da982fc03531af5178ecfc2aa43a173ae2",
+      "size": 1652,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d7ce38da982fc03531af5178ecfc2aa43a173ae2"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/perceive_placement_zone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d75285a64b00686bef09f809b6f45bf6b1fe286",
+      "size": 24420,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/9d75285a64b00686bef09f809b6f45bf6b1fe286"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/place_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f49f74002de1a2309d86668643d5225e5d26587",
+      "size": 1164,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6f49f74002de1a2309d86668643d5225e5d26587"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/transport_descend_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ae7f91a02bc753f240a1321bc2db01aa369e71",
+      "size": 4969,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/f5ae7f91a02bc753f240a1321bc2db01aa369e71"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/waypoint_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea275c5c8d033eb7adc9559a22c26476d0bf653d",
+      "size": 3358,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/ea275c5c8d033eb7adc9559a22c26476d0bf653d"
+    },
+    {
+      "path": "skills/transporting-objects/scripts/waypoint_move_carve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c450155ac04d58f36d318364d58679fc7ce50af1",
+      "size": 3205,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c450155ac04d58f36d318364d58679fc7ce50af1"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "544f50b0f4d0598a8ad41fc93b336f846737b1f2",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/544f50b0f4d0598a8ad41fc93b336f846737b1f2"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08bc37498764418ef64bbcd562a34f05e979f66e",
+      "size": 1007,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/08bc37498764418ef64bbcd562a34f05e979f66e"
+    },
+    {
+      "path": "tests/test_api_bundles_load.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675162432b258df618f932540672803cb083077f",
+      "size": 6904,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/675162432b258df618f932540672803cb083077f"
+    },
+    {
+      "path": "tests/test_bundles_load.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43984bab8fd8866565366e7ef1207d73738f153",
+      "size": 5568,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b43984bab8fd8866565366e7ef1207d73738f153"
+    },
+    {
+      "path": "tests/test_curobo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70cbf92972cb4369da3b35b832f8c92e2f510af6",
+      "size": 6355,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/70cbf92972cb4369da3b35b832f8c92e2f510af6"
+    },
+    {
+      "path": "tests/test_gemini_er.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3421f41e75b88e1d4902cf9c9bc72860735f16cb",
+      "size": 7225,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/3421f41e75b88e1d4902cf9c9bc72860735f16cb"
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "865a11b1fe31fe2b003d1bd65e7f4e89e8a2d838",
+      "size": 9594,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/865a11b1fe31fe2b003d1bd65e7f4e89e8a2d838"
+    },
+    {
+      "path": "tests/test_grounding_dino.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d08d8a8b1df3c3dcf30d1f90868cc49c4c4855",
+      "size": 1475,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/33d08d8a8b1df3c3dcf30d1f90868cc49c4c4855"
+    },
+    {
+      "path": "tests/test_molmo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1da7685c3073828fb52fee5931a0dcee41df02",
+      "size": 8018,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/ee1da7685c3073828fb52fee5931a0dcee41df02"
+    },
+    {
+      "path": "tests/test_requires_declared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79089a016fd424ab038f8e63323d104dd516b365",
+      "size": 2686,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/79089a016fd424ab038f8e63323d104dd516b365"
+    },
+    {
+      "path": "tests/test_sam3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0af0b4f8f5bfad77a204e98568b71240001fd7e",
+      "size": 5013,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d0af0b4f8f5bfad77a204e98568b71240001fd7e"
+    },
+    {
+      "path": "tests/test_skills_manipulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d304674e32c1b91b6a6b154689d07a2abdc17039",
+      "size": 40264,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d304674e32c1b91b6a6b154689d07a2abdc17039"
+    },
+    {
+      "path": "tests/test_skills_perception.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce58437f515dec0217e637dcf087b04cfa137e4b",
+      "size": 31301,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/ce58437f515dec0217e637dcf087b04cfa137e4b"
+    },
+    {
+      "path": "tests/test_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23246245559a9569d693512c34a853930ad614aa",
+      "size": 12545,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/23246245559a9569d693512c34a853930ad614aa"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc7de6913dff4b6f9b85a94e4afdd7ad80a9cb8b",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/cc7de6913dff4b6f9b85a94e4afdd7ad80a9cb8b"
+    },
+    {
+      "path": "tools/curobo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e78282f60de20bb2f49412b1fe9afba414f745c2",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/e78282f60de20bb2f49412b1fe9afba414f745c2"
+    },
+    {
+      "path": "tools/curobo/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/curobo/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2df19631fae10c2e13fe88ea4d698b6a8643cc6",
+      "size": 4903,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d2df19631fae10c2e13fe88ea4d698b6a8643cc6"
+    },
+    {
+      "path": "tools/curobo/_curobo_impl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90b280a07d63271f524366880d38c483f8de122a",
+      "size": 146721,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/90b280a07d63271f524366880d38c483f8de122a"
+    },
+    {
+      "path": "tools/curobo/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2adb66722f5caeed75f38f384f5195648170ef95",
+      "size": 1770,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2adb66722f5caeed75f38f384f5195648170ef95"
+    },
+    {
+      "path": "tools/curobo/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d2aa7c5b152f42280d28a0d556755318b3589a",
+      "size": 30791,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/95d2aa7c5b152f42280d28a0d556755318b3589a"
+    },
+    {
+      "path": "tools/curobo/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d94317f8b862955bbcff2ff98ce95b6700e41d3a",
+      "size": 748252,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/d94317f8b862955bbcff2ff98ce95b6700e41d3a"
+    },
+    {
+      "path": "tools/gemini-er",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4916cdb807670e6e66a06af7cfb7bb4b8c6d59f",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/d4916cdb807670e6e66a06af7cfb7bb4b8c6d59f"
+    },
+    {
+      "path": "tools/gemini-er/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/gemini-er/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5ce473ba65898fd7b1646e4b1ebc7d70a4d6c1",
+      "size": 2438,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/9f5ce473ba65898fd7b1646e4b1ebc7d70a4d6c1"
+    },
+    {
+      "path": "tools/gemini-er/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9313a69cdcdc3024b702d28631e71d7f8bbb67e2",
+      "size": 950,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/9313a69cdcdc3024b702d28631e71d7f8bbb67e2"
+    },
+    {
+      "path": "tools/gemini-er/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98384385b859f35eb74a597148eef1121aa2cfa3",
+      "size": 7089,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/98384385b859f35eb74a597148eef1121aa2cfa3"
+    },
+    {
+      "path": "tools/gemini-er/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75176c80b0b6153091f740d71911caadc3a7cc86",
+      "size": 267789,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/75176c80b0b6153091f740d71911caadc3a7cc86"
+    },
+    {
+      "path": "tools/geometry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bb08ab611c4ef7d53803bbcfe494f5ab1ece936",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/0bb08ab611c4ef7d53803bbcfe494f5ab1ece936"
+    },
+    {
+      "path": "tools/geometry/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/geometry/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2e6c81f8ee1d89330c07a03dcf4a7f94432749",
+      "size": 4974,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/4d2e6c81f8ee1d89330c07a03dcf4a7f94432749"
+    },
+    {
+      "path": "tools/geometry/_impl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79f611c8f91d46aa9748fcb4484db7a16f3c823",
+      "size": 41795,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/c79f611c8f91d46aa9748fcb4484db7a16f3c823"
+    },
+    {
+      "path": "tools/geometry/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ce347442846b915272cfab96495c094593bfebf",
+      "size": 1529,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/3ce347442846b915272cfab96495c094593bfebf"
+    },
+    {
+      "path": "tools/geometry/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54ba6ca858e8bacfecad7eea2d709d2937be243",
+      "size": 16691,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/b54ba6ca858e8bacfecad7eea2d709d2937be243"
+    },
+    {
+      "path": "tools/geometry/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3477b844232c5cf3fb7ce1cf6a89c0c17b00544d",
+      "size": 512954,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/3477b844232c5cf3fb7ce1cf6a89c0c17b00544d"
+    },
+    {
+      "path": "tools/grounding-dino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "860925d6bf2f89821c25cf9066444200bf51e060",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/860925d6bf2f89821c25cf9066444200bf51e060"
+    },
+    {
+      "path": "tools/grounding-dino/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/grounding-dino/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37f519a8783cc67126c5c31beef29b041f300016",
+      "size": 2316,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/37f519a8783cc67126c5c31beef29b041f300016"
+    },
+    {
+      "path": "tools/grounding-dino/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdcda618b8f9f9633cfa90ab577755ebc1e16754",
+      "size": 1261,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/bdcda618b8f9f9633cfa90ab577755ebc1e16754"
+    },
+    {
+      "path": "tools/grounding-dino/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7855edf98c43f1eb0025ce1d97dcf2e03bac9eba",
+      "size": 6497,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/7855edf98c43f1eb0025ce1d97dcf2e03bac9eba"
+    },
+    {
+      "path": "tools/grounding-dino/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b43438756f1018c04f972fa626488f54c9b0134",
+      "size": 294601,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/9b43438756f1018c04f972fa626488f54c9b0134"
+    },
+    {
+      "path": "tools/molmo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0ddc89d2c75a34418423fc797e6a07180a217b6",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/d0ddc89d2c75a34418423fc797e6a07180a217b6"
+    },
+    {
+      "path": "tools/molmo/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/molmo/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8609f5eda1a6afc9d71d8e6abbce40f5f7716b86",
+      "size": 3130,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/8609f5eda1a6afc9d71d8e6abbce40f5f7716b86"
+    },
+    {
+      "path": "tools/molmo/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c748567b11c13931581f63ae671ed49e55b4dee",
+      "size": 1017,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/6c748567b11c13931581f63ae671ed49e55b4dee"
+    },
+    {
+      "path": "tools/molmo/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ff3b68d7394a1e7ad146300fb01c9bfb962d07",
+      "size": 10870,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/29ff3b68d7394a1e7ad146300fb01c9bfb962d07"
+    },
+    {
+      "path": "tools/molmo/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0fdeea420f69d4918757c445291654d916c513f",
+      "size": 134254,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/f0fdeea420f69d4918757c445291654d916c513f"
+    },
+    {
+      "path": "tools/sam3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca5f4d5c843e13668db20a64c1fcb5e69b3cbd85",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/ca5f4d5c843e13668db20a64c1fcb5e69b3cbd85"
+    },
+    {
+      "path": "tools/sam3/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/sam3/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117871c10eaf6064f4df7700e044ba526a3adbfc",
+      "size": 3889,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/117871c10eaf6064f4df7700e044ba526a3adbfc"
+    },
+    {
+      "path": "tools/sam3/_streaming.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b01e4e4844597eea64985b1a9eb01cb1921fe4c",
+      "size": 7320,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/7b01e4e4844597eea64985b1a9eb01cb1921fe4c"
+    },
+    {
+      "path": "tools/sam3/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "564ec0dea1b7f8e28c7242935686e40fc92d09dd",
+      "size": 2090,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/564ec0dea1b7f8e28c7242935686e40fc92d09dd"
+    },
+    {
+      "path": "tools/sam3/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b328c2cccca8359fee26c28dce989e178299fc",
+      "size": 28622,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/42b328c2cccca8359fee26c28dce989e178299fc"
+    },
+    {
+      "path": "tools/sam3/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8991900190679c3e6716404c5ea119385f4c0dc",
+      "size": 324446,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/f8991900190679c3e6716404c5ea119385f4c0dc"
+    },
+    {
+      "path": "tools/vlm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d94d51dfcae4cc325d47c91c16400c7b210314df",
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/trees/d94d51dfcae4cc325d47c91c16400c7b210314df"
+    },
+    {
+      "path": "tools/vlm/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "tools/vlm/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a393983d5c8407f034b4aeea61eee1243a9381",
+      "size": 3022,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/56a393983d5c8407f034b4aeea61eee1243a9381"
+    },
+    {
+      "path": "tools/vlm/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad4d3d2196ee676541a68e2b3f2c6bf5d7bf99d",
+      "size": 1477,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/5ad4d3d2196ee676541a68e2b3f2c6bf5d7bf99d"
+    },
+    {
+      "path": "tools/vlm/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91fb8f98a9920d847d831c60843f54902dd669a3",
+      "size": 14515,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/91fb8f98a9920d847d831c60843f54902dd669a3"
+    },
+    {
+      "path": "tools/vlm/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1af8d3c832f4642a7ee07dc3d826c0a2161c4f",
+      "size": 267853,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/cc1af8d3c832f4642a7ee07dc3d826c0a2161c4f"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a4aff0e0307a43abe01e77f9a303940fcab3aa",
+      "size": 963122,
+      "url": "https://api.github.com/repos/graph-robots/open-robot-skills/git/blobs/62a4aff0e0307a43abe01e77f9a303940fcab3aa"
+    }
+  ],
+  "truncated": false
+}

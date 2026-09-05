@@ -1,0 +1,46 @@
+{
+  "imu": {
+    "frame_id": "camera_link",
+    "linear_acceleration": [
+      -9.847103081051365,
+      0.001135728903208304,
+      -0.0026973918293820443
+    ],
+    "angular_velocity": [
+      -8.518459527372953e-06,
+      2.0504426636644374e-06,
+      4.206584974493031e-06
+    ]
+  },
+  "intrinsics": {
+    "width": 640,
+    "height": 480,
+    "k": [
+      462.2663372707335,
+      0.0,
+      320.0,
+      0.0,
+      462.26633727073346,
+      240.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "depth": {
+    "width": 640,
+    "height": 480,
+    "encoding": "32FC1",
+    "finite_fraction": 1.0,
+    "min_m": 0.08341439068317413,
+    "max_m": 0.16312198340892792
+  },
+  "rgb": {
+    "width": 640,
+    "height": 480,
+    "encoding": "rgb8",
+    "bytes": 921600,
+    "frame_id": "camera_color_optical_frame"
+  },
+  "pass": true
+}

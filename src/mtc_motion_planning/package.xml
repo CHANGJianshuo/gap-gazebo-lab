@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>mtc_motion_planning</name>
+  <version>0.1.0</version>
+  <description>Validated multi-candidate time-efficient planning for AUBO S3.</description>
+  <maintainer email="maintainer@example.invalid">Chang Jianshuo</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>moveit_planners_ompl</depend>
+  <depend>moveit_msgs</depend>
+  <depend>mtc_interfaces</depend>
+  <depend>tf2_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometric_shapes</depend>
+  <depend>ruckig</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  <depend>joint_trajectory_controller</depend>
+</package>

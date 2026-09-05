@@ -1,0 +1,457 @@
+<robot name="mtc_s3">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-1.4795E-13 0.0015384 0.020951" rpy="0 0 0" />
+      <mass value="0.83419" />
+      <inertia ixx="0.0014414" ixy="7.8809E-15" ixz="8.5328E-16" iyy="0.0013542" iyz="-1.4364E-05" izz="0.0024659" />
+    </inertial>
+    </link>
+  <link name="shoulder_Link">
+    <inertial>
+      <origin xyz="0.00006553 0.00225024 -0.06268722" rpy="0 0 0" />
+      <mass value="1.99730902" />
+      <inertia ixx="0.00360913" ixy="0.00000248" ixz="-0.00000248" iyy="0.0034589" iyz="-0.00030944" izz="0.00197495" />
+    </inertial>
+    </link>
+  <joint name="shoulder_joint" type="revolute">
+    <origin xyz="0 0 0.1577" rpy="0 0 3.1415926535897932384626433832795" />
+    <parent link="base_link" />
+    <child link="shoulder_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.283185307179586476925286766559" upper="6.283185307179586476925286766559" effort="49" velocity="2.5964" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="upperArm_Link">
+    <inertial>
+      <origin xyz="0.1215199 -0.00148523 -0.02613124" rpy="0 0 0" />
+      <mass value="3.7584646" />
+      <inertia ixx="0.00503071" ixy="0.00063677" ixz="-0.00216371" iyy="0.06710456" iyz="0.00003992" izz="0.06547308" />
+    </inertial>
+    </link>
+  <joint name="upperArm_joint" type="revolute">
+    <origin xyz="0 0.1325 0" rpy="-1.5707963267948966192313216916398 -1.5707963267948966192313216916398 0" />
+    <parent link="shoulder_Link" />
+    <child link="upperArm_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.1415926535897932384626433832795" upper="3.1415926535897932384626433832795" effort="49" velocity="2.5964" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="foreArm_Link">
+    <inertial>
+      <origin xyz="0.1718233 0.001602 0.09177125" rpy="0 0 0" />
+      <mass value="1.66653267" />
+      <inertia ixx="0.00187085" ixy="-0.00010669" ixz="0.00091847" iyy="0.0149741" iyz="0.000012" izz="0.01449639" />
+    </inertial>
+    </link>
+  <joint name="foreArm_joint" type="revolute">
+    <origin xyz="0.2835 0 0" rpy="-3.1415926535897932384626433832795 0 0" />
+    <parent link="upperArm_Link" />
+    <child link="foreArm_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.87979326579064" upper="2.87979326579064" effort="39" velocity="2.5964" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="wrist1_Link">
+    <inertial>
+      <origin xyz="0.04327757 -0.0004601 -0.00286449" rpy="0 0 0" />
+      <mass value="1.06823262" />
+      <inertia ixx="0.0007838" ixy="0.0000072" ixz="-0.00012333" iyy="0.00143101" iyz="0.00000247" izz="0.00136502" />
+    </inertial>
+    </link>
+  <joint name="wrist1_joint" type="revolute">
+    <origin xyz="0.236 0 0" rpy="3.1415926535897932384626433832795 0 1.5707963267948966192313216916398" />
+    <parent link="foreArm_Link" />
+    <child link="wrist1_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.283185307179586476925286766559" upper="6.283185307179586476925286766559" effort="9.8" velocity="3.1105" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="wrist2_Link">
+    <inertial>
+      <origin xyz="0 -0.04328001 -0.00286674" rpy="0 0 0" />
+      <mass value="1.06823262" />
+      <inertia ixx="0.00143109" ixy="-0.00000032" ixz="0.00000116" iyy="0.00078372" iyz="0.00012335" izz="0.00136502" />
+    </inertial>
+    </link>
+  <joint name="wrist2_joint" type="revolute">
+    <origin xyz="0 0.130 0" rpy="-1.5707963267948966192313216916398 0 0" />
+    <parent link="wrist1_Link" />
+    <child link="wrist2_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.283185307179586476925286766559" upper="6.283185307179586476925286766559" effort="9.8" velocity="3.1105" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="wrist3_Link">
+    <inertial>
+      <origin xyz="0.0002383 0.0004129 -0.01884263" rpy="0 0 0" />
+      <mass value="0.21445068" />
+      <inertia ixx="0.00013087" ixy="0.00000109" ixz="0.00000047" iyy="0.00012864" iyz="0.00000065" izz="0.00017894" />
+    </inertial>
+    </link>
+  <joint name="wrist3_joint" type="revolute">
+    <origin xyz="0 -0.1237 0" rpy="1.5707963267948966192313216916398 0 1.7907E-15" />
+    <parent link="wrist2_Link" />
+    <child link="wrist3_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.283185307179586476925286766559" upper="6.283185307179586476925286766559" effort="9.8" velocity="3.1105" />
+    <dynamics damping=".025" friction="0" />
+  </joint>
+  <link name="world"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="world_joint" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+    <origin xyz="0 0 0.65" rpy="0.0 0.0 0.0" />
+  </joint>
+  <link name="latch_mount">
+    <inertial>
+      <origin xyz="0 0 0.045" rpy="0 0 0" />
+      <mass value="0.16" />
+      <inertia ixx="0.0001643333333333333" iyy="0.00014133333333333334" izz="8.966666666666667e-05" ixy="0.0" ixz="0.0" iyz="0.0" />
+    </inertial>
+    </link>
+  <joint name="latch_mount_joint" type="fixed">
+    <parent link="wrist3_Link" />
+    <child link="latch_mount" />
+    <origin xyz="0 0 0.005" rpy="0 0 0" />
+  </joint>
+  <link name="tcp">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.003" />
+      <inertia ixx="1.2500000000000001e-08" iyy="1.2500000000000001e-08" izz="1.2500000000000001e-08" ixy="0.0" ixz="0.0" iyz="0.0" />
+    </inertial>
+  </link>
+  <joint name="tcp_joint" type="fixed">
+    <parent link="latch_mount" />
+    <child link="tcp" />
+    <origin xyz="0 0 0.125" rpy="0 0 0" />
+  </joint>
+  <link name="latch_left">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.035" />
+      <inertia ixx="9.333333333333334e-06" iyy="4.958333333333334e-06" izz="4.958333333333334e-06" ixy="0.0" ixz="0.0" iyz="0.0" />
+    </inertial>
+    </link>
+  <joint name="latch_left_joint" type="prismatic">
+    <parent link="latch_mount" />
+    <child link="latch_left" />
+    <origin xyz="0 0 .125" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper=".022" velocity=".08" effort="25" />
+    <dynamics damping="1" friction="0" />
+  </joint>
+  <link name="latch_right">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.035" />
+      <inertia ixx="9.333333333333334e-06" iyy="4.958333333333334e-06" izz="4.958333333333334e-06" ixy="0.0" ixz="0.0" iyz="0.0" />
+    </inertial>
+    </link>
+  <joint name="latch_right_joint" type="prismatic">
+    <parent link="latch_mount" />
+    <child link="latch_right" />
+    <origin xyz="0 0 .125" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit lower="0" upper=".022" velocity=".08" effort="25" />
+    <dynamics damping="1" friction="0" />
+  </joint>
+  <material name="aluminum">
+    <color rgba="0.5 0.5 0.5 1" />
+  </material>
+  <material name="plastic">
+    <color rgba="0.1 0.1 0.1 1" />
+  </material>
+  <joint name="camera_joint" type="fixed">
+    <origin rpy="0 -1.5707963267948966 0" xyz=".065 0 .03" />
+    <parent link="wrist3_Link" />
+    <child link="camera_bottom_screw_frame" />
+  </joint>
+  <link name="camera_bottom_screw_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_link_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.010600000000000002 0.0175 0.0125" />
+    <parent link="camera_bottom_screw_frame" />
+    <child link="camera_link" />
+  </joint>
+  <link name="camera_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.075" />
+      <inertia ixx="5.453125e-05" iyy="7.812500000000002e-06" izz="5.453125e-05" ixy="0.0" ixz="0.0" iyz="0.0" />
+    </inertial>
+  </link>
+  <joint name="camera_depth_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_depth_frame" />
+  </joint>
+  <link name="camera_depth_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_depth_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_depth_frame" />
+    <child link="camera_depth_optical_frame" />
+  </joint>
+  <link name="camera_depth_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_infra1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0.0 0" />
+    <parent link="camera_link" />
+    <child link="camera_infra1_frame" />
+  </joint>
+  <link name="camera_infra1_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_infra1_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_infra1_frame" />
+    <child link="camera_infra1_optical_frame" />
+  </joint>
+  <link name="camera_infra1_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_infra2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 -0.05 0" />
+    <parent link="camera_link" />
+    <child link="camera_infra2_frame" />
+  </joint>
+  <link name="camera_infra2_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_infra2_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_infra2_frame" />
+    <child link="camera_infra2_optical_frame" />
+  </joint>
+  <link name="camera_infra2_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_color_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0.015 0" />
+    <parent link="camera_link" />
+    <child link="camera_color_frame" />
+  </joint>
+  <link name="camera_color_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_color_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_color_frame" />
+    <child link="camera_color_optical_frame" />
+  </joint>
+  <link name="camera_color_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <link name="camera_accel_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <link name="camera_accel_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <link name="camera_gyro_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <link name="camera_gyro_optical_frame"><inertial><mass value="0" /><inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" /></inertial></link>
+  <joint name="camera_accel_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.01174 -0.00552 0.0051" />
+    <parent link="camera_link" />
+    <child link="camera_accel_frame" />
+  </joint>
+  <joint name="camera_accel_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_accel_frame" />
+    <child link="camera_accel_optical_frame" />
+  </joint>
+  <joint name="camera_gyro_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.01174 -0.00552 0.0051" />
+    <parent link="camera_link" />
+    <child link="camera_gyro_frame" />
+  </joint>
+  <joint name="camera_gyro_optical_joint" type="fixed">
+    <origin rpy="-1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0" />
+    <parent link="camera_gyro_frame" />
+    <child link="camera_gyro_optical_frame" />
+  </joint>
+  <ros2_control name="S3GazeboSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="shoulder_joint">
+      <command_interface name="effort">
+        <param name="min">-49.0</param>
+        <param name="max">49.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="upperArm_joint">
+      <command_interface name="effort">
+        <param name="min">-49.0</param>
+        <param name="max">49.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.35</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="foreArm_joint">
+      <command_interface name="effort">
+        <param name="min">-39.0</param>
+        <param name="max">39.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">1.3</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="wrist1_joint">
+      <command_interface name="effort">
+        <param name="min">-9.8</param>
+        <param name="max">9.8</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">-0.35</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="wrist2_joint">
+      <command_interface name="effort">
+        <param name="min">-9.8</param>
+        <param name="max">9.8</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">1.57</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="wrist3_joint">
+      <command_interface name="effort">
+        <param name="min">-9.8</param>
+        <param name="max">9.8</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="latch_left_joint">
+      <command_interface name="position" />
+      <state_interface name="position">
+        <param name="initial_value">0.022</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+    <joint name="latch_right_joint">
+      <command_interface name="position" />
+      <state_interface name="position">
+        <param name="initial_value">0.022</param>
+      </state_interface>
+      <state_interface name="velocity" />
+      <state_interface name="effort" />
+    </joint>
+  </ros2_control>
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>/home/chang/meituan_challenge/src/mtc_motion_planning/config/controllers.yaml</parameters>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+    </plugin>
+  </gazebo>
+  <gazebo reference="tcp_joint">
+    <preserveFixedJoint>true</preserveFixedJoint>
+  </gazebo>
+  <gazebo reference="camera_link">
+    <sensor name="wrist_rgbd" type="rgbd_camera">
+      <pose>0 0 0 0 0 0</pose>
+      <topic>/wrist_camera</topic>
+      <update_rate>10</update_rate>
+      <always_on>true</always_on>
+      <camera>
+        <horizontal_fov>1.211</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>.05</near>
+          <far>3</far>
+        </clip>
+      </camera>
+      <gz_frame_id>camera_color_optical_frame</gz_frame_id>
+    </sensor>
+    <sensor name="wrist_imu" type="imu">
+      <topic>/wrist_camera/imu</topic>
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <imu />
+      <gz_frame_id>camera_link</gz_frame_id>
+    </sensor>
+  </gazebo>
+  <gazebo reference="base_link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="shoulder_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="upperArm_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="foreArm_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="wrist1_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="wrist2_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="wrist3_Link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="world">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="latch_mount">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="tcp">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="latch_left">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="latch_right">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_bottom_screw_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_link">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_depth_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_depth_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_infra1_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_infra1_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_infra2_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_infra2_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_color_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_color_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_accel_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_accel_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_gyro_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+  <gazebo reference="camera_gyro_optical_frame">
+    <self_collide>true</self_collide>
+  </gazebo>
+</robot>

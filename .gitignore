@@ -1,0 +1,36 @@
+# Rebuildable local environments and caches.
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*:Zone.Identifier
+data/bags/*
+!data/bags/.gitkeep
+# Temporary CAD inspection and Gazebo source-inspection files.
+data/cad/
+# Keep the two final, documented runs as reproducible evidence.
+data/runs/*
+!data/runs/.gitkeep
+!data/runs/sequence_demo/
+!data/runs/basic_demo_final/
+data/videos/*
+!data/videos/.gitkeep
+!data/videos/sequence_demo.mp4
+!data/videos/sequence_demo.json
+!data/videos/sequence_demo_poster.png
+!data/videos/basic_demo_final.mp4
+!data/videos/basic_demo_final.json
+!data/videos/basic_demo_final_poster.png
+# Browser screenshots are local QA working files; keep the JSON checks.
+data/validation/*.png
+data/validation/report_preview/
+# The build script fetches these pinned dependency checkouts.
+third_party/**/.git/
+vendor_ws/src/gz_ros2_control/
+vendor_ws/src/ros2_controllers/
+vendor_ws/build/
+vendor_ws/install/
+vendor_ws/log/

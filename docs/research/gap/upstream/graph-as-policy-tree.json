@@ -1,0 +1,4674 @@
+{
+  "sha": "93e929c9a1668cacba2e8be604e99a7538abbee9",
+  "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/93e929c9a1668cacba2e8be604e99a7538abbee9",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3165841f5a960c9adb876b16f979ba6ca927ae6",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/a3165841f5a960c9adb876b16f979ba6ca927ae6"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a94f7bcb66a6782eec4556a4bbd4fda943d1424",
+      "size": 1612,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5a94f7bcb66a6782eec4556a4bbd4fda943d1424"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45b16e8f18abe35bf5cfcd57c0bf97652161318e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/45b16e8f18abe35bf5cfcd57c0bf97652161318e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "610ba93e96cdb5240863fc059b6941523a701f1b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/610ba93e96cdb5240863fc059b6941523a701f1b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6b687bf1b8156464a8878d8f7a9e0ab23b01269",
+      "size": 1262,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e6b687bf1b8156464a8878d8f7a9e0ab23b01269"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d8bd68e1419c028c47611951da560f52645c2a",
+      "size": 1046,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c4d8bd68e1419c028c47611951da560f52645c2a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b883d72e7e6af84e7c14167dac69a6228dc7b84",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/0b883d72e7e6af84e7c14167dac69a6228dc7b84"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd7fdb0e83a27866017b5c44f6e199bb87e82bb",
+      "size": 2513,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bcd7fdb0e83a27866017b5c44f6e199bb87e82bb"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96776d97ca51c3b6419f2e0b9060bb12b357332b",
+      "size": 905,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/96776d97ca51c3b6419f2e0b9060bb12b357332b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b450e78dc7ff189f31ca96721a1914c34eeb61",
+      "size": 440,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/82b450e78dc7ff189f31ca96721a1914c34eeb61"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23c60bbaa40caaf1b970980d6c24687bcb55c4ee",
+      "size": 595,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/23c60bbaa40caaf1b970980d6c24687bcb55c4ee"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": ".readthedocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cfadd2775007f3f6ddbce903c077fbb41ecf8e2",
+      "size": 239,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4cfadd2775007f3f6ddbce903c077fbb41ecf8e2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc46792b8861bee83f90ce2c9bca08c4521bd05",
+      "size": 3344,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bbc46792b8861bee83f90ce2c9bca08c4521bd05"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "NOTICE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e3a6ec438f3d6c6192809e6159d0abf9430e8d1",
+      "size": 3558,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8e3a6ec438f3d6c6192809e6159d0abf9430e8d1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79f577211f47d926a71c7d333ebf2697ae04baaa",
+      "size": 7611,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/79f577211f47d926a71c7d333ebf2697ae04baaa"
+    },
+    {
+      "path": "agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8e6e3a73f9fb4324122ed220b3d1f1ab0ae565d",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/b8e6e3a73f9fb4324122ed220b3d1f1ab0ae565d"
+    },
+    {
+      "path": "agent/.claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3533f99a41d8a7066d7e0609b28b8a8bd72c37f",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/a3533f99a41d8a7066d7e0609b28b8a8bd72c37f"
+    },
+    {
+      "path": "agent/.claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35685cc0f4737e3fd4d46f6b4c6ec7f9119ef4a1",
+      "size": 642,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/35685cc0f4737e3fd4d46f6b4c6ec7f9119ef4a1"
+    },
+    {
+      "path": "agent/INSTALL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44bb7a3cf4ee12cebfe0741e480f95bf8d1ec131",
+      "size": 2028,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/44bb7a3cf4ee12cebfe0741e480f95bf8d1ec131"
+    },
+    {
+      "path": "agent/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc3581a18313d721272fcc07fb18c52bb9d8ae16",
+      "size": 533,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/fc3581a18313d721272fcc07fb18c52bb9d8ae16"
+    },
+    {
+      "path": "agent/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00de957676dd937f3971a3df12cc85b8585a1907",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/00de957676dd937f3971a3df12cc85b8585a1907"
+    },
+    {
+      "path": "agent/scripts/gen_cli_reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "002f5bbb3ce56f2f6eff1f645e3924cbe7240531",
+      "size": 2035,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/002f5bbb3ce56f2f6eff1f645e3924cbe7240531"
+    },
+    {
+      "path": "agent/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "300ba7318dc5f8d04a548e17db61a8a8e1ecc241",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/300ba7318dc5f8d04a548e17db61a8a8e1ecc241"
+    },
+    {
+      "path": "agent/skills/gap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f565a0e9160f9dda75d0264e5acd80b825a525b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/5f565a0e9160f9dda75d0264e5acd80b825a525b"
+    },
+    {
+      "path": "agent/skills/gap/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4125bb59902dbb2b219109e29ced0c11c03a27ea",
+      "size": 13282,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4125bb59902dbb2b219109e29ced0c11c03a27ea"
+    },
+    {
+      "path": "agent/skills/gap/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38760cf83da44aadc1e050d1e0e2153b21ecd947",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/38760cf83da44aadc1e050d1e0e2153b21ecd947"
+    },
+    {
+      "path": "agent/skills/gap/references/authoring-bundles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d1c2053ee85f98aefc150117c90f177fe4f7d9",
+      "size": 7806,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/15d1c2053ee85f98aefc150117c90f177fe4f7d9"
+    },
+    {
+      "path": "agent/skills/gap/references/authoring-graphs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc5fb21814cb23f3c9fd924815079332030aaf77",
+      "size": 5933,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cc5fb21814cb23f3c9fd924815079332030aaf77"
+    },
+    {
+      "path": "agent/skills/gap/references/cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a5941dccd07862b3c27b894274a22280b8293d",
+      "size": 18331,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/37a5941dccd07862b3c27b894274a22280b8293d"
+    },
+    {
+      "path": "agent/skills/gap/references/registries.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa54f07d8c5eadadf853d216d9501dd3d354c48",
+      "size": 3196,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/baa54f07d8c5eadadf853d216d9501dd3d354c48"
+    },
+    {
+      "path": "agent/skills/gap/references/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02c26848394cbd9ffadfae3ec3d2da194808adb",
+      "size": 3554,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e02c26848394cbd9ffadfae3ec3d2da194808adb"
+    },
+    {
+      "path": "agent/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e00c1c274799f728b819a8a78de21199eb84152",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/1e00c1c274799f728b819a8a78de21199eb84152"
+    },
+    {
+      "path": "agent/test/acceptance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "320ca3178cf08e6e5b6b806bdbb49013670b5c5a",
+      "size": 2355,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/320ca3178cf08e6e5b6b806bdbb49013670b5c5a"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b05b6121e86303e6f7369318a8328b456273840",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/1b05b6121e86303e6f7369318a8328b456273840"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68904737f1977a227bfe0d9a3b5ae8b08fb90704",
+      "size": 349,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/68904737f1977a227bfe0d9a3b5ae8b08fb90704"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35a1a211a6cd27a603bf47667e83f07f5efe739",
+      "size": 3818,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d35a1a211a6cd27a603bf47667e83f07f5efe739"
+    },
+    {
+      "path": "docs/SITE-DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a48425e424f3afa75bbc6e5fd132303781d62ce",
+      "size": 9613,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7a48425e424f3afa75bbc6e5fd132303781d62ce"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21e05f73c3d2cd316a40d846160ff382923694c2",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/21e05f73c3d2cd316a40d846160ff382923694c2"
+    },
+    {
+      "path": "docs/assets/build_a_graph.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d791b9151e68bc73b8fb088d8cd8a81384d44c1e",
+      "size": 166037,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d791b9151e68bc73b8fb088d8cd8a81384d44c1e"
+    },
+    {
+      "path": "docs/assets/gap_architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2688eb6d4ab3398db05313d8024e10f95c0099d1",
+      "size": 3582211,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2688eb6d4ab3398db05313d8024e10f95c0099d1"
+    },
+    {
+      "path": "docs/assets/gap_pipeline.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de090a23102f46303a499ae963904270bab562d5",
+      "size": 993423,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/de090a23102f46303a499ae963904270bab562d5"
+    },
+    {
+      "path": "docs/assets/grocery_fulfillment_sim.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e5b15d96fcd454752d81f1eb94b01397ecc6b8",
+      "size": 323250,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/84e5b15d96fcd454752d81f1eb94b01397ecc6b8"
+    },
+    {
+      "path": "docs/assets/grocery_packing_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6249badc86f43caf407556836aaa297c81627183",
+      "size": 4120051,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6249badc86f43caf407556836aaa297c81627183"
+    },
+    {
+      "path": "docs/assets/grocery_packing_sim.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8f1deb8e3db691060b74a9c483f8274b4fdb105",
+      "size": 1133586,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d8f1deb8e3db691060b74a9c483f8274b4fdb105"
+    },
+    {
+      "path": "docs/assets/popcorn_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b5961c4aec955b0a18f752205232f17ea9c6390",
+      "size": 5476812,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4b5961c4aec955b0a18f752205232f17ea9c6390"
+    },
+    {
+      "path": "docs/assets/quickstart_graph.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b5eadabc3a263cc45b6683378ca8b8262f4468",
+      "size": 166163,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d6b5eadabc3a263cc45b6683378ca8b8262f4468"
+    },
+    {
+      "path": "docs/assets/quickstart_rollout.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2558503a6ac6ead9e5ecc7c561c5aa3d29f2ed6a",
+      "size": 2156149,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2558503a6ac6ead9e5ecc7c561c5aa3d29f2ed6a"
+    },
+    {
+      "path": "docs/assets/real_robots_strip.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0be1c3f2c5bc86909c27778e2396137b3d9783",
+      "size": 6298346,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ec0be1c3f2c5bc86909c27778e2396137b3d9783"
+    },
+    {
+      "path": "docs/assets/sim_grocery_variation.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2881bc48346d3093b242808367398c4627371826",
+      "size": 3183319,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2881bc48346d3093b242808367398c4627371826"
+    },
+    {
+      "path": "docs/assets/tool_packing_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d349b345bccd1adab80713dfecca872810330a",
+      "size": 4365304,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/95d349b345bccd1adab80713dfecca872810330a"
+    },
+    {
+      "path": "docs/assets/usb_insertion_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec0461798011a50d754d9f41862420dea48c799",
+      "size": 2730536,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2ec0461798011a50d754d9f41862420dea48c799"
+    },
+    {
+      "path": "docs/build.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4ef9938ae1ae1ea717124f36446b8d42deeb3d77",
+      "size": 679,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4ef9938ae1ae1ea717124f36446b8d42deeb3d77"
+    },
+    {
+      "path": "docs/design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba5f742a09cb18a10344eb5b4e1ff1132b10ebce",
+      "size": 49579,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ba5f742a09cb18a10344eb5b4e1ff1132b10ebce"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9132e11a29870235aac4a0655bac55c168b9a6d",
+      "size": 3822,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d9132e11a29870235aac4a0655bac55c168b9a6d"
+    },
+    {
+      "path": "docs/requirements-docs.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726a23f1b53440f393be1a1a2f2c441b4b0c96c8",
+      "size": 480,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/726a23f1b53440f393be1a1a2f2c441b4b0c96c8"
+    },
+    {
+      "path": "docs/runtime.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e7f6d17dc0382c21e44efa08d68ced5af6dac27",
+      "size": 30392,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4e7f6d17dc0382c21e44efa08d68ced5af6dac27"
+    },
+    {
+      "path": "docs/safety.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f170c202b44d9eb017968c334890ee68c65caaf",
+      "size": 4805,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2f170c202b44d9eb017968c334890ee68c65caaf"
+    },
+    {
+      "path": "docs/skills.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f6351b18fdb00a5b8485e772deb770dd0a6e58",
+      "size": 19855,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/65f6351b18fdb00a5b8485e772deb770dd0a6e58"
+    },
+    {
+      "path": "docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57e9892c20c3730fae68093a0d41c9fb10ff8aa3",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/57e9892c20c3730fae68093a0d41c9fb10ff8aa3"
+    },
+    {
+      "path": "docs/source/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15fcb45b5f84afa2b9c98faadb856fba52e64331",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/15fcb45b5f84afa2b9c98faadb856fba52e64331"
+    },
+    {
+      "path": "docs/source/_static/agent-run-end.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d4aeb9d11e75b38df00b4022d9bf8ac18e5d719",
+      "size": 410922,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9d4aeb9d11e75b38df00b4022d9bf8ac18e5d719"
+    },
+    {
+      "path": "docs/source/_static/agent-run-grasp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68333b047b44588bbc32ba3d8e6adb0c61fd6d22",
+      "size": 446408,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/68333b047b44588bbc32ba3d8e6adb0c61fd6d22"
+    },
+    {
+      "path": "docs/source/_static/agent-run-start.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e0c5db5be52d388366af00039d45978005beea",
+      "size": 421881,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b2e0c5db5be52d388366af00039d45978005beea"
+    },
+    {
+      "path": "docs/source/_static/agent-run-transport.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa2db9c1a5c70b425d7e834a03a9facbd0913c1",
+      "size": 447300,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9aa2db9c1a5c70b425d7e834a03a9facbd0913c1"
+    },
+    {
+      "path": "docs/source/_static/build_a_graph.png",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "9c5f1cd88e1955efc2b985fd13e66d7498967e25",
+      "size": 30,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9c5f1cd88e1955efc2b985fd13e66d7498967e25"
+    },
+    {
+      "path": "docs/source/_static/custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f23f75a6b5cedd1056bb56767c7e6e508951167",
+      "size": 1839,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9f23f75a6b5cedd1056bb56767c7e6e508951167"
+    },
+    {
+      "path": "docs/source/_static/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3b5e83c247ab3558f39becb1f903602844fbfc",
+      "size": 385,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8b3b5e83c247ab3558f39becb1f903602844fbfc"
+    },
+    {
+      "path": "docs/source/_static/gap_architecture.png",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "44cb86248000b23ef8bad1e16ac6ec92d272d980",
+      "size": 33,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/44cb86248000b23ef8bad1e16ac6ec92d272d980"
+    },
+    {
+      "path": "docs/source/_static/gap_pipeline.png",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c060d5dbd9c4362aa10bba7754f7ec59d5e18196",
+      "size": 29,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c060d5dbd9c4362aa10bba7754f7ec59d5e18196"
+    },
+    {
+      "path": "docs/source/_static/grocery_fulfillment_sim.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "08f1f11ef86c0459d65729e780645a7c15e15a94",
+      "size": 40,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/08f1f11ef86c0459d65729e780645a7c15e15a94"
+    },
+    {
+      "path": "docs/source/_static/grocery_packing_real.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "668b34fa30931e3f74720d8d57b714e255b9bc3c",
+      "size": 37,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/668b34fa30931e3f74720d8d57b714e255b9bc3c"
+    },
+    {
+      "path": "docs/source/_static/grocery_packing_sim.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "b896d03237b7cbd8095c6efaaa2b7562c6eb2641",
+      "size": 36,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b896d03237b7cbd8095c6efaaa2b7562c6eb2641"
+    },
+    {
+      "path": "docs/source/_static/popcorn_real.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "7b5b3f482870e188253714b4eebb88bafdca8ddf",
+      "size": 29,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7b5b3f482870e188253714b4eebb88bafdca8ddf"
+    },
+    {
+      "path": "docs/source/_static/quickstart_graph.png",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "d0496454efe079615ca33290227ecd97a1276db0",
+      "size": 33,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d0496454efe079615ca33290227ecd97a1276db0"
+    },
+    {
+      "path": "docs/source/_static/quickstart_rollout.gif",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "07aca156f703bf6952c410ce2fdff77b7e74d818",
+      "size": 35,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/07aca156f703bf6952c410ce2fdff77b7e74d818"
+    },
+    {
+      "path": "docs/source/_static/sim_grocery_variation.gif",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "273a92e3108c86d6a7e4a127138eaf61eddb77ce",
+      "size": 38,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/273a92e3108c86d6a7e4a127138eaf61eddb77ce"
+    },
+    {
+      "path": "docs/source/_static/tool_packing_real.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "a804a22b1e462b6ec03f25380e69b1f3cb519e2c",
+      "size": 34,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a804a22b1e462b6ec03f25380e69b1f3cb519e2c"
+    },
+    {
+      "path": "docs/source/_static/usb_insertion_real.mp4",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "1c8bf51b25f2584a2a2f4b5ab327ad2d1d44ece8",
+      "size": 35,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1c8bf51b25f2584a2a2f4b5ab327ad2d1d44ece8"
+    },
+    {
+      "path": "docs/source/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92f6e2cae5f53c0037a28c126eda33899471f663",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/92f6e2cae5f53c0037a28c126eda33899471f663"
+    },
+    {
+      "path": "docs/source/agents/claude-code.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98a7e66e03f2c132d75af329edd9d71b4ac9dd52",
+      "size": 9378,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/98a7e66e03f2c132d75af329edd9d71b4ac9dd52"
+    },
+    {
+      "path": "docs/source/authoring",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b486b3ab462b6391d9772c2d4f93ba2cec27149c",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/b486b3ab462b6391d9772c2d4f93ba2cec27149c"
+    },
+    {
+      "path": "docs/source/authoring/builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da7e55742eaa504bd0b6396509e15388b6d56473",
+      "size": 20998,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/da7e55742eaa504bd0b6396509e15388b6d56473"
+    },
+    {
+      "path": "docs/source/authoring/generation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d98a7f80c9f3fd5531e4804a29a32c7e48bb5bf",
+      "size": 15967,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3d98a7f80c9f3fd5531e4804a29a32c7e48bb5bf"
+    },
+    {
+      "path": "docs/source/authoring/llm-providers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc27346c178ac79dcb1e667916f7215f616d4c6",
+      "size": 10913,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0cc27346c178ac79dcb1e667916f7215f616d4c6"
+    },
+    {
+      "path": "docs/source/authoring/patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "437e6e6344fcbbf20a4f6746c077678c6b2dcf15",
+      "size": 12784,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/437e6e6344fcbbf20a4f6746c077678c6b2dcf15"
+    },
+    {
+      "path": "docs/source/benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "219d3e06d10d231fa5ede0bea5faa45031743922",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/219d3e06d10d231fa5ede0bea5faa45031743922"
+    },
+    {
+      "path": "docs/source/benchmarks/benchmarking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5602e817732ac65f173e3177d3aff725ce171c",
+      "size": 14246,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5f5602e817732ac65f173e3177d3aff725ce171c"
+    },
+    {
+      "path": "docs/source/benchmarks/policies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50d980d00d5f33919b22ca0cf4190f2ba31b30da",
+      "size": 21539,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/50d980d00d5f33919b22ca0cf4190f2ba31b30da"
+    },
+    {
+      "path": "docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1813abf61651486286ac3d6a5d5cd5a0e252d60",
+      "size": 3940,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a1813abf61651486286ac3d6a5d5cd5a0e252d60"
+    },
+    {
+      "path": "docs/source/developers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e1078e71fe11ef905e03478a15627ac6ab893d3",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/6e1078e71fe11ef905e03478a15627ac6ab893d3"
+    },
+    {
+      "path": "docs/source/developers/architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9b5fb4c120b1c7c7e0646765f6f3a203f37a55a",
+      "size": 15752,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c9b5fb4c120b1c7c7e0646765f6f3a203f37a55a"
+    },
+    {
+      "path": "docs/source/developers/contributing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f2e03e6f8c6044583f9d426ca040a570827555",
+      "size": 5955,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/67f2e03e6f8c6044583f9d426ca040a570827555"
+    },
+    {
+      "path": "docs/source/developers/roadmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d769db90c12545febb8b0d3565fb03b7a5994d",
+      "size": 3316,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/77d769db90c12545febb8b0d3565fb03b7a5994d"
+    },
+    {
+      "path": "docs/source/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84ae4d51465a5b24d7b43d817da6359de6b2591f",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/84ae4d51465a5b24d7b43d817da6359de6b2591f"
+    },
+    {
+      "path": "docs/source/docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f6030472c54848734e7c9db1e879aad49727e8",
+      "size": 5699,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/58f6030472c54848734e7c9db1e879aad49727e8"
+    },
+    {
+      "path": "docs/source/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76209f7404e123db8da9449f1c1374b9c84d7eb7",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/76209f7404e123db8da9449f1c1374b9c84d7eb7"
+    },
+    {
+      "path": "docs/source/examples/agent-quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040090c57839f8bcee35f2950ea472b1ebe573ad",
+      "size": 8301,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/040090c57839f8bcee35f2950ea472b1ebe573ad"
+    },
+    {
+      "path": "docs/source/examples/benchmark.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3f00be1873db9756cd9569f4fbb5600d068282",
+      "size": 6826,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1f3f00be1873db9756cd9569f4fbb5600d068282"
+    },
+    {
+      "path": "docs/source/examples/build-a-graph.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c3c267e700543e26c4a6170131da64e1c26966",
+      "size": 8669,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/36c3c267e700543e26c4a6170131da64e1c26966"
+    },
+    {
+      "path": "docs/source/examples/cable-ur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7766bf453a61db7015c0fe9aad60f548317dc51",
+      "size": 7552,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e7766bf453a61db7015c0fe9aad60f548317dc51"
+    },
+    {
+      "path": "docs/source/examples/collect-and-train.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698125cd1475c38726e21f5c2af45a58001f3922",
+      "size": 5619,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/698125cd1475c38726e21f5c2af45a58001f3922"
+    },
+    {
+      "path": "docs/source/examples/generate-a-graph.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af32ab5aad12d0cfe6560ca5347a3886901b4f1b",
+      "size": 9103,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/af32ab5aad12d0cfe6560ca5347a3886901b4f1b"
+    },
+    {
+      "path": "docs/source/examples/grocery-fulfillment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b47503c4e64bed0aa8c8f33f58aa66c3298738d",
+      "size": 8933,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9b47503c4e64bed0aa8c8f33f58aa66c3298738d"
+    },
+    {
+      "path": "docs/source/examples/grocery-packing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eed889ae76b095fd34edc80ea7733d558f31548",
+      "size": 7427,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5eed889ae76b095fd34edc80ea7733d558f31548"
+    },
+    {
+      "path": "docs/source/examples/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c33b7a8d31f33e1c96cdb323f72bf3cb8d8368d",
+      "size": 3803,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9c33b7a8d31f33e1c96cdb323f72bf3cb8d8368d"
+    },
+    {
+      "path": "docs/source/examples/libero-quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e32613acdf3e81cebe32e3ba088ade0801d1274",
+      "size": 10965,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1e32613acdf3e81cebe32e3ba088ade0801d1274"
+    },
+    {
+      "path": "docs/source/examples/real-franka-pick-place.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35bd4f88fbd589995d551cddba0be85d4a832944",
+      "size": 8423,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/35bd4f88fbd589995d551cddba0be85d4a832944"
+    },
+    {
+      "path": "docs/source/examples/steered-policy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117c84b325ad39eca0953e2e93d56882a03451c4",
+      "size": 7254,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/117c84b325ad39eca0953e2e93d56882a03451c4"
+    },
+    {
+      "path": "docs/source/getting-started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa76590e6781a4477f66360452712fadded854e6",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/aa76590e6781a4477f66360452712fadded854e6"
+    },
+    {
+      "path": "docs/source/getting-started/concepts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5584f5a48c56dc629e3cd7c181cdc057c9328edd",
+      "size": 12388,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5584f5a48c56dc629e3cd7c181cdc057c9328edd"
+    },
+    {
+      "path": "docs/source/getting-started/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "404ca41a80ee6ba079e8df41dbbc445224972a4b",
+      "size": 9241,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/404ca41a80ee6ba079e8df41dbbc445224972a4b"
+    },
+    {
+      "path": "docs/source/getting-started/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d08fd4998cea06c543fe71bb4851ad3e2d544445",
+      "size": 15629,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d08fd4998cea06c543fe71bb4851ad3e2d544445"
+    },
+    {
+      "path": "docs/source/getting-started/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe298e463d161df3ab0a1e4626adb53e9799bc68",
+      "size": 8330,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/fe298e463d161df3ab0a1e4626adb53e9799bc68"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce74a8a31d4c2b591fe83e1319333c9a2e456670",
+      "size": 787,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ce74a8a31d4c2b591fe83e1319333c9a2e456670"
+    },
+    {
+      "path": "docs/source/real-robots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5e128547dc0e76c0b69606a87959290e7fb0b75",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/a5e128547dc0e76c0b69606a87959290e7fb0b75"
+    },
+    {
+      "path": "docs/source/real-robots/connectors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "740330df905a2f2236c1013d5141992119c3c2bc",
+      "size": 10649,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/740330df905a2f2236c1013d5141992119c3c2bc"
+    },
+    {
+      "path": "docs/source/real-robots/safety.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a262a796200ea9083619b98f0c7aa0c717b74b8a",
+      "size": 6584,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a262a796200ea9083619b98f0c7aa0c717b74b8a"
+    },
+    {
+      "path": "docs/source/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b303bfe446d9ab498c87ad7fc4043ca23ae87b5",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/9b303bfe446d9ab498c87ad7fc4043ca23ae87b5"
+    },
+    {
+      "path": "docs/source/reference/api.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61aabff58cc57e4196a6e4bccedfd02311099de0",
+      "size": 33073,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/61aabff58cc57e4196a6e4bccedfd02311099de0"
+    },
+    {
+      "path": "docs/source/reference/benchmark-config.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf68bf6773e41dfe9b3f8f21b45aa4b763e8d24",
+      "size": 16599,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ddf68bf6773e41dfe9b3f8f21b45aa4b763e8d24"
+    },
+    {
+      "path": "docs/source/reference/cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aff6825b80bb220d31a77cfedd5a7e028bf594a",
+      "size": 27931,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7aff6825b80bb220d31a77cfedd5a7e028bf594a"
+    },
+    {
+      "path": "docs/source/reference/connector-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b5320fe3beaae939967fe1b57cb4614fc48122",
+      "size": 10057,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a4b5320fe3beaae939967fe1b57cb4614fc48122"
+    },
+    {
+      "path": "docs/source/reference/environment-variables.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e87a162d73db5da8b13b1bceb192deb18f39c4a",
+      "size": 14405,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8e87a162d73db5da8b13b1bceb192deb18f39c4a"
+    },
+    {
+      "path": "docs/source/reference/executor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fdb792608d1efb34af01a58884392e6f7c908f8",
+      "size": 11972,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8fdb792608d1efb34af01a58884392e6f7c908f8"
+    },
+    {
+      "path": "docs/source/reference/faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a9cf17961a240b2b1df6175231c97e8616c7aed",
+      "size": 18557,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5a9cf17961a240b2b1df6175231c97e8616c7aed"
+    },
+    {
+      "path": "docs/source/reference/workflow-schema.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1078daddfc64030d955872b27e74320a63df66e7",
+      "size": 18144,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1078daddfc64030d955872b27e74320a63df66e7"
+    },
+    {
+      "path": "docs/source/running",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0037e895fd046d114d9d941a25ae0935d198bb04",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/0037e895fd046d114d9d941a25ae0935d198bb04"
+    },
+    {
+      "path": "docs/source/running/checkpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd73cc97fe9ae2558d197a86a6dd9d881d543c5c",
+      "size": 14109,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/fd73cc97fe9ae2558d197a86a6dd9d881d543c5c"
+    },
+    {
+      "path": "docs/source/running/environments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ef817803b9b5c1e9716cb115a19bc0f5eb2ab7b",
+      "size": 10797,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9ef817803b9b5c1e9716cb115a19bc0f5eb2ab7b"
+    },
+    {
+      "path": "docs/source/running/execution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7803151558c5c8f81652082231cb7363af61aca3",
+      "size": 11915,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7803151558c5c8f81652082231cb7363af61aca3"
+    },
+    {
+      "path": "docs/source/running/traces.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366461a1232d590a6c307ac4ae4ab37a120a4d8c",
+      "size": 10711,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/366461a1232d590a6c307ac4ae4ab37a120a4d8c"
+    },
+    {
+      "path": "docs/source/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8d8997229fd225cba72d5df29074f7111188dfa",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/f8d8997229fd225cba72d5df29074f7111188dfa"
+    },
+    {
+      "path": "docs/source/skills/authoring-bundles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4357e984eab8d9d7936d55f0b245b6b9ca4908",
+      "size": 20679,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5c4357e984eab8d9d7936d55f0b245b6b9ca4908"
+    },
+    {
+      "path": "docs/source/skills/registries.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0e6f89584c1b8bc62c289e948bda2d01f5e74f",
+      "size": 15836,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6f0e6f89584c1b8bc62c289e948bda2d01f5e74f"
+    },
+    {
+      "path": "docs/source/skills/skill-catalog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce39e84b099ba4b9180d60ca680413e87d0224db",
+      "size": 19531,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ce39e84b099ba4b9180d60ca680413e87d0224db"
+    },
+    {
+      "path": "docs/source/skills/testing-bundles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd80653b93475e3e4fd7012846240c2e9f94242a",
+      "size": 11467,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/fd80653b93475e3e4fd7012846240c2e9f94242a"
+    },
+    {
+      "path": "docs/source/skills/tool-catalog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e44689932bbb0be39da22490b741f11ba076ddb3",
+      "size": 22808,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e44689932bbb0be39da22490b741f11ba076ddb3"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11fac9980a7b2928398d384274b630fa4978d3a9",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/11fac9980a7b2928398d384274b630fa4978d3a9"
+    },
+    {
+      "path": "examples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c964f62f5e9bca04b5f79e4a1311ced049fa2e",
+      "size": 4280,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f1c964f62f5e9bca04b5f79e4a1311ced049fa2e"
+    },
+    {
+      "path": "examples/agent_quickstart",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "feb49198fcf5b5c175b7161662ca91b0f268b942",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/feb49198fcf5b5c175b7161662ca91b0f268b942"
+    },
+    {
+      "path": "examples/agent_quickstart/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52bd55f6581dc4781ae79d7f6319fdea1ef63153",
+      "size": 6516,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/52bd55f6581dc4781ae79d7f6319fdea1ef63153"
+    },
+    {
+      "path": "examples/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35f8cd00315274abc4c1b7a70ce038b427dfa0e6",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/35f8cd00315274abc4c1b7a70ce038b427dfa0e6"
+    },
+    {
+      "path": "examples/benchmark/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ee4023eb907814c34ffcde49d08c64c87a505b",
+      "size": 2170,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c2ee4023eb907814c34ffcde49d08c64c87a505b"
+    },
+    {
+      "path": "examples/benchmark/grocery_acceptance.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3765744e137c9022158dd699af124966e3464093",
+      "size": 5103,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3765744e137c9022158dd699af124966e3464093"
+    },
+    {
+      "path": "examples/benchmark/grocery_acceptance_smoke.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3549fb4ba078e09bc91a692ae5cde066c2b84096",
+      "size": 1371,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3549fb4ba078e09bc91a692ae5cde066c2b84096"
+    },
+    {
+      "path": "examples/benchmark/posvar.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48c86e11415b597d63800cf753253617659d73a",
+      "size": 2142,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f48c86e11415b597d63800cf753253617659d73a"
+    },
+    {
+      "path": "examples/benchmark/smoke.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329df7012f729628b947cf305229cbfba9f4458d",
+      "size": 994,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/329df7012f729628b947cf305229cbfba9f4458d"
+    },
+    {
+      "path": "examples/build_a_graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c319784f2726282fe2717b693ecf07bb7ea8d071",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/c319784f2726282fe2717b693ecf07bb7ea8d071"
+    },
+    {
+      "path": "examples/build_a_graph/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e9a4e89cf38a1475b9c3ed51145ba4c75f0f49",
+      "size": 5227,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/53e9a4e89cf38a1475b9c3ed51145ba4c75f0f49"
+    },
+    {
+      "path": "examples/build_a_graph/build_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31250798a82ce3122bb634aceb8c83b40846cf0d",
+      "size": 14812,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/31250798a82ce3122bb634aceb8c83b40846cf0d"
+    },
+    {
+      "path": "examples/cable_ur",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0ef89d1e4ed37e64c12e7b367bff97a33df5a11",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/c0ef89d1e4ed37e64c12e7b367bff97a33df5a11"
+    },
+    {
+      "path": "examples/cable_ur/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36b9e8e8e2770972c1db11b24c427bbba155f619",
+      "size": 6186,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/36b9e8e8e2770972c1db11b24c427bbba155f619"
+    },
+    {
+      "path": "examples/cable_ur/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e0540d20f4c10ad73a373defd51cc3172ac140e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/5e0540d20f4c10ad73a373defd51cc3172ac140e"
+    },
+    {
+      "path": "examples/cable_ur/graph/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1274ca3a84716115b7c637712aabccb5a783f717",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/1274ca3a84716115b7c637712aabccb5a783f717"
+    },
+    {
+      "path": "examples/cable_ur/graph/scripts/locate_white_tape",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/cable_ur/graph/scripts/locate_white_tape/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/cable_ur/graph/scripts/report_location.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5813c124b47b925d73b3aadec4b1de1c7a1b19a4",
+      "size": 7007,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5813c124b47b925d73b3aadec4b1de1c7a1b19a4"
+    },
+    {
+      "path": "examples/cable_ur/graph/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba398ae6a9512c741793a3b569e4d631c0125ad5",
+      "size": 2481,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ba398ae6a9512c741793a3b569e4d631c0125ad5"
+    },
+    {
+      "path": "examples/cable_ur/task.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa872ff7bcf2eb9bb990e4eabacb0dbeb66fdd6c",
+      "size": 605,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/fa872ff7bcf2eb9bb990e4eabacb0dbeb66fdd6c"
+    },
+    {
+      "path": "examples/cable_ur/visualize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d08d87891cb7ce9fab605703dc11281fdfd9dd",
+      "size": 13785,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/12d08d87891cb7ce9fab605703dc11281fdfd9dd"
+    },
+    {
+      "path": "examples/collect_and_train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da8cc6c991af8cae0251c0b53ed7336087b085e7",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/da8cc6c991af8cae0251c0b53ed7336087b085e7"
+    },
+    {
+      "path": "examples/collect_and_train/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0020e9eef2dc074130d4a66729b55c40e360425",
+      "size": 2683,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a0020e9eef2dc074130d4a66729b55c40e360425"
+    },
+    {
+      "path": "examples/collect_and_train/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b3c5192d3900e8f7f5ec95cc59d9aff4555b6a",
+      "size": 2361,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b2b3c5192d3900e8f7f5ec95cc59d9aff4555b6a"
+    },
+    {
+      "path": "examples/generate_a_graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da5bcbfc8d35a5563f757dd5890752a67ca7a324",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/da5bcbfc8d35a5563f757dd5890752a67ca7a324"
+    },
+    {
+      "path": "examples/generate_a_graph/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6a87668541bf80daeff5a04d9646b6a39bf22f",
+      "size": 7176,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9c6a87668541bf80daeff5a04d9646b6a39bf22f"
+    },
+    {
+      "path": "examples/generate_a_graph/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8acb98aec2cba9d2e8549c1694eb0f92e6fb5ba",
+      "size": 2376,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c8acb98aec2cba9d2e8549c1694eb0f92e6fb5ba"
+    },
+    {
+      "path": "examples/grocery_fulfillment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea738aab45d6961799e2dfa688fbf8e1132bfb03",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/ea738aab45d6961799e2dfa688fbf8e1132bfb03"
+    },
+    {
+      "path": "examples/grocery_fulfillment/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613ce6f09bdff0b4dc0421124bee09946b324c31",
+      "size": 4588,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/613ce6f09bdff0b4dc0421124bee09946b324c31"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5c396f7bd2ad4cc767df671c951d08c886932ce",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/f5c396f7bd2ad4cc767df671c951d08c886932ce"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86c1c7e76a82adff7ea5b8cfc8404b1ed623d501",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/86c1c7e76a82adff7ea5b8cfc8404b1ed623d501"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/checkpoints/container_sg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c72056bbb5c79e30d40fd9496b3c03e84049b1",
+      "size": 1884,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/36c72056bbb5c79e30d40fd9496b3c03e84049b1"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/checkpoints/grasp_sg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13d8bae9c83e581e8aeaac2844d1e9fae09c9d9",
+      "size": 2447,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b13d8bae9c83e581e8aeaac2844d1e9fae09c9d9"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/checkpoints/target_sg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0e4a29248803718866844464ef986f64f783b3c",
+      "size": 2015,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f0e4a29248803718866844464ef986f64f783b3c"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/checkpoints/transport_sg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a2873effb995c6c8d591a662d977916ca53451",
+      "size": 2749,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/29a2873effb995c6c8d591a662d977916ca53451"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19d13acbafc578291ac28f1e1b97c6589f2ae96d",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/19d13acbafc578291ac28f1e1b97c6589f2ae96d"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/compute_drop_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b16fc8cd00ffda3e0119107fb8cbc781be2b4b",
+      "size": 9252,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/81b16fc8cd00ffda3e0119107fb8cbc781be2b4b"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/descend_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e699f26749a5cedb9b1233b22aca11e3ca2cbcb4",
+      "size": 2350,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e699f26749a5cedb9b1233b22aca11e3ca2cbcb4"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/grasp_sg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e7b991ba697d6c3ff3dc3c02614186d30e03125",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8e7b991ba697d6c3ff3dc3c02614186d30e03125"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/grasp_sg/grasp_descend_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfe28db0cf3890b7a6c26acc4109b43cdbaecb0f",
+      "size": 7497,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cfe28db0cf3890b7a6c26acc4109b43cdbaecb0f"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c180441a1b49da2df7212d3143a8a6fffec06dfb",
+      "size": 25712,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c180441a1b49da2df7212d3143a8a6fffec06dfb"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/scripts/waypoint_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea275c5c8d033eb7adc9559a22c26476d0bf653d",
+      "size": 3358,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ea275c5c8d033eb7adc9559a22c26476d0bf653d"
+    },
+    {
+      "path": "examples/grocery_fulfillment/sample_generated_graph/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c0d8d0438dbd2f63c659782285865cfbc4a5d53",
+      "size": 7025,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5c0d8d0438dbd2f63c659782285865cfbc4a5d53"
+    },
+    {
+      "path": "examples/grocery_packing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13b9010f81a528ddb33104850f4430c7656fa50e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/13b9010f81a528ddb33104850f4430c7656fa50e"
+    },
+    {
+      "path": "examples/grocery_packing/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a6138e70dfa291be240127e8c5d96b82140b4b",
+      "size": 9137,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/73a6138e70dfa291be240127e8c5d96b82140b4b"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "384660bd6f580bd67b44fac9b8bf5b0eb21f0c70",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/384660bd6f580bd67b44fac9b8bf5b0eb21f0c70"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "751a464128e1c4018c2e2e632b2bf0f83745d6ac",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/751a464128e1c4018c2e2e632b2bf0f83745d6ac"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/exterior_view.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499dfa4f14b99d61b3ad4cbebf02067fcadfb8af",
+      "size": 771,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/499dfa4f14b99d61b3ad4cbebf02067fcadfb8af"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/grasp_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a3965f34dc3e182eeb738e4b0777b44579ff18",
+      "size": 12222,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b3a3965f34dc3e182eeb738e4b0777b44579ff18"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d14c00d86c3bb699577cad8eddf5501c12575f",
+      "size": 27034,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f5d14c00d86c3bb699577cad8eddf5501c12575f"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/place_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f49f74002de1a2309d86668643d5225e5d26587",
+      "size": 1164,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6f49f74002de1a2309d86668643d5225e5d26587"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/route_next_object.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7926f9f4b096fa0eec65bbdfc30aa2f9713029",
+      "size": 8117,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2e7926f9f4b096fa0eec65bbdfc30aa2f9713029"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/scripts/transport_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97d84bccef4258ba0d97d196462052b8845c8b94",
+      "size": 4468,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/97d84bccef4258ba0d97d196462052b8845c8b94"
+    },
+    {
+      "path": "examples/grocery_packing/packing_graph/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae57574c2570c42515e18ada70f83551c9c3fe1",
+      "size": 8654,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0ae57574c2570c42515e18ada70f83551c9c3fe1"
+    },
+    {
+      "path": "examples/libero_quickstart",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f01379a016d16d027eec0fcc6caa2a52dfe9507c",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/f01379a016d16d027eec0fcc6caa2a52dfe9507c"
+    },
+    {
+      "path": "examples/libero_quickstart/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e43eaa5d827ffb0c5e51a454245256d09c6812",
+      "size": 6683,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e0e43eaa5d827ffb0c5e51a454245256d09c6812"
+    },
+    {
+      "path": "examples/libero_quickstart/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11349b0defd7b2b93209b22262f60539547d21f8",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/11349b0defd7b2b93209b22262f60539547d21f8"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92b4a4fc10ec26e1111d92744cc684f8df8a05a2",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/92b4a4fc10ec26e1111d92744cc684f8df8a05a2"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/checkpoints/grasp_sg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7783222e86d008e032b3ab0e27574278b33345e4",
+      "size": 1426,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7783222e86d008e032b3ab0e27574278b33345e4"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8922ce758dea3b4e03f363671f64e9fe26e60b2e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8922ce758dea3b4e03f363671f64e9fe26e60b2e"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/container",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/container/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/grasp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f507751e01dd188d388bf13fe0f1b0f8a0f51444",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/f507751e01dd188d388bf13fe0f1b0f8a0f51444"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/grasp/compute_align_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b757a81d2513691a98acfc31ea301033e08c6ec8",
+      "size": 1069,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b757a81d2513691a98acfc31ea301033e08c6ec8"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/grasp/move_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fd5ce069336e67dce7e0615b5baa1a55b961c3",
+      "size": 1080,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f6fd5ce069336e67dce7e0615b5baa1a55b961c3"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/target/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/transport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d97eb9279730d68bfda7eb7afdc9b28a7920b6a",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8d97eb9279730d68bfda7eb7afdc9b28a7920b6a"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/transport/compute_drop_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "782aa90ddd75372e62a39accfa0ea43c1ba1ebe5",
+      "size": 10150,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/782aa90ddd75372e62a39accfa0ea43c1ba1ebe5"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/transport/descend_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d49953b9a5a1f4e41ffc88bda7bed28939989d35",
+      "size": 2840,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d49953b9a5a1f4e41ffc88bda7bed28939989d35"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/scripts/transport/waypoint_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea275c5c8d033eb7adc9559a22c26476d0bf653d",
+      "size": 3358,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ea275c5c8d033eb7adc9559a22c26476d0bf653d"
+    },
+    {
+      "path": "examples/libero_quickstart/graph/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca60748de53fb6060591d0c5305b1fdb2684e6d5",
+      "size": 6705,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ca60748de53fb6060591d0c5305b1fdb2684e6d5"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95a1ed634b6c2d2f84c30922e13e8be478d1d942",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/95a1ed634b6c2d2f84c30922e13e8be478d1d942"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2da491a005e5fe2dab127f810746a555fdd085af",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/2da491a005e5fe2dab127f810746a555fdd085af"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/container",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/container/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/grasp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efe2d014477a4a50a41a5b70d43e3329d0978cc1",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/efe2d014477a4a50a41a5b70d43e3329d0978cc1"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/grasp/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24d5dc0747d95958e07517157b208a99a57d00f",
+      "size": 2467,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c24d5dc0747d95958e07517157b208a99a57d00f"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/grasp/build_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ab24db49597591793bf58ffeb11fdb8981673a",
+      "size": 2241,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/44ab24db49597591793bf58ffeb11fdb8981673a"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/grasp/plan_grasp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f568afe0e16ea167690bcd5802e5107c1a5e5d8",
+      "size": 5549,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1f568afe0e16ea167690bcd5802e5107c1a5e5d8"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/target/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/transport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d97eb9279730d68bfda7eb7afdc9b28a7920b6a",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8d97eb9279730d68bfda7eb7afdc9b28a7920b6a"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/transport/compute_drop_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "782aa90ddd75372e62a39accfa0ea43c1ba1ebe5",
+      "size": 10150,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/782aa90ddd75372e62a39accfa0ea43c1ba1ebe5"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/transport/descend_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d49953b9a5a1f4e41ffc88bda7bed28939989d35",
+      "size": 2840,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d49953b9a5a1f4e41ffc88bda7bed28939989d35"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/scripts/transport/waypoint_move.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea275c5c8d033eb7adc9559a22c26476d0bf653d",
+      "size": 3358,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ea275c5c8d033eb7adc9559a22c26476d0bf653d"
+    },
+    {
+      "path": "examples/libero_quickstart/graph_planner/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e054efe6a2e21ac2e5ba6e7e2664383df2ae3dc",
+      "size": 7585,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7e054efe6a2e21ac2e5ba6e7e2664383df2ae3dc"
+    },
+    {
+      "path": "examples/real_franka_pick_place",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e45584345d918a5b70460b70226a43335afa0f8",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/9e45584345d918a5b70460b70226a43335afa0f8"
+    },
+    {
+      "path": "examples/real_franka_pick_place/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ba6891384a6ea5fc96dcbb4803e066dba9f570",
+      "size": 5058,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b3ba6891384a6ea5fc96dcbb4803e066dba9f570"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b53be71f7c9d79e66cd36014e523c7016b6c92f",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/1b53be71f7c9d79e66cd36014e523c7016b6c92f"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "849e56a561474530496157740dfd6f40799ff83e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/849e56a561474530496157740dfd6f40799ff83e"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/grasp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b7803e4372a66295fb772b970853ffd524ac377",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/5b7803e4372a66295fb772b970853ffd524ac377"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/grasp/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24d5dc0747d95958e07517157b208a99a57d00f",
+      "size": 2467,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c24d5dc0747d95958e07517157b208a99a57d00f"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/grasp/compute_align_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5210b7f33459c1fab99b563f188654843345174",
+      "size": 770,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e5210b7f33459c1fab99b563f188654843345174"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/perceive_container",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/perceive_container/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/perceive_target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7606c2e32d3cbdf0e0da1ed2d33f602402166f17",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7606c2e32d3cbdf0e0da1ed2d33f602402166f17"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/perceive_target/perceive_dino_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443caaa2f05568f7e91b836956fc019d2c16e4de",
+      "size": 42463,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/443caaa2f05568f7e91b836956fc019d2c16e4de"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/transport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "623f8e8874dc30a0f3701bb084be343d3c2d7738",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/623f8e8874dc30a0f3701bb084be343d3c2d7738"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/transport/approach_above.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24d5dc0747d95958e07517157b208a99a57d00f",
+      "size": 2467,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c24d5dc0747d95958e07517157b208a99a57d00f"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/transport/compute_drop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a2d8ae2ef721f5e7dac85fd9a5ca09f5657d11",
+      "size": 1063,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/61a2d8ae2ef721f5e7dac85fd9a5ca09f5657d11"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "028bcbcdd82c9e5315a1ce3706799dab8fee740c",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/028bcbcdd82c9e5315a1ce3706799dab8fee740c"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/scripts/verify/check_placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8aed5c17900b9ad8827b85c221a30e4a1da7825",
+      "size": 1331,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a8aed5c17900b9ad8827b85c221a30e4a1da7825"
+    },
+    {
+      "path": "examples/real_franka_pick_place/graph/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9e8fc3f78e11b5226b88bbddcdeb347cbf5102",
+      "size": 7632,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8d9e8fc3f78e11b5226b88bbddcdeb347cbf5102"
+    },
+    {
+      "path": "examples/real_franka_pick_place/task.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2e4d9145d248f004ede02662fb0eea00ad0d36",
+      "size": 864,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ed2e4d9145d248f004ede02662fb0eea00ad0d36"
+    },
+    {
+      "path": "examples/steered_policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f09437b01512ff2e8549499d9920bec0a72a4d39",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/f09437b01512ff2e8549499d9920bec0a72a4d39"
+    },
+    {
+      "path": "examples/steered_policy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4fc582db97864f10d7cd88eda483802d155dab",
+      "size": 3108,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/db4fc582db97864f10d7cd88eda483802d155dab"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e0a6d8e573be45c178fa8771fc19d2a4e33272b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7e0a6d8e573be45c178fa8771fc19d2a4e33272b"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef857331644982176e571390a6d2ab241566d57d",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/ef857331644982176e571390a6d2ab241566d57d"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/approach",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fab13b2923d53e66849e7589f13ef8a9ecfc463b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/fab13b2923d53e66849e7589f13ef8a9ecfc463b"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/approach/approach_above_target.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389dc311139f9436855cdeab69c478e93cba52a0",
+      "size": 3166,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/389dc311139f9436855cdeab69c478e93cba52a0"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/place",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebdfd3113ec9b348f51b31c963e6367b769861dd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/ebdfd3113ec9b348f51b31c963e6367b769861dd"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/place/place_above_basket.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b3fba5686da3018c8f7e6edcc2bb360ca7d262",
+      "size": 2567,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/85b3fba5686da3018c8f7e6edcc2bb360ca7d262"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68b799a0513ea2d5d7fea09598faf9c28dc984e7",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/68b799a0513ea2d5d7fea09598faf9c28dc984e7"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/scripts/target/perceive_simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "761b385abbbe48931feee69cad08b4bbad70dd31",
+      "size": 8662,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/761b385abbbe48931feee69cad08b4bbad70dd31"
+    },
+    {
+      "path": "examples/steered_policy/graph_grasp/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b00481d08141326874714925ef44351a6c0f957",
+      "size": 10620,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2b00481d08141326874714925ef44351a6c0f957"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67de0a039b01e5bf98b450a3e7a1c3e6c3acfac",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/b67de0a039b01e5bf98b450a3e7a1c3e6c3acfac"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce75ae90418a25a8db00e7a10b06592b8a2c5796",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/ce75ae90418a25a8db00e7a10b06592b8a2c5796"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/scripts/approach",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fab13b2923d53e66849e7589f13ef8a9ecfc463b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/fab13b2923d53e66849e7589f13ef8a9ecfc463b"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/scripts/approach/approach_above_target.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389dc311139f9436855cdeab69c478e93cba52a0",
+      "size": 3166,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/389dc311139f9436855cdeab69c478e93cba52a0"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/scripts/target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68b799a0513ea2d5d7fea09598faf9c28dc984e7",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/68b799a0513ea2d5d7fea09598faf9c28dc984e7"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/scripts/target/perceive_simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "761b385abbbe48931feee69cad08b4bbad70dd31",
+      "size": 8662,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/761b385abbbe48931feee69cad08b4bbad70dd31"
+    },
+    {
+      "path": "examples/steered_policy/graph_loop/workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eeec784b285079e34c668ccbc73c2b4aaed0d8e",
+      "size": 7955,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0eeec784b285079e34c668ccbc73c2b4aaed0d8e"
+    },
+    {
+      "path": "examples/zero_shot_prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe863e3cbcda3d659cdb2997cf1079e244c93f9e",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/fe863e3cbcda3d659cdb2997cf1079e244c93f9e"
+    },
+    {
+      "path": "examples/zero_shot_prompts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f526570666d48e460ffcb6543e8342385d357b04",
+      "size": 10824,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f526570666d48e460ffcb6543e8342385d357b04"
+    },
+    {
+      "path": "examples/zero_shot_prompts/cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0794635d06671b0f31871b8af36ad9bf1b5e55e0",
+      "size": 12675,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0794635d06671b0f31871b8af36ad9bf1b5e55e0"
+    },
+    {
+      "path": "examples/zero_shot_prompts/criteria.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd80842b2ba0b2d477f376e0a7415d7b5b3e5f06",
+      "size": 36680,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bd80842b2ba0b2d477f376e0a7415d7b5b3e5f06"
+    },
+    {
+      "path": "examples/zero_shot_prompts/run_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c08914ed1124bf895d9258ce845d1cc2e38c76",
+      "size": 9521,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/53c08914ed1124bf895d9258ce845d1cc2e38c76"
+    },
+    {
+      "path": "examples/zero_shot_prompts/run_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f5ff13d58b9ddd66f3763b98d51435153db2c2",
+      "size": 17438,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/95f5ff13d58b9ddd66f3763b98d51435153db2c2"
+    },
+    {
+      "path": "examples/zero_shot_prompts/selftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acbb44e2a8280560b6bc2589ade8e2836a23640",
+      "size": 20738,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7acbb44e2a8280560b6bc2589ade8e2836a23640"
+    },
+    {
+      "path": "examples/zero_shot_prompts/state_log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a0eb04f6ff717ed253f7f45f90ed83410e56bc5",
+      "size": 8381,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5a0eb04f6ff717ed253f7f45f90ed83410e56bc5"
+    },
+    {
+      "path": "gap-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4052accc1f9c5d8503e399bb21257006f9c2a75b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/4052accc1f9c5d8503e399bb21257006f9c2a75b"
+    },
+    {
+      "path": "gap-core/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f6b978439549e91d57279d56cbecfc212b2a74",
+      "size": 1631,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/34f6b978439549e91d57279d56cbecfc212b2a74"
+    },
+    {
+      "path": "gap-core/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ab5e1855f86b8e178001743f7b6d0094970149",
+      "size": 1773,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d5ab5e1855f86b8e178001743f7b6d0094970149"
+    },
+    {
+      "path": "gap-core/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22c3c851e3a21c1d89e391f81d598973344a6ebb",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/22c3c851e3a21c1d89e391f81d598973344a6ebb"
+    },
+    {
+      "path": "gap-core/src/gap_core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "715dc266c18040db99004be3f61858ea135c5672",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/715dc266c18040db99004be3f61858ea135c5672"
+    },
+    {
+      "path": "gap-core/src/gap_core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff4d91c93b2395a5a4fa662dd398d907553e5c13",
+      "size": 228,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ff4d91c93b2395a5a4fa662dd398d907553e5c13"
+    },
+    {
+      "path": "gap-core/src/gap_core/errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afedf2adabaacdf9afc8a13f5659a1dafea12c0",
+      "size": 5478,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9afedf2adabaacdf9afc8a13f5659a1dafea12c0"
+    },
+    {
+      "path": "gap-core/src/gap_core/rpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6b4cf82bbcb29b393f8c93945c3c3cc8caa5e9d",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/d6b4cf82bbcb29b393f8c93945c3c3cc8caa5e9d"
+    },
+    {
+      "path": "gap-core/src/gap_core/rpc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab77936055926792d285a96aad548d0265ba37a",
+      "size": 612,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/aab77936055926792d285a96aad548d0265ba37a"
+    },
+    {
+      "path": "gap-core/src/gap_core/rpc/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e6b0efc1f2c2f04ea469735be6cbf2c828501a",
+      "size": 12799,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/57e6b0efc1f2c2f04ea469735be6cbf2c828501a"
+    },
+    {
+      "path": "gap-core/src/gap_core/rpc/codec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d4c56afa0932d5e3cfbd78097d1ec34330f9fe",
+      "size": 3094,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/25d4c56afa0932d5e3cfbd78097d1ec34330f9fe"
+    },
+    {
+      "path": "gap-core/src/gap_core/rpc/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3cb9d43521d4ca0e5bea9123d988e63f492bd7",
+      "size": 10093,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cf3cb9d43521d4ca0e5bea9123d988e63f492bd7"
+    },
+    {
+      "path": "gap-core/src/gap_core/schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d9345c6685ff48cee2b1bb9b9b8a5627f7e529",
+      "size": 3331,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/92d9345c6685ff48cee2b1bb9b9b8a5627f7e529"
+    },
+    {
+      "path": "gap-core/src/gap_core/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f34b70f11c9aa33e30e8dd574cac37a33eb5138",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8f34b70f11c9aa33e30e8dd574cac37a33eb5138"
+    },
+    {
+      "path": "gap-core/src/gap_core/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4aa0124499808d1000a44fd60fc1ac4f7ae7f26",
+      "size": 688,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d4aa0124499808d1000a44fd60fc1ac4f7ae7f26"
+    },
+    {
+      "path": "gap-core/src/gap_core/skills/meta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4663aaa2a412839ff9d218f276d3bdedbaeefa",
+      "size": 11336,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/df4663aaa2a412839ff9d218f276d3bdedbaeefa"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6c612359dd8550bc00f6b92c436f8ed79b43cfe",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/d6c612359dd8550bc00f6b92c436f8ed79b43cfe"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "480fb131ec41de5c9b75bcdc85d3bacc0c51a40a",
+      "size": 1313,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/480fb131ec41de5c9b75bcdc85d3bacc0c51a40a"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools/_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d92d14fd621bb7d199e42f29b0116c7b81a843c",
+      "size": 22683,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5d92d14fd621bb7d199e42f29b0116c7b81a843c"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools/guards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f583415e1d2afb7b2267039d3eb0f03aa6fb6c",
+      "size": 3991,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/45f583415e1d2afb7b2267039d3eb0f03aa6fb6c"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools/ray_executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "783c1210ea87c7334030501145b77ede5260b624",
+      "size": 8668,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/783c1210ea87c7334030501145b77ede5260b624"
+    },
+    {
+      "path": "gap-core/src/gap_core/tools/schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b960c8cafdb8faf89b2a1b97b4da8ba99dea1023",
+      "size": 5237,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b960c8cafdb8faf89b2a1b97b4da8ba99dea1023"
+    },
+    {
+      "path": "gap-core/src/gap_core/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f98b9820d3b298ca8d251038fd6593764b06ad",
+      "size": 6656,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/35f98b9820d3b298ca8d251038fd6593764b06ad"
+    },
+    {
+      "path": "gap-core/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e0f65e4e62e8aee585d9b804acae0b5d6ceb975",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/9e0f65e4e62e8aee585d9b804acae0b5d6ceb975"
+    },
+    {
+      "path": "gap-core/tests/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "gap-core/tests/test_rpc_codec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d703ec51e93f83767221555d3ea05e867c74f6",
+      "size": 4221,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/29d703ec51e93f83767221555d3ea05e867c74f6"
+    },
+    {
+      "path": "gap-core/tests/test_rpc_roundtrip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3089aba806cdd59748e4a57e475acaff2da4a06b",
+      "size": 9306,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3089aba806cdd59748e4a57e475acaff2da4a06b"
+    },
+    {
+      "path": "gap-core/tests/test_surface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "501324b49631d2024bcb8c2cd12ce2a48d0f1d83",
+      "size": 3451,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/501324b49631d2024bcb8c2cd12ce2a48d0f1d83"
+    },
+    {
+      "path": "gap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0006adb70090fd735acec69a5e589f413247d034",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/0006adb70090fd735acec69a5e589f413247d034"
+    },
+    {
+      "path": "gap/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6e6e6c76e13ec474746092b8f7388c40168eac",
+      "size": 1697,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8a6e6e6c76e13ec474746092b8f7388c40168eac"
+    },
+    {
+      "path": "gap/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3cb8324d95b05c8e1763b9b485cf7e7253635e4c",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/3cb8324d95b05c8e1763b9b485cf7e7253635e4c"
+    },
+    {
+      "path": "gap/agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3aeb612abd3ec31ac12902d84eee8ad8b57456b",
+      "size": 5635,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b3aeb612abd3ec31ac12902d84eee8ad8b57456b"
+    },
+    {
+      "path": "gap/agent/_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e3286dace45bb791d765e54f9cf2a9a0b2fbb3",
+      "size": 12863,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/02e3286dace45bb791d765e54f9cf2a9a0b2fbb3"
+    },
+    {
+      "path": "gap/agent/_meta_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fd9917768b5dffd95a9f227d007e7530c5bc49",
+      "size": 5916,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/67fd9917768b5dffd95a9f227d007e7530c5bc49"
+    },
+    {
+      "path": "gap/agent/_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e98651dcbb78f1e6d23df1ff8c5e7c134a879d3a",
+      "size": 5089,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e98651dcbb78f1e6d23df1ff8c5e7c134a879d3a"
+    },
+    {
+      "path": "gap/agent/codegen_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbd97425479262f55b6b8a6c222b14f60a52eb6",
+      "size": 2204,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3cbd97425479262f55b6b8a6c222b14f60a52eb6"
+    },
+    {
+      "path": "gap/agent/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7558ee6b7d266e68cddd8d05fb3fb6c9c5582037",
+      "size": 12181,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7558ee6b7d266e68cddd8d05fb3fb6c9c5582037"
+    },
+    {
+      "path": "gap/agent/launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac472d1df519254e0dcd147dfea54aa4e2b7fdea",
+      "size": 34826,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ac472d1df519254e0dcd147dfea54aa4e2b7fdea"
+    },
+    {
+      "path": "gap/agent/llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4b0f86d2ba0951abd569617ad86267515cd1a2",
+      "size": 25881,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/eb4b0f86d2ba0951abd569617ad86267515cd1a2"
+    },
+    {
+      "path": "gap/agent/multi_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6556233a94d2dc60b0217e0234cfaad79ad0d646",
+      "size": 22702,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6556233a94d2dc60b0217e0234cfaad79ad0d646"
+    },
+    {
+      "path": "gap/agent/parallel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3793c7c380a2ea6e4ebb907a8c04bbca37dabf7",
+      "size": 51876,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b3793c7c380a2ea6e4ebb907a8c04bbca37dabf7"
+    },
+    {
+      "path": "gap/agent/prompt_assembler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a650e1f4e0fc5856606d54f85eb308c7aefd045",
+      "size": 37872,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1a650e1f4e0fc5856606d54f85eb308c7aefd045"
+    },
+    {
+      "path": "gap/agent/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d47268eaeb61f116a262388cb94e38c2cd0eb1e9",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/d47268eaeb61f116a262388cb94e38c2cd0eb1e9"
+    },
+    {
+      "path": "gap/agent/prompts/_checkpoints_api.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4b692418ef310b98058c2100f70fd6d3a05bc9",
+      "size": 10632,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4b4b692418ef310b98058c2100f70fd6d3a05bc9"
+    },
+    {
+      "path": "gap/agent/prompts/_script_contract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35562ac2cd69984a333456c111ad08efac410399",
+      "size": 2615,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/35562ac2cd69984a333456c111ad08efac410399"
+    },
+    {
+      "path": "gap/agent/prompts/_workflow_spec.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f3ae06a20dab82f8df81afc07a3c3135d4723d",
+      "size": 9110,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e5f3ae06a20dab82f8df81afc07a3c3135d4723d"
+    },
+    {
+      "path": "gap/agent/prompts/checkpoint_agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7579dfb402e09383f4b7a5ad4fefa2467a4a52b7",
+      "size": 13714,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7579dfb402e09383f4b7a5ad4fefa2467a4a52b7"
+    },
+    {
+      "path": "gap/agent/prompts/coder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f9f05e474ed6c12b916cb9209b56fda44217ac",
+      "size": 2529,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f1f9f05e474ed6c12b916cb9209b56fda44217ac"
+    },
+    {
+      "path": "gap/agent/prompts/coordinator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7af3a48c658515ffe6448e42fff8eec329ce80",
+      "size": 17336,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2f7af3a48c658515ffe6448e42fff8eec329ce80"
+    },
+    {
+      "path": "gap/agent/prompts/subgraph_agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89ab8add6362a4c00aafad466158c37947c72b9c",
+      "size": 14347,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/89ab8add6362a4c00aafad466158c37947c72b9c"
+    },
+    {
+      "path": "gap/agent/subgraph_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da37ce604a9cf27595f0f973485a8b685d6f232",
+      "size": 62094,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3da37ce604a9cf27595f0f973485a8b685d6f232"
+    },
+    {
+      "path": "gap/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb97460629baa39eae56dc5c59f207e013029d5f",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/cb97460629baa39eae56dc5c59f207e013029d5f"
+    },
+    {
+      "path": "gap/benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7edd9caa5a3b0ed3fc889acdb957247f50fadce",
+      "size": 2955,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a7edd9caa5a3b0ed3fc889acdb957247f50fadce"
+    },
+    {
+      "path": "gap/benchmark/builtin_modes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c5ae3b8527202b66462f2c829ea8dcd0c62df4",
+      "size": 3719,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/69c5ae3b8527202b66462f2c829ea8dcd0c62df4"
+    },
+    {
+      "path": "gap/benchmark/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d0385ae745c2ed8767951eb57fdf9706412b48",
+      "size": 11832,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d1d0385ae745c2ed8767951eb57fdf9706412b48"
+    },
+    {
+      "path": "gap/benchmark/eval_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14a659b702e64da018417572f73c657ca9d176e",
+      "size": 3114,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f14a659b702e64da018417572f73c657ca9d176e"
+    },
+    {
+      "path": "gap/benchmark/harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ec0f6dfc5c956e0895a119f406d285581dc0b6",
+      "size": 20749,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/78ec0f6dfc5c956e0895a119f406d285581dc0b6"
+    },
+    {
+      "path": "gap/benchmark/modes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b858368629864e56cf0f0730e72534dc353690a3",
+      "size": 4643,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b858368629864e56cf0f0730e72534dc353690a3"
+    },
+    {
+      "path": "gap/benchmark/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6604b53c25262942d1ab6ea8c5d06fe477da4964",
+      "size": 12526,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6604b53c25262942d1ab6ea8c5d06fe477da4964"
+    },
+    {
+      "path": "gap/benchmark/workflow_materialize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a215170f46048d1c2dac2f6de9b1beaf859f9124",
+      "size": 4352,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a215170f46048d1c2dac2f6de9b1beaf859f9124"
+    },
+    {
+      "path": "gap/builder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0311502aded609187cccd4e86c75e5670795e48",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/e0311502aded609187cccd4e86c75e5670795e48"
+    },
+    {
+      "path": "gap/builder/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de13b2ffeea867551aea9dbd3798f3b9f8508f1d",
+      "size": 795,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/de13b2ffeea867551aea9dbd3798f3b9f8508f1d"
+    },
+    {
+      "path": "gap/builder/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe8eee85f367e52d65acf1158c1d7c126d1ff6f",
+      "size": 37077,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5fe8eee85f367e52d65acf1158c1d7c126d1ff6f"
+    },
+    {
+      "path": "gap/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7b7650d7acea6d1adce930b802cebf704bf91d4",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/c7b7650d7acea6d1adce930b802cebf704bf91d4"
+    },
+    {
+      "path": "gap/cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16e2dccdf089e5b80b591dff2ba65629df62280b",
+      "size": 1898,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/16e2dccdf089e5b80b591dff2ba65629df62280b"
+    },
+    {
+      "path": "gap/cli/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f059c9ba69542be17e7fe0b00551cb7a0714374",
+      "size": 3479,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0f059c9ba69542be17e7fe0b00551cb7a0714374"
+    },
+    {
+      "path": "gap/cli/check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d31b352efdc95e00d88c3861261779332f81a41",
+      "size": 7820,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4d31b352efdc95e00d88c3861261779332f81a41"
+    },
+    {
+      "path": "gap/cli/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6625d8b6ed351923f1f916e2d2e1bc3683993523",
+      "size": 4163,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6625d8b6ed351923f1f916e2d2e1bc3683993523"
+    },
+    {
+      "path": "gap/cli/policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ecb937bda73c183a5fdb673b83a7297e2068ee",
+      "size": 6640,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a8ecb937bda73c183a5fdb673b83a7297e2068ee"
+    },
+    {
+      "path": "gap/cli/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497367379ecd17c0b3479eb0323e32fe810942bd",
+      "size": 17073,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/497367379ecd17c0b3479eb0323e32fe810942bd"
+    },
+    {
+      "path": "gap/cli/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2c6066bb9a4094469be1fb3396ddb420b8a7792",
+      "size": 9467,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d2c6066bb9a4094469be1fb3396ddb420b8a7792"
+    },
+    {
+      "path": "gap/cli/skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4276f75a071c02d1c336c67c4a6983566c597f90",
+      "size": 32633,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4276f75a071c02d1c336c67c4a6983566c597f90"
+    },
+    {
+      "path": "gap/cli/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "649b2380965f4b413f01e11248b3dcd865312ea6",
+      "size": 12943,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/649b2380965f4b413f01e11248b3dcd865312ea6"
+    },
+    {
+      "path": "gap/cli/trace_diff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d908f917f09694c23ec77ec38040cf83ba59271f",
+      "size": 2041,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d908f917f09694c23ec77ec38040cf83ba59271f"
+    },
+    {
+      "path": "gap/cli/viz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39cda07b8633558f77e98a45201cd0e1011f7654",
+      "size": 2509,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/39cda07b8633558f77e98a45201cd0e1011f7654"
+    },
+    {
+      "path": "gap/connector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "356db87225aca22b59842dcb6e2d47fe7384e786",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/356db87225aca22b59842dcb6e2d47fe7384e786"
+    },
+    {
+      "path": "gap/connector/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fdf81353962a21246449ab91cf373e9877f843e",
+      "size": 892,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2fdf81353962a21246449ab91cf373e9877f843e"
+    },
+    {
+      "path": "gap/connector/_ik_jax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c225f96276f1a8b01f633e8823a851c86def7c",
+      "size": 4974,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/60c225f96276f1a8b01f633e8823a851c86def7c"
+    },
+    {
+      "path": "gap/connector/collector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87574500570686c68acc5cbdf42feed81ef4b02",
+      "size": 6582,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c87574500570686c68acc5cbdf42feed81ef4b02"
+    },
+    {
+      "path": "gap/connector/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ef3e29e9888db0bb78a74458cc150e43add46d3",
+      "size": 47450,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6ef3e29e9888db0bb78a74458cc150e43add46d3"
+    },
+    {
+      "path": "gap/connector/ik.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d96909d0fae090e6c7dbc127b38429bb0fa1e7",
+      "size": 40765,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e5d96909d0fae090e6c7dbc127b38429bb0fa1e7"
+    },
+    {
+      "path": "gap/connector/real.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8097a59be76bbd5c2c635bfaec4b153997ce7045",
+      "size": 11539,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8097a59be76bbd5c2c635bfaec4b153997ce7045"
+    },
+    {
+      "path": "gap/connector/rr_launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e796fefbe768f3d04210538a44bea1223a8fa1",
+      "size": 5916,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d8e796fefbe768f3d04210538a44bea1223a8fa1"
+    },
+    {
+      "path": "gap/connector/sim.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f6a105f96140e7603e4ecd16b800102ffeab96a",
+      "size": 14909,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8f6a105f96140e7603e4ecd16b800102ffeab96a"
+    },
+    {
+      "path": "gap/connector/world_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12511ac3e490aafc2d0dff6e4e1fe5eea2ae121",
+      "size": 19862,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f12511ac3e490aafc2d0dff6e4e1fe5eea2ae121"
+    },
+    {
+      "path": "gap/env_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12946637fdba7dcd9050e84a38f0477d74afa1c2",
+      "size": 6084,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/12946637fdba7dcd9050e84a38f0477d74afa1c2"
+    },
+    {
+      "path": "gap/envs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b259413dc958778061c16a7fac9373f951c5085",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/2b259413dc958778061c16a7fac9373f951c5085"
+    },
+    {
+      "path": "gap/envs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af97837f67df43e65e4d3465c9a11959af551ce7",
+      "size": 1789,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/af97837f67df43e65e4d3465c9a11959af551ce7"
+    },
+    {
+      "path": "gap/envs/base_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6208ba8b6531c36480745b75c7277b724cac7b",
+      "size": 1885,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0d6208ba8b6531c36480745b75c7277b724cac7b"
+    },
+    {
+      "path": "gap/envs/franka_real_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc1ee3c801563d5b9b9af06d99fe17728e9baf4",
+      "size": 29238,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9dc1ee3c801563d5b9b9af06d99fe17728e9baf4"
+    },
+    {
+      "path": "gap/envs/libero_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97669e45e6aecdd6a1fd3f7367c31db833c4c2be",
+      "size": 46490,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/97669e45e6aecdd6a1fd3f7367c31db833c4c2be"
+    },
+    {
+      "path": "gap/envs/libero_perturbed_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9edfb3107588dd2ad37d079ec2fa1335429092b0",
+      "size": 7524,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9edfb3107588dd2ad37d079ec2fa1335429092b0"
+    },
+    {
+      "path": "gap/envs/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f3c86c4f1338b6c35197f993afc442b39eeef7",
+      "size": 22513,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e1f3c86c4f1338b6c35197f993afc442b39eeef7"
+    },
+    {
+      "path": "gap/envs/msgpack_bridge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37410e9a29ca5ed12cba1440872004cdb1360b00",
+      "size": 6015,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/37410e9a29ca5ed12cba1440872004cdb1360b00"
+    },
+    {
+      "path": "gap/envs/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413a5381ba0a7bce7600742b0c8e610252a91fe1",
+      "size": 6207,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/413a5381ba0a7bce7600742b0c8e610252a91fe1"
+    },
+    {
+      "path": "gap/envs/ur_zed_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037894645680826096f7660718c58ce57510be44",
+      "size": 14689,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/037894645680826096f7660718c58ce57510be44"
+    },
+    {
+      "path": "gap/envs/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58c71903a2f2e9933c99fcde05e8a419fa3e13b0",
+      "size": 3373,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/58c71903a2f2e9933c99fcde05e8a419fa3e13b0"
+    },
+    {
+      "path": "gap/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "gap/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05e0602a81a0a296356e51f037a3a8dd02b920b7",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/05e0602a81a0a296356e51f037a3a8dd02b920b7"
+    },
+    {
+      "path": "gap/runtime/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f2c3dcb8a2592005fcf4632000a434bfe5ae06",
+      "size": 331,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/95f2c3dcb8a2592005fcf4632000a434bfe5ae06"
+    },
+    {
+      "path": "gap/runtime/context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0e639d24dd0f0715418e96a4dc9de5766e5b56",
+      "size": 5613,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9f0e639d24dd0f0715418e96a4dc9de5766e5b56"
+    },
+    {
+      "path": "gap/runtime/execute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4f664520510d0048125900c073fe0cb19b0358",
+      "size": 9798,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/df4f664520510d0048125900c073fe0cb19b0358"
+    },
+    {
+      "path": "gap/runtime/executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef53229eeb7a925b452233a91e9e54dda182569",
+      "size": 49727,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2ef53229eeb7a925b452233a91e9e54dda182569"
+    },
+    {
+      "path": "gap/runtime/nodes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c225c43b34fa4c03ef185adbf33d20db4843f7d6",
+      "size": 11934,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c225c43b34fa4c03ef185adbf33d20db4843f7d6"
+    },
+    {
+      "path": "gap/runtime/observation_stream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3826fe1de3b73711cc05717be6e5a20ff44d4f1c",
+      "size": 6849,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3826fe1de3b73711cc05717be6e5a20ff44d4f1c"
+    },
+    {
+      "path": "gap/runtime/policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a815401c9738371022f6354d68bca681c237d5f5",
+      "size": 28136,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a815401c9738371022f6354d68bca681c237d5f5"
+    },
+    {
+      "path": "gap/runtime/policy_boot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "736d0e707a6f9853188c7a6c8461d4f08cb2767c",
+      "size": 4469,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/736d0e707a6f9853188c7a6c8461d4f08cb2767c"
+    },
+    {
+      "path": "gap/runtime/policy_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b3dda1c7a6955936ea7e2831f5e10f0eb39f45",
+      "size": 17266,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/41b3dda1c7a6955936ea7e2831f5e10f0eb39f45"
+    },
+    {
+      "path": "gap/runtime/policy_skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad1682db224f1133ac585e4fef42edf362c9476",
+      "size": 5009,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/dad1682db224f1133ac585e4fef42edf362c9476"
+    },
+    {
+      "path": "gap/runtime/predicates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6576fa6aa10fcfd0817ed5234c3976c94da90f1a",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/6576fa6aa10fcfd0817ed5234c3976c94da90f1a"
+    },
+    {
+      "path": "gap/runtime/predicates/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73bb02e7bc7d8e31f7a844dc8e1ebc0c998af0de",
+      "size": 863,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/73bb02e7bc7d8e31f7a844dc8e1ebc0c998af0de"
+    },
+    {
+      "path": "gap/runtime/predicates/goal_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41c41b178f00ea30b758b71e73467f08799c6e8",
+      "size": 18000,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c41c41b178f00ea30b758b71e73467f08799c6e8"
+    },
+    {
+      "path": "gap/runtime/predicates/predicate_evaluators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba9d26e840a1306ef545b66ba4827c3412c4bf4",
+      "size": 15548,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5ba9d26e840a1306ef545b66ba4827c3412c4bf4"
+    },
+    {
+      "path": "gap/runtime/predicates/predicates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5113626c8e17511c2f7add623f5e35824b32ba7c",
+      "size": 7670,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5113626c8e17511c2f7add623f5e35824b32ba7c"
+    },
+    {
+      "path": "gap/runtime/tool_bundle_boot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35f1480aa5b74ca08af29e4f8de0daac9592359",
+      "size": 4705,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c35f1480aa5b74ca08af29e4f8de0daac9592359"
+    },
+    {
+      "path": "gap/runtime/tool_bundle_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a35b40105480bdb2d15e17c28b9bec40f07c223",
+      "size": 7144,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1a35b40105480bdb2d15e17c28b9bec40f07c223"
+    },
+    {
+      "path": "gap/runtime/trace_diff",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41c460c96722e3191ba7fd504ab6f78457bef7bd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/41c460c96722e3191ba7fd504ab6f78457bef7bd"
+    },
+    {
+      "path": "gap/runtime/trace_diff/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2901615683ebbd43c0cdb4c407351a9aa1c2e85e",
+      "size": 821,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2901615683ebbd43c0cdb4c407351a9aa1c2e85e"
+    },
+    {
+      "path": "gap/runtime/trace_diff/differ.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4ff50bcd98dc1baec2e2175e2407303de18439",
+      "size": 9584,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7c4ff50bcd98dc1baec2e2175e2407303de18439"
+    },
+    {
+      "path": "gap/runtime/tracing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618a05342861eeb9b9354a413a502574baa22bb2",
+      "size": 28850,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/618a05342861eeb9b9354a413a502574baa22bb2"
+    },
+    {
+      "path": "gap/runtime/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd3579d1cf8b2e7c004961efedaa695a02d28ce",
+      "size": 41760,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9bd3579d1cf8b2e7c004961efedaa695a02d28ce"
+    },
+    {
+      "path": "gap/runtime/verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "071dc7af29d331033f3f7a32d09b9e9f2defc577",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/071dc7af29d331033f3f7a32d09b9e9f2defc577"
+    },
+    {
+      "path": "gap/runtime/verify/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf06d43c424e293ca7a633106a3b35c8c0cbd637",
+      "size": 1073,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bf06d43c424e293ca7a633106a3b35c8c0cbd637"
+    },
+    {
+      "path": "gap/runtime/verify/checkpoints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc97bc014040fbd9ce8b76325a84898012d0544",
+      "size": 7478,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ddc97bc014040fbd9ce8b76325a84898012d0544"
+    },
+    {
+      "path": "gap/runtime/verify/world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "828b315abdad45883786c79ea3aae95d2560f940",
+      "size": 45160,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/828b315abdad45883786c79ea3aae95d2560f940"
+    },
+    {
+      "path": "gap/runtime/workflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ed245e92d7a8e708978dd7f51abc5c3a187449",
+      "size": 29266,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b3ed245e92d7a8e708978dd7f51abc5c3a187449"
+    },
+    {
+      "path": "gap/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d9a52017e582e4626936d2ffd753a0d3c4fa641",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8d9a52017e582e4626936d2ffd753a0d3c4fa641"
+    },
+    {
+      "path": "gap/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a298f245f35303e2389cd4fe4c302def14a45f1",
+      "size": 1255,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0a298f245f35303e2389cd4fe4c302def14a45f1"
+    },
+    {
+      "path": "gap/skills/_meta_from_skill_md.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b721b82d719d442f7ada28e9480f5feb69d11f4",
+      "size": 14411,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5b721b82d719d442f7ada28e9480f5feb69d11f4"
+    },
+    {
+      "path": "gap/skills/_prompt_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70721caa6d1de59ee84d70eb29ff9413f96f00e1",
+      "size": 4886,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/70721caa6d1de59ee84d70eb29ff9413f96f00e1"
+    },
+    {
+      "path": "gap/skills/_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da8f8f44950afd66f534785e44d3baf8a926a996",
+      "size": 32022,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/da8f8f44950afd66f534785e44d3baf8a926a996"
+    },
+    {
+      "path": "gap/skills/capability.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d601083df601744bcfe70787f45e3f32deb3269",
+      "size": 32744,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6d601083df601744bcfe70787f45e3f32deb3269"
+    },
+    {
+      "path": "gap/skills/discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0caa61e3e534bfc8c2b83a3f08ce1aa7eaa2764d",
+      "size": 4547,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0caa61e3e534bfc8c2b83a3f08ce1aa7eaa2764d"
+    },
+    {
+      "path": "gap/skills/registries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5ae199b63014ab13d08e66430b3c5eacefaaab",
+      "size": 20258,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bb5ae199b63014ab13d08e66430b3c5eacefaaab"
+    },
+    {
+      "path": "gap/skills/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a584a8c4f0811dd448a5aeeec882a13f9c2c82e8",
+      "size": 13299,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a584a8c4f0811dd448a5aeeec882a13f9c2c82e8"
+    },
+    {
+      "path": "gap/testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb67f692524c27dad92cc9ae3e8e89be8e281482",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/eb67f692524c27dad92cc9ae3e8e89be8e281482"
+    },
+    {
+      "path": "gap/testing/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0344cca4b863f15d548adc4f1a663a2702601241",
+      "size": 784,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0344cca4b863f15d548adc4f1a663a2702601241"
+    },
+    {
+      "path": "gap/testing/fakes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9155bc3a1ac25971fa87653fa24fa497d5a40e",
+      "size": 2751,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1a9155bc3a1ac25971fa87653fa24fa497d5a40e"
+    },
+    {
+      "path": "gap/testing/graphs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a88c60e7136bd33f32bc513326290daddbf310",
+      "size": 1294,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a6a88c60e7136bd33f32bc513326290daddbf310"
+    },
+    {
+      "path": "gap/testing/observations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d703113121cb6613e03be5cc05e23e1cc23773a",
+      "size": 5730,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0d703113121cb6613e03be5cc05e23e1cc23773a"
+    },
+    {
+      "path": "gap/viz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25c45336e429c50f61ed9ad0f0025572414474f9",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/25c45336e429c50f61ed9ad0f0025572414474f9"
+    },
+    {
+      "path": "gap/viz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cbf47ddea0ab1a461fe0d470e6d3e18eeabf68e",
+      "size": 2508,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0cbf47ddea0ab1a461fe0d470e6d3e18eeabf68e"
+    },
+    {
+      "path": "gap/viz/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b92e1d160b764e4c2e7b3cce19d3e637f22587e0",
+      "size": 2559,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b92e1d160b764e4c2e7b3cce19d3e637f22587e0"
+    },
+    {
+      "path": "gap/viz/api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419a8fd7486745d7074b137c75e4881ad7312f29",
+      "size": 12566,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/419a8fd7486745d7074b137c75e4881ad7312f29"
+    },
+    {
+      "path": "gap/viz/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eb3a46e5b29b8270ebcf7c19729d9828957d592",
+      "size": 757,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8eb3a46e5b29b8270ebcf7c19729d9828957d592"
+    },
+    {
+      "path": "gap/viz/data_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d3c604736921fd8030cdeb4581860d89073a37",
+      "size": 10152,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c1d3c604736921fd8030cdeb4581860d89073a37"
+    },
+    {
+      "path": "gap/viz/frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e20d520f944ae5f4aaa6087608d2bcad9cf08c1",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8e20d520f944ae5f4aaa6087608d2bcad9cf08c1"
+    },
+    {
+      "path": "gap/viz/frontend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "251ce6d2bd9308e5975611a1ad18308ba6da8117",
+      "size": 248,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/251ce6d2bd9308e5975611a1ad18308ba6da8117"
+    },
+    {
+      "path": "gap/viz/frontend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1955b7f7a495b583085466d6873cd4a0efc427e1",
+      "size": 2794,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1955b7f7a495b583085466d6873cd4a0efc427e1"
+    },
+    {
+      "path": "gap/viz/frontend/dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c98e849cdd6d9243e20f1411eb32c31f300d3a57",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/c98e849cdd6d9243e20f1411eb32c31f300d3a57"
+    },
+    {
+      "path": "gap/viz/frontend/dist/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8de05ae997f1e4b10ab652d819199e510edb8c8b",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8de05ae997f1e4b10ab652d819199e510edb8c8b"
+    },
+    {
+      "path": "gap/viz/frontend/dist/assets/index-BlmN_LG1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e33d9c6cfbf905d9ed63e631b5f63556fae18a5",
+      "size": 1838169,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6e33d9c6cfbf905d9ed63e631b5f63556fae18a5"
+    },
+    {
+      "path": "gap/viz/frontend/dist/assets/index-PgjQULej.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb82a52ce574fd650a08caddaea5c2b9890487d",
+      "size": 39180,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3bb82a52ce574fd650a08caddaea5c2b9890487d"
+    },
+    {
+      "path": "gap/viz/frontend/dist/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6893eb13237060adc0c968a690149a49faa2d7d3",
+      "size": 9522,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6893eb13237060adc0c968a690149a49faa2d7d3"
+    },
+    {
+      "path": "gap/viz/frontend/dist/icons.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9522193d9f796a9748e9ad8c952a5df73c87db9",
+      "size": 5031,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e9522193d9f796a9748e9ad8c952a5df73c87db9"
+    },
+    {
+      "path": "gap/viz/frontend/dist/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28df7fd0e6e8be6a99f517891e654671013cb696",
+      "size": 457,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/28df7fd0e6e8be6a99f517891e654671013cb696"
+    },
+    {
+      "path": "gap/viz/frontend/eslint.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6b472f583e34a1cca751440d4f241495475723",
+      "size": 616,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5e6b472f583e34a1cca751440d4f241495475723"
+    },
+    {
+      "path": "gap/viz/frontend/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3323e44d552bcf2de13b0ac082f1b0cd258c387a",
+      "size": 359,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3323e44d552bcf2de13b0ac082f1b0cd258c387a"
+    },
+    {
+      "path": "gap/viz/frontend/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1ebf6688bb49637fac8afdba75c3569f2745db",
+      "size": 122960,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/be1ebf6688bb49637fac8afdba75c3569f2745db"
+    },
+    {
+      "path": "gap/viz/frontend/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae928b73553ec5a43214e87c996ec174815aa7f1",
+      "size": 915,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ae928b73553ec5a43214e87c996ec174815aa7f1"
+    },
+    {
+      "path": "gap/viz/frontend/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bbb5ee6c07004e372ddd3fd49ee75964c2c9e75",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8bbb5ee6c07004e372ddd3fd49ee75964c2c9e75"
+    },
+    {
+      "path": "gap/viz/frontend/public/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6893eb13237060adc0c968a690149a49faa2d7d3",
+      "size": 9522,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6893eb13237060adc0c968a690149a49faa2d7d3"
+    },
+    {
+      "path": "gap/viz/frontend/public/icons.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9522193d9f796a9748e9ad8c952a5df73c87db9",
+      "size": 5031,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e9522193d9f796a9748e9ad8c952a5df73c87db9"
+    },
+    {
+      "path": "gap/viz/frontend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "831ba3bb113a294eedab12596b88b47a89fb5e93",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/831ba3bb113a294eedab12596b88b47a89fb5e93"
+    },
+    {
+      "path": "gap/viz/frontend/src/App.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4946903dcc50173684a78669b0d7c48ef7338f73",
+      "size": 6986,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4946903dcc50173684a78669b0d7c48ef7338f73"
+    },
+    {
+      "path": "gap/viz/frontend/src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87833f2ecaf50d0cc79242184fcc46fb0ca1cda0",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/87833f2ecaf50d0cc79242184fcc46fb0ca1cda0"
+    },
+    {
+      "path": "gap/viz/frontend/src/api/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c6ee1ff4b6b4d7fac39ac88e98e76254538fd8b",
+      "size": 4023,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2c6ee1ff4b6b4d7fac39ac88e98e76254538fd8b"
+    },
+    {
+      "path": "gap/viz/frontend/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "308a825138f2e771df00b92b24c6eb49782e7fab",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/308a825138f2e771df00b92b24c6eb49782e7fab"
+    },
+    {
+      "path": "gap/viz/frontend/src/assets/hero.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc51a3d20ad4bc961b596a6adfd686685cd84bb0",
+      "size": 44919,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cc51a3d20ad4bc961b596a6adfd686685cd84bb0"
+    },
+    {
+      "path": "gap/viz/frontend/src/assets/vite.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5101b674df391399da71c767aa5c976426c9dc7a",
+      "size": 8709,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5101b674df391399da71c767aa5c976426c9dc7a"
+    },
+    {
+      "path": "gap/viz/frontend/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7177c7e6f91e71c8e54c48fb47f0649d04f10ab6",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7177c7e6f91e71c8e54c48fb47f0649d04f10ab6"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/ControlEdge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e0ed2c8c9a4fba516ec2e211f794696e3d92f9a",
+      "size": 2370,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6e0ed2c8c9a4fba516ec2e211f794696e3d92f9a"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/ExecutionView.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d671eafdf38d435f93c5bfd1f41ed40d660a8d8",
+      "size": 10311,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1d671eafdf38d435f93c5bfd1f41ed40d660a8d8"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/InspectorPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5066020cc4c2a4ac37f7d619dea9f404997912c",
+      "size": 19560,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d5066020cc4c2a4ac37f7d619dea9f404997912c"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/JsonTree.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e196480a829fb54f01969bb75ab6cdfb1f772499",
+      "size": 3247,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e196480a829fb54f01969bb75ab6cdfb1f772499"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/SceneView.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b024546da0955005fca9e32949466a3d94d8a75",
+      "size": 1395,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1b024546da0955005fca9e32949466a3d94d8a75"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/StateMachineView.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e89d11f21dde15de960de9029ebd172e20122d9",
+      "size": 9670,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2e89d11f21dde15de960de9029ebd172e20122d9"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/StateNode.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c81f0be747c965c96f948235f89af2ca22ecf2e5",
+      "size": 8144,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c81f0be747c965c96f948235f89af2ca22ecf2e5"
+    },
+    {
+      "path": "gap/viz/frontend/src/components/SubgraphNode.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1352f5bf2bb0c162304d7211faa496ae3c026e8",
+      "size": 5198,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c1352f5bf2bb0c162304d7211faa496ae3c026e8"
+    },
+    {
+      "path": "gap/viz/frontend/src/index.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c53e020ece2192864e98d5df7578264d2711a214",
+      "size": 20587,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c53e020ece2192864e98d5df7578264d2711a214"
+    },
+    {
+      "path": "gap/viz/frontend/src/main.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef5202a32cbd0632c43de40f6e908532903fd42",
+      "size": 230,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bef5202a32cbd0632c43de40f6e908532903fd42"
+    },
+    {
+      "path": "gap/viz/frontend/src/styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e48e2ae4f47a6789446dc0087568fbfcc32d03a",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7e48e2ae4f47a6789446dc0087568fbfcc32d03a"
+    },
+    {
+      "path": "gap/viz/frontend/src/styles/theme.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28247096f578b3f924cc3207fd3295980cabb0c5",
+      "size": 2712,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/28247096f578b3f924cc3207fd3295980cabb0c5"
+    },
+    {
+      "path": "gap/viz/frontend/src/styles/vizTheme.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3d3ffe6fe09230a799a7e0b15068fedffa59d3",
+      "size": 1750,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ce3d3ffe6fe09230a799a7e0b15068fedffa59d3"
+    },
+    {
+      "path": "gap/viz/frontend/src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "caeea2f968f9d5a35d1de7459820939090d36b4c",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/caeea2f968f9d5a35d1de7459820939090d36b4c"
+    },
+    {
+      "path": "gap/viz/frontend/src/types/viz.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6afedfc7cd7a24d8eb2fe6b84da23c5755def8",
+      "size": 2200,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7c6afedfc7cd7a24d8eb2fe6b84da23c5755def8"
+    },
+    {
+      "path": "gap/viz/frontend/src/types/workflow.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff64fe993e94395ab325d0ece83a13be3c877584",
+      "size": 2008,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ff64fe993e94395ab325d0ece83a13be3c877584"
+    },
+    {
+      "path": "gap/viz/frontend/tsconfig.app.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af516fcca5aeda0272708668cbb6cc4eca71d410",
+      "size": 732,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/af516fcca5aeda0272708668cbb6cc4eca71d410"
+    },
+    {
+      "path": "gap/viz/frontend/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ffef600d959ec9e396d5a260bd3f5b927b2cef8",
+      "size": 119,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1ffef600d959ec9e396d5a260bd3f5b927b2cef8"
+    },
+    {
+      "path": "gap/viz/frontend/tsconfig.node.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a67f62f4ceebff3424e6e8cd4b3c25b17347546",
+      "size": 653,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8a67f62f4ceebff3424e6e8cd4b3c25b17347546"
+    },
+    {
+      "path": "gap/viz/frontend/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b0427f78e2ad443516536d95feeaa556e09965",
+      "size": 268,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/72b0427f78e2ad443516536d95feeaa556e09965"
+    },
+    {
+      "path": "gap/viz/graph_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfbb5a55095707e66692eb3d6be81b8ccc0693a7",
+      "size": 14157,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/dfbb5a55095707e66692eb3d6be81b8ccc0693a7"
+    },
+    {
+      "path": "gap/viz/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56526ea82bd5261d0e58fbda762ad8575b6c2fa3",
+      "size": 5207,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/56526ea82bd5261d0e58fbda762ad8575b6c2fa3"
+    },
+    {
+      "path": "gap/viz/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81dbddac4645e23002c66fe32ce3a79333ea5568",
+      "size": 23508,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/81dbddac4645e23002c66fe32ce3a79333ea5568"
+    },
+    {
+      "path": "gap/viz/replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5116ed0cc691ed5f11f00193a521a07b2606d2",
+      "size": 2509,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8d5116ed0cc691ed5f11f00193a521a07b2606d2"
+    },
+    {
+      "path": "gap/viz/replay3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53df7b9a45f74ff7b4a7cd34fa62811dcfb84784",
+      "size": 25256,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/53df7b9a45f74ff7b4a7cd34fa62811dcfb84784"
+    },
+    {
+      "path": "gap/viz/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b44067f4122e0cb15f50a6eb8dd7e15feac4a02",
+      "size": 2424,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8b44067f4122e0cb15f50a6eb8dd7e15feac4a02"
+    },
+    {
+      "path": "gap/viz/text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c0c0c93f357a36339719a8424e4d0fb1e3be1c9",
+      "size": 21564,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6c0c0c93f357a36339719a8424e4d0fb1e3be1c9"
+    },
+    {
+      "path": "gap/viz/trial_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617af52d386af79c8acfb3d31d682350b17a550f",
+      "size": 10395,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/617af52d386af79c8acfb3d31d682350b17a550f"
+    },
+    {
+      "path": "gap/viz/view_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc9088cdb716207c7fb9f4d9f5c831a6d007aba",
+      "size": 12737,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9bc9088cdb716207c7fb9f4d9f5c831a6d007aba"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af136bfbf4c839d176e6865cab0ddd415fbe4c0b",
+      "size": 9292,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/af136bfbf4c839d176e6865cab0ddd415fbe4c0b"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b7f48364c200f94cbdb1cc7414b3b0576193d39",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/0b7f48364c200f94cbdb1cc7414b3b0576193d39"
+    },
+    {
+      "path": "tests/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a01352f717a777b8a14e81e5141ccdeac5a1427",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/0a01352f717a777b8a14e81e5141ccdeac5a1427"
+    },
+    {
+      "path": "tests/agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/agent/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34a8e7a8ad346e1c67aa75578e27ba9b46b79e87",
+      "size": 9362,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/34a8e7a8ad346e1c67aa75578e27ba9b46b79e87"
+    },
+    {
+      "path": "tests/agent/test_connector_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d18d82a04be088b966702711f5693506d255c8b",
+      "size": 3171,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/9d18d82a04be088b966702711f5693506d255c8b"
+    },
+    {
+      "path": "tests/agent/test_generate_facade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3365cd474c65015289310fc7b67ccc24b9de4b03",
+      "size": 4836,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3365cd474c65015289310fc7b67ccc24b9de4b03"
+    },
+    {
+      "path": "tests/agent/test_generated_skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cddb9769baa7d8bce21d05b187cf24342889ef45",
+      "size": 12949,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cddb9769baa7d8bce21d05b187cf24342889ef45"
+    },
+    {
+      "path": "tests/agent/test_llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d6ee337d78dd280bf40fca06791d4eec6b8bbf9",
+      "size": 19479,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3d6ee337d78dd280bf40fca06791d4eec6b8bbf9"
+    },
+    {
+      "path": "tests/agent/test_llm_live.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541a16d1c4586d361654e4ff0d2b07743d60566f",
+      "size": 1938,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/541a16d1c4586d361654e4ff0d2b07743d60566f"
+    },
+    {
+      "path": "tests/agent/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb780a9013b783b5f37b9f35e99dfd9090a87e7c",
+      "size": 14965,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cb780a9013b783b5f37b9f35e99dfd9090a87e7c"
+    },
+    {
+      "path": "tests/agent/test_prompt_grounding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2619fa0f1fb3694f4897279a904c22207e06c86",
+      "size": 6671,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a2619fa0f1fb3694f4897279a904c22207e06c86"
+    },
+    {
+      "path": "tests/agent/test_subgraph_parse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a60a029c8036efc5250c37a339e26b71e92bdf",
+      "size": 1819,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/52a60a029c8036efc5250c37a339e26b71e92bdf"
+    },
+    {
+      "path": "tests/agent_skill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8701291f554cff5d00b420c2def29552a65dd8dc",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/8701291f554cff5d00b420c2def29552a65dd8dc"
+    },
+    {
+      "path": "tests/agent_skill/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/agent_skill/test_cli_reference_fresh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "414882b6f4112a03efc5987039e21eb6be8c57a4",
+      "size": 1066,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/414882b6f4112a03efc5987039e21eb6be8c57a4"
+    },
+    {
+      "path": "tests/agent_skill/test_frontmatter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35947e7b0eaa1545bf9c0ebdc0b6309d8b7173ec",
+      "size": 2484,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/35947e7b0eaa1545bf9c0ebdc0b6309d8b7173ec"
+    },
+    {
+      "path": "tests/agent_skill/test_skill_commands_exist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fd83864880bddf3d7698880057688249e84688e",
+      "size": 2723,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5fd83864880bddf3d7698880057688249e84688e"
+    },
+    {
+      "path": "tests/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "579756376f3088aa810fbb0dd162a24cf265ee78",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/579756376f3088aa810fbb0dd162a24cf265ee78"
+    },
+    {
+      "path": "tests/benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/benchmark/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0491183a6f6aa93d3770cb508338afdbc62d15",
+      "size": 5208,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0d0491183a6f6aa93d3770cb508338afdbc62d15"
+    },
+    {
+      "path": "tests/benchmark/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acca20199d4dd8f7a2eead315aa1e4ea8bb7c11",
+      "size": 9234,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7acca20199d4dd8f7a2eead315aa1e4ea8bb7c11"
+    },
+    {
+      "path": "tests/benchmark/test_harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7790e321ed22039cace096544931085028a0e2b2",
+      "size": 13309,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7790e321ed22039cace096544931085028a0e2b2"
+    },
+    {
+      "path": "tests/benchmark/test_launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "975b85d715a093bfd2e0a4bc370027a4e3144959",
+      "size": 8689,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/975b85d715a093bfd2e0a4bc370027a4e3144959"
+    },
+    {
+      "path": "tests/benchmark/test_materialize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13103eb1b571b492e85ab933fddae7af9fcc5849",
+      "size": 5660,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/13103eb1b571b492e85ab933fddae7af9fcc5849"
+    },
+    {
+      "path": "tests/benchmark/test_parallel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd328afbe606ca9c23c5d2072ba94d95e1393c9",
+      "size": 27957,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bfd328afbe606ca9c23c5d2072ba94d95e1393c9"
+    },
+    {
+      "path": "tests/benchmark/test_ray_executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b132969b1e1d2d9dcb4eb5b3507d867bf07b53",
+      "size": 7554,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/99b132969b1e1d2d9dcb4eb5b3507d867bf07b53"
+    },
+    {
+      "path": "tests/benchmark/test_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "981227e2527b4a9f0f5790d6a0ef9d958a61b231",
+      "size": 6194,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/981227e2527b4a9f0f5790d6a0ef9d958a61b231"
+    },
+    {
+      "path": "tests/benchmark/test_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5bee06e05a963941900672af0296edfaf49a428",
+      "size": 7658,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a5bee06e05a963941900672af0296edfaf49a428"
+    },
+    {
+      "path": "tests/builder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d7e0da32122b00125f43016dc78d0d445e19246",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7d7e0da32122b00125f43016dc78d0d445e19246"
+    },
+    {
+      "path": "tests/builder/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/builder/test_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f105ecd69cb083f90cd92df3e89d6f69b49dc0b",
+      "size": 16831,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6f105ecd69cb083f90cd92df3e89d6f69b49dc0b"
+    },
+    {
+      "path": "tests/builder/test_checkpoint_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1722ef42570ded7a1a9c85c6706da2086e9b0cf",
+      "size": 6300,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c1722ef42570ded7a1a9c85c6706da2086e9b0cf"
+    },
+    {
+      "path": "tests/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ad9ac31d71ae16ad59648b75496ae12c07a302a",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/6ad9ac31d71ae16ad59648b75496ae12c07a302a"
+    },
+    {
+      "path": "tests/cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/cli/test_check_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44442364f01bbf7b74ac326e0b4a162e1b247a15",
+      "size": 3403,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/44442364f01bbf7b74ac326e0b4a162e1b247a15"
+    },
+    {
+      "path": "tests/cli/test_registry_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1760d9594cae0299886093471f3268786ce0e1a0",
+      "size": 8629,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1760d9594cae0299886093471f3268786ce0e1a0"
+    },
+    {
+      "path": "tests/cli/test_skills_install_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7989e915fbc0f947ae8388d9b1e49f0fa5fabb94",
+      "size": 8850,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7989e915fbc0f947ae8388d9b1e49f0fa5fabb94"
+    },
+    {
+      "path": "tests/cli/test_skills_test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354ca34e2f079f4f0e5eb9ec94ac84786858c248",
+      "size": 6567,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/354ca34e2f079f4f0e5eb9ec94ac84786858c248"
+    },
+    {
+      "path": "tests/cli/test_tools_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82bbc14162ed3039916c53c3f3972bd893716f2",
+      "size": 5441,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d82bbc14162ed3039916c53c3f3972bd893716f2"
+    },
+    {
+      "path": "tests/connector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76cb144a305b3f0a58e51088b8a6198980c6c591",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/76cb144a305b3f0a58e51088b8a6198980c6c591"
+    },
+    {
+      "path": "tests/connector/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/connector/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd93c3b099c543a10f5b18048b51b7371e4d712",
+      "size": 5873,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/bcd93c3b099c543a10f5b18048b51b7371e4d712"
+    },
+    {
+      "path": "tests/connector/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3b246f348782ae56f23791166c5204ee7fd74c",
+      "size": 9830,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/eb3b246f348782ae56f23791166c5204ee7fd74c"
+    },
+    {
+      "path": "tests/connector/test_collector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c574639b7391b0675ea3f96e800242c738627d60",
+      "size": 3671,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c574639b7391b0675ea3f96e800242c738627d60"
+    },
+    {
+      "path": "tests/connector/test_connector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b03e2062ae4114ae935b51d25154a9f98845a4c4",
+      "size": 15018,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b03e2062ae4114ae935b51d25154a9f98845a4c4"
+    },
+    {
+      "path": "tests/connector/test_ik.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aae6cbdf93f97cdb1cb2f2c5b1bfa3814b66cb8",
+      "size": 11024,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7aae6cbdf93f97cdb1cb2f2c5b1bfa3814b66cb8"
+    },
+    {
+      "path": "tests/connector/test_migrate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf1cb63e685e996e34c7fc0237eace61db4b7b8",
+      "size": 9729,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/abf1cb63e685e996e34c7fc0237eace61db4b7b8"
+    },
+    {
+      "path": "tests/connector/test_servo_to_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55e486941788d29e78538a0ac53f7b064662f33",
+      "size": 2628,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d55e486941788d29e78538a0ac53f7b064662f33"
+    },
+    {
+      "path": "tests/connector/test_sim_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed92f2a8cdfd00baf51337443fe4b8abd31f4f0",
+      "size": 4839,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7ed92f2a8cdfd00baf51337443fe4b8abd31f4f0"
+    },
+    {
+      "path": "tests/connector/test_world_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f2b225be7f5010f7300da906a6bc575f7e14ed5",
+      "size": 6977,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/4f2b225be7f5010f7300da906a6bc575f7e14ed5"
+    },
+    {
+      "path": "tests/envs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89613b7d497b474fb61c1188d0f3234eedc23022",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/89613b7d497b474fb61c1188d0f3234eedc23022"
+    },
+    {
+      "path": "tests/envs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/envs/test_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd962e3df63cee5ad9b000e1f51e10d6191d3f57",
+      "size": 3348,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/cd962e3df63cee5ad9b000e1f51e10d6191d3f57"
+    },
+    {
+      "path": "tests/envs/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e518105c9056f5bf4f87ca8d52fa6fb150f76717",
+      "size": 5219,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e518105c9056f5bf4f87ca8d52fa6fb150f76717"
+    },
+    {
+      "path": "tests/envs/test_sim_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b324e8e28c8ce803ad61dcbc0b71b8b6a9b877f3",
+      "size": 6555,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b324e8e28c8ce803ad61dcbc0b71b8b6a9b877f3"
+    },
+    {
+      "path": "tests/envs/test_stream_joint_trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7b5543b7180e1e8595a905c27565657c1d38323",
+      "size": 4318,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f7b5543b7180e1e8595a905c27565657c1d38323"
+    },
+    {
+      "path": "tests/envs/test_vab_task_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e2c8f50ab38983a2d0eeafd7b0b01244d1cccf6",
+      "size": 2412,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3e2c8f50ab38983a2d0eeafd7b0b01244d1cccf6"
+    },
+    {
+      "path": "tests/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d435e0a5e526b3c1f3dd263446beaf83770ce5bd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/d435e0a5e526b3c1f3dd263446beaf83770ce5bd"
+    },
+    {
+      "path": "tests/examples/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/examples/test_authoring_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef5842b5447369e0db1d8a8476268ae0aea3a0ea",
+      "size": 8366,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ef5842b5447369e0db1d8a8476268ae0aea3a0ea"
+    },
+    {
+      "path": "tests/examples/test_quickstart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb90cb9c13428ba93043c9884973c84eb1c2567",
+      "size": 9311,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0bb90cb9c13428ba93043c9884973c84eb1c2567"
+    },
+    {
+      "path": "tests/real",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "317a7cc7c2f2ca42d64b37f513c077727769f348",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/317a7cc7c2f2ca42d64b37f513c077727769f348"
+    },
+    {
+      "path": "tests/real/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/real/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "123d0215953d824901b1f9c9985c997158b372b7",
+      "size": 4911,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/123d0215953d824901b1f9c9985c997158b372b7"
+    },
+    {
+      "path": "tests/real/test_examples_real.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e73a3ba00558d0e1595aa2fec5468bc36647f8a9",
+      "size": 8036,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e73a3ba00558d0e1595aa2fec5468bc36647f8a9"
+    },
+    {
+      "path": "tests/real/test_hardware.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7021878da7874190ff51a328833c9df41f4123f9",
+      "size": 2306,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7021878da7874190ff51a328833c9df41f4123f9"
+    },
+    {
+      "path": "tests/real/test_msgpack_bridge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e21424e62061adf213658190569ed0ff08e2dc",
+      "size": 8682,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e4e21424e62061adf213658190569ed0ff08e2dc"
+    },
+    {
+      "path": "tests/real/test_real_connector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bd07b0c33fb384af7eab3b4ddd7e0c4fa0b49c",
+      "size": 5553,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/26bd07b0c33fb384af7eab3b4ddd7e0c4fa0b49c"
+    },
+    {
+      "path": "tests/real/test_rr_launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55b956da0313dc8d522fb67d641cf77f01411db0",
+      "size": 3962,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/55b956da0313dc8d522fb67d641cf77f01411db0"
+    },
+    {
+      "path": "tests/real/test_ur_zed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d0a428b8471cf993d2986ac43ff8710df232de6",
+      "size": 7376,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/5d0a428b8471cf993d2986ac43ff8710df232de6"
+    },
+    {
+      "path": "tests/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a9a58376eabc77d80a270a0e83defc9911225e1",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/5a9a58376eabc77d80a270a0e83defc9911225e1"
+    },
+    {
+      "path": "tests/runtime/test_executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274f10174121a1f9db48126b710c1036d2a1c6e6",
+      "size": 31089,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/274f10174121a1f9db48126b710c1036d2a1c6e6"
+    },
+    {
+      "path": "tests/runtime/test_observation_stream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b5dcc703c3910a63bff0854aa492b702ce4d95",
+      "size": 5174,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/83b5dcc703c3910a63bff0854aa492b702ce4d95"
+    },
+    {
+      "path": "tests/runtime/test_policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea13bc10a79bc6ac63ef259c731606e011c99b13",
+      "size": 16163,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ea13bc10a79bc6ac63ef259c731606e011c99b13"
+    },
+    {
+      "path": "tests/runtime/test_policy_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c433956aa526131d7af5c3a5de7822dc5ab7ef9",
+      "size": 9419,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7c433956aa526131d7af5c3a5de7822dc5ab7ef9"
+    },
+    {
+      "path": "tests/runtime/test_tool_bundle_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7620be86584c4a992cba18d769d3432283630dcd",
+      "size": 11809,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7620be86584c4a992cba18d769d3432283630dcd"
+    },
+    {
+      "path": "tests/runtime/test_tracing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8609d6437c61d6e4f6b16975ef3c63998566a0",
+      "size": 13201,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6d8609d6437c61d6e4f6b16975ef3c63998566a0"
+    },
+    {
+      "path": "tests/runtime/test_workflow_v3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d14d57be760618b13b3c01b9a641113da80fa12",
+      "size": 22549,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3d14d57be760618b13b3c01b9a641113da80fa12"
+    },
+    {
+      "path": "tests/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7477bb85781b9c1b17bf7e9cd5a75483d9709703",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/7477bb85781b9c1b17bf7e9cd5a75483d9709703"
+    },
+    {
+      "path": "tests/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/skills/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79b066a0f44613bcd453a9419ca197c589c27d4",
+      "size": 4515,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/c79b066a0f44613bcd453a9419ca197c589c27d4"
+    },
+    {
+      "path": "tests/skills/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff461d094a28080436b8f16a03c16b8aafc954a0",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/ff461d094a28080436b8f16a03c16b8aafc954a0"
+    },
+    {
+      "path": "tests/skills/fixtures/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "191b0acf14b001c28192d186bdbf0fdd0e9b14cd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/191b0acf14b001c28192d186bdbf0fdd0e9b14cd"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24e6f7d277425bb2c091285dbee504b9ddbaa1fd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/24e6f7d277425bb2c091285dbee504b9ddbaa1fd"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238a2b12153371533fec3d6ccecd2da56d6b2bb5",
+      "size": 879,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/238a2b12153371533fec3d6ccecd2da56d6b2bb5"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fa1858134e7f14278257956ce64f16c5326a583",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/6fa1858134e7f14278257956ce64f16c5326a583"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill/prompts/greet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa3ab726199438a8b99008ef69f69a6957a41ba",
+      "size": 127,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/baa3ab726199438a8b99008ef69f69a6957a41ba"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5acb4232a918d77e0f042014a8d1f39fcfe64910",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/5acb4232a918d77e0f042014a8d1f39fcfe64910"
+    },
+    {
+      "path": "tests/skills/fixtures/skills/fixture-skill/scripts/hello.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792268bc55c39e62c27506943a8072418957c460",
+      "size": 566,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/792268bc55c39e62c27506943a8072418957c460"
+    },
+    {
+      "path": "tests/skills/fixtures/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e6b4e2ea15e32bc4ea7456b40148bb41eebc0dd",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/6e6b4e2ea15e32bc4ea7456b40148bb41eebc0dd"
+    },
+    {
+      "path": "tests/skills/fixtures/tools/fixture-tool",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "702df3f76b10c760f4961a2c950a0102324da287",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/702df3f76b10c760f4961a2c950a0102324da287"
+    },
+    {
+      "path": "tests/skills/fixtures/tools/fixture-tool/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea013349805f48e7f7c62bb041b4ff19c718a6a4",
+      "size": 513,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ea013349805f48e7f7c62bb041b4ff19c718a6a4"
+    },
+    {
+      "path": "tests/skills/fixtures/tools/fixture-tool/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5b82689c97d4015a22710b2d53ea7035730fec",
+      "size": 439,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1f5b82689c97d4015a22710b2d53ea7035730fec"
+    },
+    {
+      "path": "tests/skills/test_capability.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a16228ed22a464433521b8b1170735f9abe4df94",
+      "size": 10681,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/a16228ed22a464433521b8b1170735f9abe4df94"
+    },
+    {
+      "path": "tests/skills/test_discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a00f90be8cf7d5d55a25244f5a17cc21017d824",
+      "size": 4571,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/1a00f90be8cf7d5d55a25244f5a17cc21017d824"
+    },
+    {
+      "path": "tests/skills/test_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490fa5cc06c90dce70cb4d18fddac545a7d60b9d",
+      "size": 13322,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/490fa5cc06c90dce70cb4d18fddac545a7d60b9d"
+    },
+    {
+      "path": "tests/skills/test_registries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0668e458be6b142ffddf5f56823a76ff62d5435",
+      "size": 12514,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/f0668e458be6b142ffddf5f56823a76ff62d5435"
+    },
+    {
+      "path": "tests/skills/test_requires.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7312fe8f6734e0ed210180020c2554b77013fa9b",
+      "size": 4672,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7312fe8f6734e0ed210180020c2554b77013fa9b"
+    },
+    {
+      "path": "tests/skills/test_serving.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dafd47dc03119028ff86bfa7726bb1b1e85e314f",
+      "size": 5281,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/dafd47dc03119028ff86bfa7726bb1b1e85e314f"
+    },
+    {
+      "path": "tests/skills/test_validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27da7b7b99e9bfcb7372e78681ce4123a578eb1b",
+      "size": 7559,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/27da7b7b99e9bfcb7372e78681ce4123a578eb1b"
+    },
+    {
+      "path": "tests/testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b087f525d90f11cca4f8988dcad7a228ecd77376",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/b087f525d90f11cca4f8988dcad7a228ecd77376"
+    },
+    {
+      "path": "tests/testing/test_fakes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0199902e6ad9421cd1c0d33b7e16dda6c7bc1441",
+      "size": 1642,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/0199902e6ad9421cd1c0d33b7e16dda6c7bc1441"
+    },
+    {
+      "path": "tests/testing/test_observations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554346aa9606bab45c222720d89a6efce1c865d2",
+      "size": 3100,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/554346aa9606bab45c222720d89a6efce1c865d2"
+    },
+    {
+      "path": "tests/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "463183c16a19e8b6da383c4cd92fa89d6b91bd8d",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/463183c16a19e8b6da383c4cd92fa89d6b91bd8d"
+    },
+    {
+      "path": "tests/tools/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ea7b62283bc0d6519b130a287f8116baa1af60",
+      "size": 699,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/39ea7b62283bc0d6519b130a287f8116baa1af60"
+    },
+    {
+      "path": "tests/tools/test_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca3e115948eeb92d801228de205c9743b8f71a3",
+      "size": 4833,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/6ca3e115948eeb92d801228de205c9743b8f71a3"
+    },
+    {
+      "path": "tests/tools/test_drain_replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c212b66726ca28034de4e8d7afc9f828c7783e",
+      "size": 788,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/43c212b66726ca28034de4e8d7afc9f828c7783e"
+    },
+    {
+      "path": "tests/tools/test_guards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57cd0f56f001cf654d11af232ed81a73f1f5b520",
+      "size": 3598,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/57cd0f56f001cf654d11af232ed81a73f1f5b520"
+    },
+    {
+      "path": "tests/tools/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54562e55ef542b687c3d716dc8f7f93e84526555",
+      "size": 6033,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/54562e55ef542b687c3d716dc8f7f93e84526555"
+    },
+    {
+      "path": "tests/verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8e3e03cf8491ed89790932afd647d7f10a825ed",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/b8e3e03cf8491ed89790932afd647d7f10a825ed"
+    },
+    {
+      "path": "tests/verify/test_checkpoints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9069cf9c1391007bb46cf1fcb63fc8ad6390a48",
+      "size": 8148,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/b9069cf9c1391007bb46cf1fcb63fc8ad6390a48"
+    },
+    {
+      "path": "tests/verify/test_goal_predicates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa29c25ed84f58b6b1399f71809d343bf507b61",
+      "size": 8135,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/3fa29c25ed84f58b6b1399f71809d343bf507b61"
+    },
+    {
+      "path": "tests/verify/test_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "562b5108ed16c30596441e10b8e238321c7e1625",
+      "size": 12169,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/562b5108ed16c30596441e10b8e238321c7e1625"
+    },
+    {
+      "path": "tests/viz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "455efb309fdf8e5a2c002ac494d82fb8dca394c1",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/455efb309fdf8e5a2c002ac494d82fb8dca394c1"
+    },
+    {
+      "path": "tests/viz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/viz/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f3206022d6e8c37c1c2f5a6cd9ece1c0ba8247",
+      "size": 8606,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/82f3206022d6e8c37c1c2f5a6cd9ece1c0ba8247"
+    },
+    {
+      "path": "tests/viz/test_frontend_dist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ed5e62ed634dd2869dd79d44eaba53745c3907",
+      "size": 1456,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/14ed5e62ed634dd2869dd79d44eaba53745c3907"
+    },
+    {
+      "path": "tests/viz/test_graph_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58a77b87609a4bab660ad2ae599dce82dc63c04b",
+      "size": 8660,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/58a77b87609a4bab660ad2ae599dce82dc63c04b"
+    },
+    {
+      "path": "tests/viz/test_render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffe38bcf805bc6ba3d829799f2b38dc626295646",
+      "size": 2853,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/ffe38bcf805bc6ba3d829799f2b38dc626295646"
+    },
+    {
+      "path": "tests/viz/test_text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e03bb7fdeb5db031e0d780fe5b905fed00c24e2",
+      "size": 7979,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/7e03bb7fdeb5db031e0d780fe5b905fed00c24e2"
+    },
+    {
+      "path": "tests/viz/test_trace_diff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a0ce28e543ddc9295b7acd0a52354f6ac139f11",
+      "size": 3282,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/2a0ce28e543ddc9295b7acd0a52354f6ac139f11"
+    },
+    {
+      "path": "tests/viz/test_trial_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8490cbf2762c35816079a1bee89f4cd03a66bdeb",
+      "size": 9212,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/8490cbf2762c35816079a1bee89f4cd03a66bdeb"
+    },
+    {
+      "path": "third_party",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e33714c47022f03ff03a9d23099121c68c1bdf35",
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/trees/e33714c47022f03ff03a9d23099121c68c1bdf35"
+    },
+    {
+      "path": "third_party/LIBERO-PRO",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "2da49576af2b71845557fc7085d02097d1741c32"
+    },
+    {
+      "path": "third_party/Variational-Automation-Benchmark",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "fd2bc0f63369ba39137df018bbca8f6b372ffa0b"
+    },
+    {
+      "path": "third_party/robosuite",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "a498b087d4bc5a3981e3d27030d09bc537a537f3"
+    },
+    {
+      "path": "third_party/robots_realtime",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "b91fa9db001f68483025ba2f78d7d8853348d07f"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43f465a1eeabcc74fdf3fea62f571114506db4d",
+      "size": 1369239,
+      "url": "https://api.github.com/repos/graph-robots/graph-as-policy/git/blobs/d43f465a1eeabcc74fdf3fea62f571114506db4d"
+    }
+  ],
+  "truncated": false
+}

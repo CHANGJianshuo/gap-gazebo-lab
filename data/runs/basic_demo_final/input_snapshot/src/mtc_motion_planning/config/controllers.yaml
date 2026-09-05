@@ -1,0 +1,100 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 500
+    use_sim_time: true
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    latch_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+arm_controller:
+  ros__parameters:
+    joints:
+    - shoulder_joint
+    - upperArm_joint
+    - foreArm_joint
+    - wrist1_joint
+    - wrist2_joint
+    - wrist3_joint
+    command_interfaces:
+    - effort
+    state_interfaces:
+    - position
+    - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 25.0
+    allow_partial_joints_goal: false
+    gains:
+      shoulder_joint:
+        p: 500.0
+        i: 0.0
+        d: 10.0
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+      upperArm_joint:
+        p: 650.0
+        i: 0.0
+        d: 12.0
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+      foreArm_joint:
+        p: 500.0
+        i: 0.0
+        d: 8.0
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+      wrist1_joint:
+        p: 120.0
+        i: 0.0
+        d: 1.2
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+      wrist2_joint:
+        p: 100.0
+        i: 0.0
+        d: 0.6
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+      wrist3_joint:
+        p: 30.0
+        i: 0.0
+        d: 0.12
+        i_clamp: 0.0
+        ff_velocity_scale: 0.0
+    constraints:
+      goal_time: 2.0
+      stopped_velocity_tolerance: 0.05
+      shoulder_joint:
+        trajectory: 0.18
+        goal: 0.012
+      upperArm_joint:
+        trajectory: 0.18
+        goal: 0.012
+      foreArm_joint:
+        trajectory: 0.18
+        goal: 0.012
+      wrist1_joint:
+        trajectory: 0.18
+        goal: 0.012
+      wrist2_joint:
+        trajectory: 0.18
+        goal: 0.012
+      wrist3_joint:
+        trajectory: 0.18
+        goal: 0.012
+    use_sim_time: true
+latch_controller:
+  ros__parameters:
+    joints:
+    - latch_left_joint
+    - latch_right_joint
+    command_interfaces:
+    - position
+    state_interfaces:
+    - position
+    - velocity
+    constraints:
+      goal_time: 1.0
+      stopped_velocity_tolerance: 0.05
+    use_sim_time: true

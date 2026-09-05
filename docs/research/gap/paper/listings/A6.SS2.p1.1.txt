@@ -1,0 +1,107 @@
+```python
+from vos.builder import WorkflowSpec, START
+from vos.runtime.workflow import ServiceCall
+
+spec = WorkflowSpec(name="pick_and_place", description="Pick up the object on the table and place it at the designated target location.")
+
+# 1. Declare subgraphs
+spec.declare_subgraph(
+    "target_sg",
+    skill="perception_single",
+    description="Locate the object on the table",
+    inputs={},
+    outputs={
+        "target_obb": "OrientedBoundingBox",
+        "target_mask": "Mask",
+        "target_cloud": "PointCloud",
+    },
+    exit_success_values=["found"],
+    on_error="abort",
+)
+
+spec.declare_subgraph(
+    "container_sg",
+    skill="perception_single",
+    description="Locate the target location",
+    inputs={},
+    outputs={
+        "container_obb": "OrientedBoundingBox",
+        "container_mask": "Mask",
+        "container_cloud": "PointCloud",
+    },
+    exit_success_values=["found"],
+    on_error="abort",
+)
+
+spec.declare_subgraph(
+    "grasp_sg",
+    skill="grasp_multi",
+    description="Grasp the object on the table",
+    inputs={
+        "target_obb": "OrientedBoundingBox",
+        "target_mask": "Mask",
+        "target_cloud": "PointCloud",
+    },
+    outputs={"ee_pose_at_grasp": "Se3Pose"},
+    exit_success_values=["grasped"],
+    on_error="abort",
+    stage="grasp",
+)
+
+spec.declare_subgraph(
+    "transport_sg",
+    skill="transport_to_drop",
+    description="Transport the object to the target location",
+    inputs={
+        "target_obb": "OrientedBoundingBox",
+        "target_mask": "Mask",
+        "container_obb": "OrientedBoundingBox",
+        "container_mask": "Mask",
+        "ee_pose_at_grasp": "Se3Pose",
+    },
+    outputs={},
+    exit_success_values=["placed"],
+    on_error="abort",
+    stage="place",
+)
+
+# 2. Place subgraph nodes
+spec.add_subgraph_node("target_sg", ref="target_sg")
+spec.add_subgraph_node("container_sg", ref="container_sg")
+spec.add_subgraph_node("grasp_sg", ref="grasp_sg")
+spec.add_subgraph_node("transport_sg", ref="transport_sg")
+
+# 3. Add end nodes
+spec.add_end("done", status="success")
+spec.add_end(
+    "abort",
+    status="failure",
+    recovery=[
+        ServiceCall("gripper.v1.Gripper", "Open", {}),
+        ServiceCall("robot_control.v1.RobotControl", "GoHome", {}),
+    ],
+)
+
+# 4. Wire edges
+spec.add_edge(START, "target_sg")
+spec.add_conditional_edges(
+    "target_sg",
+    {"found": "container_sg", "not_found": "abort"},
+    router_field="exit",
+)
+spec.add_conditional_edges(
+    "container_sg",
+    {"found": "grasp_sg", "not_found": "abort"},
+    router_field="exit",
+)
+spec.add_conditional_edges(
+    "grasp_sg",
+    {"grasped": "transport_sg", "failed": "abort"},
+    router_field="exit",
+)
+spec.add_conditional_edges(
+    "transport_sg",
+    {"placed": "done", "blocked": "abort"},
+    router_field="exit",
+)
+```
