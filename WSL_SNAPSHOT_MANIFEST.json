@@ -1695,100 +1695,99 @@
       "path": "电池道具.stp",
       "sha256": "534c0892b173f1dc7e198648672784bfd221ecb35741f93dab98248399544a50",
       "bytes": 124248
-    }
-  ],
-  "excluded": [
+    },
     {
       "path": "data/runs/basic_demo_final/bridge.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "31408749b775b0ec66aa3c8ec7913c9416e720d161ed8c58fb5a17d80081acc5",
       "bytes": 1061
     },
     {
       "path": "data/runs/basic_demo_final/controllers.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "f8aba2f96b1d8eb7356169bdef24977185b1f1be5d8c74f925c97f0c1ad4a030",
       "bytes": 821
     },
     {
       "path": "data/runs/basic_demo_final/demo_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "22a3b507a1a34ef272a175eb5e1d04243e3680ad200735ed1a18d5d74e34c1d2",
       "bytes": 1812
     },
     {
       "path": "data/runs/basic_demo_final/gazebo.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "b91d502073aa0fbf4dbc8a925f4b25103ec51e975f14530a50f45641cd1393ff",
       "bytes": 18701
     },
     {
       "path": "data/runs/basic_demo_final/planning_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "d87f81f0b91dd49690591511b5d62d33ae56b0659182892e5299fd8a31ba06b7",
       "bytes": 2026
     },
     {
       "path": "data/runs/basic_demo_final/recording_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "dd016dc4e8c3e4bb9b00eeb1593a7ad59703abafa764b0800266a6ee4f01ea0d",
       "bytes": 391
     },
     {
       "path": "data/runs/basic_demo_final/robot_state_publisher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "26a0505bf485d4de59a393f3f9166e367fd797254419758e463fa949c04ef91a",
       "bytes": 2261
     },
     {
       "path": "data/runs/basic_demo_final/simulation_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "663969c45d375c968c4ee732e29daf979daf67df3689a211bff1abe2a3facaef",
       "bytes": 127
     },
     {
       "path": "data/runs/basic_demo_final/verification_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "6ce8e270406e253da62a9c8fb95f9a023cde94a08bde90d43acb90ac157e413d",
       "bytes": 4233
     },
     {
       "path": "data/runs/sequence_demo/bridge.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "89db52fd45c463bd5877c535ecbf2a2301cd9cc49ce74b501e79ee6e480cc86d",
       "bytes": 1061
     },
     {
       "path": "data/runs/sequence_demo/controllers.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "7c1616248d3ade05c61919a0c15c525c6147550204a1369871ea3bdd0663133a",
       "bytes": 821
     },
     {
       "path": "data/runs/sequence_demo/demo_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "56f0ec9d53c871ee05a01b175353a3e066ae9c9f47858e448a15b24259cb5dea",
       "bytes": 4923
     },
     {
       "path": "data/runs/sequence_demo/gazebo.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "6d34675d52b5dd1d99dec3ae4394015b0ad5ad9155a6ff0376a49bd47b5e7b47",
       "bytes": 22674
     },
     {
       "path": "data/runs/sequence_demo/planning_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "c7803f85e3861efc3f559c2e7a05c76aa4fb5b505789718ffed7d44e577a4ce5",
       "bytes": 3310
     },
     {
       "path": "data/runs/sequence_demo/recording_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "b623492db4bea624f0f2fc1d28eff85b3a41bc830b1e9c808d1d67c9936666a4",
       "bytes": 391
     },
     {
       "path": "data/runs/sequence_demo/robot_state_publisher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "6da70aecd2ef2815245bb692c2cf7a669159140e7e8e100b22f403be0e3832e1",
       "bytes": 2261
     },
     {
       "path": "data/runs/sequence_demo/simulation_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "7cd1196ce56bf350474e78d0cddd1fe6d3cb3f0b4a61d34aac5cff0fdb972b1f",
       "bytes": 127
     },
     {
       "path": "data/runs/sequence_demo/verification_launcher.log",
-      "reason": "local data/model/database/archive/generated file",
+      "sha256": "e2ecf9d46076a03d064b83c3f9cc02358e6256fe674302db13c277cedb45f594",
       "bytes": 4818
     }
   ],
+  "excluded": [],
   "original_head": "6e3bd4bb8a1903ee75d6d346611a04964f95acce",
   "original_branch": "feat/motion-planning-v2",
   "kind": "workspace snapshot, not a build/runtime/database backup",

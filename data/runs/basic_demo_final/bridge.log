@@ -1,0 +1,7 @@
+[INFO] [1788593781.787127802] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[INFO] [1788593781.787791222] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/overview/image (gz.msgs.Image) -> /overview/image (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1788593781.788786225] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/wrist_camera/image (gz.msgs.Image) -> /wrist_camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1788593781.789061347] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/wrist_camera/depth_image (gz.msgs.Image) -> /wrist_camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1788593781.789314949] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/wrist_camera/imu (gz.msgs.IMU) -> /wrist_camera/imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[INFO] [1788593781.789628509] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/wrist_camera/camera_info (gz.msgs.CameraInfo) -> /wrist_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[INFO] [1788593963.316287728] [rclcpp]: signal_handler(SIGINT/SIGTERM)
