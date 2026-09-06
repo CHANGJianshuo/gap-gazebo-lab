@@ -1,4 +1,0 @@
-numpy==1.26.4
-cadquery-ocp==7.7.2
-trimesh==4.12.2
-pybullet==3.2.7

@@ -4,13 +4,14 @@ import argparse
 import os
 from pathlib import Path
 import yaml
+from runtime_assets import asset_text, runtime_asset
 
 ROOT=Path(__file__).resolve().parents[1]
 def main():
     p=argparse.ArgumentParser();p.add_argument('--task',choices=['basic','sequence'],default='sequence');p.add_argument('--run-dir',default='data/runs/live');args=p.parse_args();run=ROOT/args.run_dir;run.mkdir(parents=True,exist_ok=True)
     config=ROOT/'src/mtc_motion_planning/config'
-    params={'use_sim_time':True,'scene_config':str(ROOT/f'src/mtc_simulation/config/{args.task}.json'),
-            'robot_description':(ROOT/'src/mtc_description/urdf/s3_latch.urdf').read_text(),
+    params={'use_sim_time':True,'scene_config':str(runtime_asset(f'src/mtc_simulation/config/{args.task}.json')),
+            'robot_description':asset_text('src/mtc_description/urdf/s3_latch.urdf'),
             'robot_description_semantic':(config/'s3.srdf').read_text(),
             'robot_description_kinematics':yaml.safe_load((config/'kinematics.yaml').read_text()),
             'robot_description_planning':yaml.safe_load((config/'joint_limits.yaml').read_text()),

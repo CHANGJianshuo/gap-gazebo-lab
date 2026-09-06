@@ -72,7 +72,7 @@
   "collision": [
     {
       "kind": "mesh",
-      "file": "/home/chang/meituan_challenge/src/mtc_description/meshes/battery_body_collision.stl",
+      "file": "@PROJECT_ROOT@/src/mtc_description/meshes/battery_body_collision.stl",
       "xyz": [
         0,
         0,

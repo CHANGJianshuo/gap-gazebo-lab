@@ -1,8 +1,8 @@
 # 初赛接口草案
 
-2026-09-05 范围更新：用户要求优先完整实现常建烁的运动规划，以 Gazebo ground truth 提供理想输入。新增规划演示模式明确允许读取真实关节、电池位姿及环境；该模式不评估感知与标定，也不冒充使用腕部视觉的整场比赛系统。正式任务调度仍归 SJM。制作过程见 [持续更新的 HTML](../progress/index.html)。下文原有视觉模式的真值隔离约定仍适用于未来视觉比赛 profile。
+2026-09-05 范围更新：用户要求优先完整实现常建烁的运动规划，以 Gazebo ground truth 提供理想输入。新增规划演示模式明确允许读取真实关节、电池位姿及环境；该模式不评估感知与标定，也不冒充使用腕部视觉的整场比赛系统。正式任务调度仍归 SJM。制作过程见 [持续更新的 HTML](https://github.com/CHANGJianshuo/gap-gazebo-lab/blob/main/legacy/meituan_challenge/docs/progress/index.html)。下文原有视觉模式的真值隔离约定仍适用于未来视觉比赛 profile。
 
-以下为包实现前的共同约定。消息文件和节点尚未实现；任务范围、物理参数和评分歧义见 [待确认问题](../OPEN_QUESTIONS.md)。
+以下为包实现前的共同约定。消息文件和节点尚未实现；任务范围、物理参数和评分歧义见 [待确认问题](https://github.com/CHANGJianshuo/gap-gazebo-lab/blob/main/legacy/meituan_challenge/docs/OPEN_QUESTIONS.md)。
 
 ## 坐标与时间
 

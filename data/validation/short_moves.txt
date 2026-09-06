@@ -1,1 +1,0 @@
-{"cases":1000,"bad_samples":0,"max_jerk_ratio":1,"max_q_error_rad":2.47752e-08,"min_dt":0.0005002}

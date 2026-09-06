@@ -20,7 +20,7 @@ class Recorder(Node):
         image_qos=QoSProfile(depth=2,reliability=ReliabilityPolicy.RELIABLE)
         self.create_subscription(ImageMessage,'/overview/image',self.frame,image_qos)
         self.create_subscription(ImageMessage,'/wrist_camera/image',self.wrist_frame,image_qos)
-        fonts=[str(ROOT/'third_party/fonts/NotoSansCJKsc-Regular.otf'),'/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc']
+        fonts=['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc','/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf']
         font=next((x for x in fonts if Path(x).exists()),None)
         if font is None:raise RuntimeError('A Chinese font is required: install fonts-noto-cjk or fonts-droid-fallback')
         self.font=ImageFont.truetype(font,19)

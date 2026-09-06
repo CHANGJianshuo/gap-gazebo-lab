@@ -753,7 +753,7 @@
   </ros2_control>
   <gazebo>
     <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-      <parameters>/home/chang/meituan_challenge/src/mtc_motion_planning/config/controllers.yaml</parameters>
+      <parameters>@PROJECT_ROOT@/src/mtc_motion_planning/config/controllers.yaml</parameters>
       <robot_param_node>robot_state_publisher</robot_param_node>
     </plugin>
   </gazebo>

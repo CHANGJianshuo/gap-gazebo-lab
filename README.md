@@ -1,66 +1,44 @@
-# 常建烁 · AUBO S3 运动规划演示
+# AUBO S3 运动规划核心
 
-ROS 2 Humble + MoveIt 2 + Gazebo Harmonic。使用官方 S3 模型、腕部 D435i、原尺寸比赛底图、用户提供的电池 STEP 和两片半圆锁扣，从仿真真值生成并执行完整抓放轨迹。
+ROS 2 Humble + MoveIt 2 + Gazebo Harmonic。以仿真真值为输入，规划并执行带半圆锁扣的电池抓放。只维护 `main` 分支。
 
-[打开制作过程与演示网页](docs/progress/index.html) · [实际验证记录](docs/VALIDATION.md) · [规划原理与方案](docs/architecture/MOTION_PLANNING_PLAN.md) · [给 SJM 的接口说明](docs/architecture/INTERFACES.md)
+完整历史、GaP 研究、原始 CAD/PDF、教学报告和历史录像已归档至 [gap-gazebo-lab](https://github.com/CHANGJianshuo/gap-gazebo-lab/tree/main/legacy)。本地完整版本位于 `/home/chang/gap`。
 
-详细通俗技术报告：[网页阅读](docs/reports/motion_planning_report.html) · [19 页 PDF](docs/reports/motion_planning_report.pdf) · [Markdown 原稿](docs/reports/motion_planning_report.md)。包含 IK、B 样条与 Ruckig、动力学和控制、实际规划案例、最终数据及团队对接。
+## 保留内容
 
-最终录像：[序列 CAB](data/videos/sequence_demo.mp4) · [基础 C→T0](data/videos/basic_demo_final.mp4)。两次最终运行及接口检查均通过，详细数值见验收记录。
+| 目录 | 功能 |
+| --- | --- |
+| `src/mtc_motion_planning` | IK、Ruckig/B 样条候选、RRT-Connect 后备、碰撞与动力学约束、轨迹 Action、核心测试 |
+| `src/mtc_interfaces` | 规划 Action 和锁扣服务 |
+| `src/mtc_description` | S3、腕部 D435i、锁扣与电池运行模型 |
+| `src/mtc_simulation` | Gazebo 场景、真值、锁扣与逐步接触监测 |
+| `scripts` | 构建、启动、基础任务流程、录像和验证 |
+| `config`、`docs` | 仿真假设、接口和五人分工 |
 
-网页可直接打开；若浏览器限制本地视频或 JSON，可在项目根目录运行 `python3 -m http.server 8765 --bind 127.0.0.1`，访问 `http://127.0.0.1:8765/docs/progress/`。
+`scripts/demo.py` 已有基础阶段流程、顺序调度、执行反馈和异常终止；SJM 在此基础上负责完善任务管理和恢复。感知、标定及其他未实现的空包已删除，职责保留在 [分工表](docs/team/OWNERS.md)。
 
-## 运行
+## 构建与运行
 
-本机已完成构建。运行时关闭之前手动启动的本项目仿真，避免同一 ROS domain 内出现重复控制器。
-
-```bash
-bash scripts/run_demo.sh --task sequence --order CAB
-bash scripts/run_demo.sh --task basic --order C
-```
-
-每次创建独立的 `data/runs/<运行编号>/` 和 `data/videos/<运行编号>.mp4`，包含轨迹、候选方案、关节跟踪 CSV、真值轨迹、接触记录、日志和验收结果。视频来自 Gazebo 相机，25 fps，按传感器的仿真时间播放；传输丢帧会补持上一帧并记录数量。实际计算机耗时单独记录。
-
-重新生成资产、构建并进行核心检查：
+系统依赖：Ubuntu 22.04、ROS 2 Humble/MoveIt 2、Gazebo Harmonic 开发库、配套 `ros_gz`、ros2_control、realsense2_description、colcon、C++17、Python numpy/PyYAML/Pillow、ffmpeg；录像需 `fonts-noto-cjk` 或 `fonts-droid-fallback`。
 
 ```bash
 bash scripts/build.sh
+bash scripts/run_demo.sh --task basic --order C --verify
+bash scripts/run_demo.sh --task sequence --order CAB
 ```
 
-系统依赖：Ubuntu 22.04、ROS 2 Humble / MoveIt 2、Gazebo Harmonic 开发库 `libgz-sim8-dev`、与 Harmonic 配套的 `ros_gz`、ros2_control、realsense2_description、colcon、C++17 编译器、Python venv、ffmpeg、中文字体。`build.sh` 固定下载两项控制库源码，创建独立 CAD Python 环境，不修改 `/opt/ros`。
+不录像可加 `--no-video`。构建会下载固定版本的控制库并应用本项目补丁，不修改系统 ROS。模型已提交，无需 CAD Python 环境；运行时自动解析项目路径，生成文件、日志和录像都在 Git 忽略的目录内。
 
-分开启动以方便调试：
+构建执行轨迹、短运动与控制器插值检查。若系统 Python 已有 `pybullet==3.2.7`，还会执行动力学交叉检查；否则明确提示跳过。可单独运行：
 
 ```bash
 source scripts/env.sh
-python3 scripts/launch_sim.py --task sequence
-# 另一个同样 source 的终端
-python3 scripts/launch_planner.py --task sequence
-# 第三个终端
-python3 scripts/demo.py --task sequence --order CAB
+python3 scripts/check_dynamics.py
+python3 scripts/check_sensors.py
 ```
 
-## 实现内容
+接口见 [规划接口](docs/architecture/INTERFACES.md)，模型来源见 [第三方说明](docs/MODEL_SOURCES.md)。
 
-| 位置 | 内容 |
-| --- | --- |
-| `src/mtc_motion_planning/` | 常建烁的核心：多初值 IK、Ruckig、五次 B 样条、RRT-Connect 后备、全模型碰撞与力矩验证、ROS action |
-| `src/mtc_interfaces/` | 已实现 `PlanMotion.action`、`Latch.srv` |
-| `src/mtc_description/` | 官方 S3、相机、参数化锁扣、STEP 派生网格及质量参数 |
-| `src/mtc_simulation/` | 两张原始底图世界、Gazebo 真值、受位置约束的锁扣、每个物理步的接触监测 |
-| `scripts/demo.py` | 集成测试用抓放流程；正式任务状态机和执行层仍由 SJM 负责 |
-| `scripts/run_demo.sh` | 启动、录像、验收、日志归档与本次进程清理 |
-| `docs/progress/` | 持续更新的简明中文教学网页 |
-| `third_party/` / `vendor_ws/` | 固定版本上游模型及控制库；补丁保存在 `scripts/*.patch` |
+## 结果边界
 
-其他成员的感知、标定、正式调度等目录仍是团队接口预留，并未用空节点冒充完成。原始 PDF 和 STEP 均保留原位。
-
-## 适用范围
-
-当前是**理想输入的运动规划仿真**。相机真实产生 RGB、深度、内参和 IMU，但规划读取 Gazebo 真值。电池质量 0.4 kg、摩擦系数 0.8、加速度/jerk 限值、相机与锁扣安装参数是明确记录的仿真假设。
-
-锁扣闭合且 TCP 距把手中心不超过 2.5 mm、轴向匹配后，Gazebo 建立固定机械连接；不移动电池去迎合夹爪。该模型验证搬运与释放过程，不验证锁扣材料强度、间隙冲击和真实承载能力。
-
-算法选择候选中**最快且通过全部检查**的轨迹，不宣称求出了带障碍、带动力学约束的全局最优解。有限步长的 FCL 检查与实际物理接触记录分别保留。
-
-底图内圈直径 80 mm，电池平放外包尺寸 70×80 mm，不能完全包含于内圈；本演示检查目标中心放置，不声称获得内圈满分。演示颜色次序由 `--order` 指定，示例 CAB 不是替赛事指定口令。
+输入使用 Gazebo ground truth，未实现真实感知和标定；尚无真机验证。锁扣使用位置/轴向条件约束下的固定连接，不能验证真实材料强度。轨迹选择候选中最快的通过验证方案，不保证全局最优；碰撞检查采用有限采样。历史演示和原始证据在独立归档仓库中。

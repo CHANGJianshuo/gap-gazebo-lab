@@ -9,4 +9,4 @@
 
 运行 `source scripts/env.sh` 后使用 `python3 scripts/launch_planner.py --task sequence`。必须同时有仿真状态来源。完整启动及视频命令见 [项目 README](../../README.md)。
 
-选型理由、优化边界和零基础解释见 [实际方案](../../docs/architecture/MOTION_PLANNING_PLAN.md)；SJM 对接见 [接口说明](../../docs/architecture/INTERFACES.md)。
+选型理由和教学报告已迁移到 [完整归档](https://github.com/CHANGJianshuo/gap-gazebo-lab/tree/main/legacy/meituan_challenge/docs)；SJM 对接见 [接口说明](../../docs/architecture/INTERFACES.md)。

@@ -32,5 +32,5 @@ ament_target_dependencies(planner rclcpp rclcpp_action moveit_core moveit_ros_pl
 target_link_libraries(planner Eigen3::Eigen ruckig::ruckig)
 install(TARGETS planner DESTINATION lib/${PROJECT_NAME})
 install(TARGETS trajectory_self_test short_moves_test dynamics_probe controller_interpolation_test DESTINATION lib/${PROJECT_NAME})
-install(DIRECTORY config launch DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
 ament_package()

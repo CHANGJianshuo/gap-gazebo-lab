@@ -1,9 +1,0 @@
-robot_state_publisher: PID 375625
-gazebo: PID 375626
-bridge: PID 375627
-
-controllers: PID 375691
-data: true
-
-
-SIMULATION_READY

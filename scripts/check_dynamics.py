@@ -7,6 +7,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as E
 import numpy as np
+from runtime_assets import runtime_asset
 sys.path.append(site.getusersitepackages())  # Existing optional PyBullet installation.
 import pybullet as bullet
 
@@ -27,7 +28,7 @@ result=json.loads(probe.stdout.strip().splitlines()[-1])
 bullet.connect(bullet.DIRECT);bullet.setGravity(0,0,-9.81)
 models=[]
 for loaded in [False,True]:
-    xml=E.parse(ROOT/'src/mtc_description/urdf/s3_latch_resolved.urdf');robot=xml.getroot()
+    xml=E.parse(runtime_asset('src/mtc_description/urdf/s3_latch.urdf',resolve_packages=True));robot=xml.getroot()
     for link in robot.findall('link'):
         for tag in ['visual','collision']:
             for item in link.findall(tag):link.remove(item)

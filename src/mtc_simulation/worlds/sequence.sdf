@@ -216,7 +216,7 @@
             <diffuse>1 1 1 1</diffuse>
             <pbr>
               <metal>
-                <albedo_map>/home/chang/meituan_challenge/src/mtc_simulation/models/board_sequence.png</albedo_map>
+                <albedo_map>@PROJECT_ROOT@/src/mtc_simulation/models/board_sequence.png</albedo_map>
                 <roughness>1</roughness>
                 <metalness>0</metalness>
               </metal>
@@ -243,7 +243,7 @@
         <visual name="cad">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -254,7 +254,7 @@
         <collision name="part_0">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery_body_collision.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery_body_collision.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -334,7 +334,7 @@
         <visual name="cad">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -345,7 +345,7 @@
         <collision name="part_0">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery_body_collision.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery_body_collision.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -425,7 +425,7 @@
         <visual name="cad">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -436,7 +436,7 @@
         <collision name="part_0">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery_body_collision.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery_body_collision.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -516,7 +516,7 @@
         <visual name="cad">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -527,7 +527,7 @@
         <collision name="part_0">
           <geometry>
             <mesh>
-              <uri>/home/chang/meituan_challenge/src/mtc_description/meshes/battery_body_collision.stl</uri>
+              <uri>@PROJECT_ROOT@/src/mtc_description/meshes/battery_body_collision.stl</uri>
             </mesh>
           </geometry>
           <surface>

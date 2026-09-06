@@ -1,21 +1,8 @@
-# Keep original CAD, upstream resources, and recorded evidence byte-for-byte.
+# Keep model resources byte-for-byte; preserve patch context whitespace.
 * -text
-*.stp binary
-*.step binary
 *.stl binary
 *.STL binary
-*.dae binary
 *.DAE binary
 *.png binary
-*.pdf binary
-*.mp4 binary
-*.otf binary
-
-# Generated curves and snapshots can contain formatting from their generators.
-*.svg -whitespace linguist-generated=true
-# Patch context whitespace is part of the patch payload.
 *.patch -whitespace
-data/runs/** -whitespace linguist-generated=true
-docs/competition/extracted/** -whitespace linguist-generated=true
-docs/reports/motion_planning_report.html -diff -whitespace linguist-generated=true
 third_party/** -whitespace linguist-vendored=true

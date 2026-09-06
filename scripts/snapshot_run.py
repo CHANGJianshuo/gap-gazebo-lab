@@ -10,7 +10,7 @@ import subprocess
 ROOT=Path(__file__).resolve().parents[1]
 def snapshot(output,task,when='before_run'):
     run=Path(output);run.mkdir(parents=True,exist_ok=True)
-    paths=[ROOT/'电池道具.stp',ROOT/'《2026年挑战赛任务底图》.pdf']
+    paths=[]
     for part in ['src/mtc_motion_planning','src/mtc_simulation','src/mtc_description','src/mtc_interfaces','scripts']:
         paths.extend(p for p in (ROOT/part).rglob('*') if p.is_file() and p.suffix in ['.cpp','.hpp','.py','.sh','.patch','.yaml','.json','.urdf','.srdf','.action','.srv','.sdf','.xml'])
     paths.extend(ROOT/p for p in ['vendor_ws/install/lib/libgz_ros2_control-system.so','vendor_ws/install/lib/libjoint_trajectory_controller.so','install/mtc_motion_planning/lib/mtc_motion_planning/planner','install/mtc_simulation/lib/libmtc_simulation_system.so'])
