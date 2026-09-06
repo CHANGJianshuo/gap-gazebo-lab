@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "cases": 64,
+  "max_torque_difference_Nm": 2.41051623106614e-12,
+  "max_tcp_difference_m": 6.558633696067224e-08,
+  "coverage": "full URDF tree, off-axis camera and open latch; 32 unloaded and 32 loaded static/dynamic states",
+  "reference": "PyBullet calculateInverseDynamics, URDF_USE_INERTIA_FROM_FILE; not a check of actual hardware parameters"
+}

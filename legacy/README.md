@@ -5,6 +5,7 @@
 完整提交历史另存为本仓库分支：
 
 - `archive/meituan-main`：精简前 main。
+- `archive/meituan-core`：精简后核心代码，包含移除 CAD 构建依赖及可迁移资源路径的改动。
 - `archive/meituan-motion-planning-v2`：本地开发分支，包含此前尚未推送的提交。
 - `archive/meituan-motion-planning-v2-remote`：原远端开发分支。
 - `archive/meituan-backup-wsl-20260905`：原远端备份分支（包括额外的论文整理脚本）；相对于开发分支的文件差异另存于 `branch_variants/backup-wsl-20260905/`。
