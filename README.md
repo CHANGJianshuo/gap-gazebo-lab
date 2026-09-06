@@ -2,6 +2,8 @@
 
 独立仓库：<https://github.com/CHANGJianshuo/gap-gazebo-lab>。本仓库收录 GaP 调研、论文归档和 Gazebo 原型，与 `meituan_challenge` 的比赛 `main` 分支分开维护。
 
+本地目录为 `/home/chang/gap`。原项目所有源码及开发分支内容保存在 [legacy](legacy/README.md)，完整 Git 历史保存在 `archive/meituan-*` 分支。精简后的比赛核心代码继续在原仓库维护。
+
 **当前是研究原型。** 历史版本已完成一次规则改图的 Gazebo 抓放闭环，证据见 [演示归档](artifacts/README.md)。后续轨迹插值检查和启动清理修改尚未完成最终端到端验收，最近重启遇到控制器启动超时；不能把历史录像视为当前 HEAD 稳定可复现的证明。真实 LLM 修复未运行，论文完整自学习与基准实验未复现。
 
 获取仓库和固定版本的官方源码：
@@ -18,7 +20,7 @@ cd gap-gazebo-lab
 阅读 [开源与复现核查](reports/OPENNESS_AND_REPRODUCTION.md)。源码和本机环境见 [版本记录](reports/source_environment_audit.json)。
 
 ```text
-gap_reproduction/
+gap/
 ├── graph-as-policy/        官方完整 Git checkout，含递归子模块
 ├── open-robot-skills/      官方技能库，和主仓库并列
 ├── .venv-audit/            独立的核心功能测试环境

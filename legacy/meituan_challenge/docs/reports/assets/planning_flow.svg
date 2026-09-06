@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="550" viewBox="0 0 1080 550" role="img" aria-labelledby="title desc">
+<title id="title">AUBO S3 候选生成与验证</title><desc id="desc">目标与场景输入后，自由运动比较逆解和直接轨迹，直线运动通过连续 IK 生成样条。自由运动候选全失败时启用 RRT。所有候选经过统一检查，由执行层发送成功轨迹。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#76849a" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:system-ui,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#1a2940;text-anchor:middle}.title{font-size:19px;font-weight:700}.body{font-size:16px}.small{font-size:14px;fill:#62738a}.line{fill:none;stroke:#76849a;stroke-width:2;marker-end:url(#arrow)}</style>
+<rect width="1080" height="550" rx="14" fill="#f6f8fc"/>
+<rect x="300" y="16" width="480" height="58" rx="12" fill="#e6edff" stroke="#91aafb"/>
+<text x="540" y="40" class="title">目标 TCP + 当前关节 + 场景 + 负载</text><text x="540" y="62" class="small">统一坐标、检查数据和起点有效性</text>
+<path d="M390 74 V92 H180 V118" class="line"/><path d="M690 74 V92 H900 V118" class="line"/>
+<rect x="22" y="123" width="316" height="126" rx="12" fill="white" stroke="#ccd6e7"/>
+<text x="180" y="152" class="title">free：自由运动</text><text x="180" y="180" class="body">多个目标关节姿态 → Ruckig</text><text x="180" y="207" class="body">带载或全失败时另试直线样条</text><text x="180" y="232" class="small">比较整条轨迹，不能只看 IK 终点</text>
+<rect x="742" y="123" width="316" height="126" rx="12" fill="white" stroke="#ccd6e7"/>
+<text x="900" y="152" class="title">cartesian：末端直线</text><text x="900" y="180" class="body">位姿插值 → 连续 IK</text><text x="900" y="207" class="body">五次 B 样条：10 / 16 / 24 点</text><text x="900" y="232" class="small">任一路点失败或关节跳变则拒绝</text>
+<path d="M338 177 H410" class="line"/><text x="376" y="152" class="small">全失败</text>
+<rect x="420" y="130" width="240" height="108" rx="12" fill="#fff5df" stroke="#dbc08a"/>
+<text x="540" y="159" class="title">RRT-Connect 后备</text><text x="540" y="186" class="body">绕障路径 → 样条候选</text><text x="540" y="215" class="small">最终录像没有触发此分支</text>
+<path d="M180 249 V287 H310 V317" class="line"/><path d="M900 249 V287 H770 V317" class="line"/><path d="M540 238 V317" class="line"/>
+<rect x="132" y="322" width="816" height="95" rx="12" fill="#eaf6f1" stroke="#8ec9b2"/>
+<text x="540" y="350" class="title">统一验证：控制器插值、碰撞、导数、力矩、负载与直线约束</text>
+<text x="540" y="379" class="body">候选粗检查 → 按时长排序 → 更密的最终检查</text>
+<text x="540" y="403" class="small">选最短通过者；否则返回失败原因</text>
+<path d="M540 417 V447" class="line"/>
+<rect x="160" y="452" width="760" height="66" rx="12" fill="white" stroke="#9fb4d8"/>
+<text x="540" y="479" class="title">输出带时间的关节轨迹 + 状态 + 验证指标</text><text x="540" y="505" class="body">SJM / 演示客户端发起执行 → 控制器 → Gazebo → 反馈与验收</text>
+</svg>

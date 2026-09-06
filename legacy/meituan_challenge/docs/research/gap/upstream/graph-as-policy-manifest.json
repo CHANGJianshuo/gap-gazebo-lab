@@ -1,0 +1,106 @@
+{
+  "repository": "https://github.com/graph-robots/graph-as-policy",
+  "commit": "93e929c9a1668cacba2e8be604e99a7538abbee9",
+  "retrieved_at_utc": "2026-09-05T12:17:02.879727+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/README.md",
+      "sha256": "3cf766b07b965aa2b0b25e7d78453c6cb75ee1e23d01f8f83d6685ac2bccce5f"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/pyproject.toml",
+      "sha256": "290b544386f26a398b1fdde437314e9c8d9ea8cb10e90a0d740fcd2c52b8bc52"
+    },
+    {
+      "path": "docs/source/reference/workflow-schema.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/reference/workflow-schema.md",
+      "sha256": "7e3b57df27093f2995ea20fd3eff4f12fb43c782687fc3e963118430f5af8ca8",
+      "bytes": 18144
+    },
+    {
+      "path": "docs/source/reference/executor.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/reference/executor.md",
+      "sha256": "650789106f49e6a08a96f91327c38bb55595bf3150db5b60e79d3e499d7208d2",
+      "bytes": 11972
+    },
+    {
+      "path": "docs/source/real-robots/connectors.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/real-robots/connectors.md",
+      "sha256": "1d0b318ea3c4eb976778c2dfeb62d87df0395045d6b71a2ab9c2fe2c43931eac",
+      "bytes": 10649
+    },
+    {
+      "path": "docs/source/reference/connector-tools.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/reference/connector-tools.md",
+      "sha256": "a53574d4c213e8577af3d6924a5798bb10b41df847b306bbb215ad33ff237da8",
+      "bytes": 10057
+    },
+    {
+      "path": "docs/source/authoring/generation.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/authoring/generation.md",
+      "sha256": "ffa8d52daf7e0017cc56e53f3fd165547956adafc5ae588b08c1383fbb8ae8db",
+      "bytes": 15967
+    },
+    {
+      "path": "docs/source/getting-started/installation.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/getting-started/installation.md",
+      "sha256": "21546c103479abfeaa040fa9f7e799e20ca94cde86fe0b53c557bdcb4981d493",
+      "bytes": 9241
+    },
+    {
+      "path": "gap/connector/core.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap/connector/core.py",
+      "sha256": "3644c7a0ffbe020f90c2016f66ee17da37f5a282ddf9bf8e5d70e0b5c7dc2f6a",
+      "bytes": 47450
+    },
+    {
+      "path": "gap/connector/__init__.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap/connector/__init__.py",
+      "sha256": "ede1464fa2160fcbb5770c491fda9735ae90632dc689881183bafd8e00f1018a",
+      "bytes": 892
+    },
+    {
+      "path": "gap/runtime/executor.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap/runtime/executor.py",
+      "sha256": "5731311d7692b671a892509ba82ea8c8d29cb48a1955b2ee0b0bf34605f2e54f",
+      "bytes": 49727
+    },
+    {
+      "path": "gap-core/src/gap_core/schema.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap-core/src/gap_core/schema.py",
+      "sha256": "83d35fa95bd158f75b36a4b7536c773120ae626b28ec03c1af56e1440d5e68f3",
+      "bytes": 3331
+    },
+    {
+      "path": "gap-core/src/gap_core/types.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap-core/src/gap_core/types.py",
+      "sha256": "323e05a219de03ab5bbb7c7c260df198a24e6841771a5673bf5edfd984b4e62b",
+      "bytes": 6656
+    },
+    {
+      "path": "gap/__init__.py",
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap/__init__.py",
+      "sha256": "d3a1956d23edea4a55c178d6aca2020821c93e87ad1e3924703996d8209658f9",
+      "bytes": 1697
+    },
+    {
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/gap/runtime/execute.py",
+      "bytes": 9798,
+      "sha256": "2387de0097a95bc5f1ab3769940daa204c93411cd11b036765a06dde017a2d5a",
+      "path": "gap/runtime/execute.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/graph-robots/graph-as-policy/93e929c9a1668cacba2e8be604e99a7538abbee9/docs/source/running/checkpoints.md",
+      "bytes": 14109,
+      "sha256": "69b1efaebd7d4554686114906a2b2a03edf674018a1e8c8c9b1b56333e824516",
+      "path": "docs/source/running/checkpoints.md"
+    }
+  ]
+}

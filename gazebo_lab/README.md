@@ -19,7 +19,7 @@
 已有依赖及构建产物时：
 
 ```bash
-cd /home/chang/gap_reproduction/gazebo_lab
+cd /home/chang/gap/gazebo_lab
 source scripts/env.sh
 /usr/bin/python3 scripts/launch.py
 ```
@@ -113,7 +113,7 @@ source scripts/env.sh
 测试：
 
 ```bash
-cd /home/chang/gap_reproduction
+cd /home/chang/gap
 PYTHONPATH=graph-as-policy .venv-audit/bin/python -m pytest gazebo_lab/tests -q
 ```
 

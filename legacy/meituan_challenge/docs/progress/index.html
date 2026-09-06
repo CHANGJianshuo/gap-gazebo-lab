@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S3 运动规划实验室 · 常建烁</title>
+<style>
+:root{--ink:#17243b;--muted:#657286;--line:#e0e6ee;--blue:#265cff;--green:#16836b;--bg:#f4f6fa}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.75 system-ui,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}main{max-width:1140px;margin:auto;padding:38px 24px 60px}header{display:flex;justify-content:space-between;gap:20px;align-items:center}h1{font-size:32px;line-height:1.3;margin:8px 0 12px;letter-spacing:-1px}h2{font-size:20px;margin:0 0 14px}h3{font-size:16px;margin:0 0 8px}p{margin:8px 0}.eyebrow{font:700 11px/1.5 system-ui;letter-spacing:2px;color:var(--blue)}.muted,small{color:var(--muted)}.badge{padding:7px 13px;border:1px solid #cdd8ff;background:#edf2ff;color:var(--blue);border-radius:30px;white-space:nowrap}.intro{max-width:760px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:20px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}.metric{background:white;border:1px solid var(--line);padding:17px;border-radius:12px}.value{font-size:25px;font-weight:650;display:block;margin-top:5px}.pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}.stage{padding:15px 12px;background:#f6f8fc;border-radius:10px;border-top:3px solid #cbd5e5}.stage.done{border-color:var(--green)}.stage.active{border-color:var(--blue);background:#edf2ff}.stage span{display:block;font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.35fr 1fr;gap:20px}.lesson{background:#f7f9fc;border-radius:10px;padding:16px}.log{border-left:2px solid #dce4f2;padding-left:18px;margin:14px 0}.log time{font-size:12px;color:var(--muted)}.log p{margin:2px 0 12px}.placeholder{background:#121c2e;color:#cad5e8;min-height:250px;display:grid;place-items:center;text-align:center;border-radius:10px;padding:30px}video{width:100%;background:#121c2e;border-radius:10px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}details{margin:12px 0}summary{cursor:pointer;font-weight:600}table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;border-bottom:1px solid var(--line);padding:9px}th{color:var(--muted)}canvas{width:100%;height:155px}input[type=range]{accent-color:var(--blue);width:170px}.notice{border-left:3px solid #d5a336;padding-left:13px;font-size:13px}.foot{font-size:12px;margin-top:25px;color:var(--muted)}code{background:#edf1f6;padding:2px 5px;border-radius:4px;font-size:12px}@media(max-width:760px){header{display:block}.badge{display:inline-block;margin-top:12px}.grid,.twocol{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.pipeline{grid-template-columns:1fr}.stage{display:flex;justify-content:space-between}.panel{padding:18px}h1{font-size:27px}}
+</style></head><body><main>
+<header><div><div class="eyebrow">MOTION LAB / AUBO S3</div><h1>从目标位置，到可以执行的运动</h1><p class="intro muted">常建烁的运动规划模块：已知起点、终点与仿真真值，生成快速、避碰、经过动力学与执行反馈检查的轨迹。</p></div><div id="badge" class="badge">正在制作</div></header>
+<section class="panel" id="gap-research"><div class="eyebrow">新分支 / GaP 研究</div><h2>让机器人根据结果改进操作步骤</h2><p><b>当前完成：</b>GaP 论文下载、全文 Markdown 转换、中文解读和 S3 接入方案。尚未安装 GaP 运行栈或运行自动策略图。</p><p>GaP 把感知、规划、执行和结果检查组织成技能图，再利用仿真反馈改进图。研究将先继续使用 Gazebo 真值，考察电池摆放变化时，自动生成的流程能否提高完整任务成功率与吞吐量。</p><div class="grid"><div class="lesson"><h3>策略图：下一步做什么</h3><p>选择接近姿态、调用技能、检查是否扣住，并决定失败后如何恢复。</p></div><div class="lesson"><h3>运动规划：这一步怎么走</h3><p>复用已有 IK、Ruckig、B 样条和碰撞检查，输出控制器可以跟踪的完整轨迹。</p></div><div class="lesson"><h3>物理反馈：到底做好了吗</h3><p>读取实际关节、连接状态与碰撞记录。先用人工小图打通接口，再研究自动生成和改图。</p></div></div><p><a href="../research/gap/paper/gap_2607.05369v1.pdf">论文 PDF · 52 页</a> · <a href="../research/gap/paper/gap_2607.05369v1.md">论文全文 Markdown</a> · <a href="../research/gap/READING_NOTES.md">通俗阅读笔记</a> · <a href="../research/gap/S3_RESEARCH_PLAN.md">S3 接入与实验方案</a></p><p class="notice">下方视频和实测数值均来自 v0.1.0-sim-demo 运动规划基线。GaP 的收益需要后续同条件对照实验验证；论文也没有给出普遍最快或全局最优保证。</p></section>
+<div class="metrics"><div class="metric"><small>基线 · 完整抓放</small><span id="m-success" class="value">待实测</span></div><div class="metric"><small>基线序列 · 仿真秒</small><span id="m-time" class="value">—</span></div><div class="metric"><small>基线 · 最大关节跟踪误差</small><span id="m-error" class="value">—</span></div><div class="metric"><small>基线 · 最终验证</small><span id="m-valid" class="value">待验证</span></div></div>
+<section class="panel"><h2>基线进度与最新工作</h2><div class="pipeline" id="pipeline"></div><p id="current" class="muted"></p><small id="updated"></small></section>
+<div class="twocol"><section class="panel"><h2>Gazebo 演示</h2><div id="video-area" class="placeholder">录像将在完成真实仿真执行后放到这里。<br>不会用预先制作的动画代替运行结果。</div><p id="video-caption" class="muted"></p><div id="artifact-links"></div></section><section class="panel"><h2>这次实验的边界</h2><p><b>输入：</b>从 Gazebo 获取关节和电池真实状态，暂时跳过视觉识别与标定误差。</p><p><b>机械模型：</b>官方 AUBO S3、用户提供的电池 STEP、腕部 D435i、两片开合的半圆锁扣。</p><p><b>输出：</b>带时间的关节轨迹、验证报告、执行记录与视频。任务调度正式接口仍留给 SJM。</p><div class="notice" id="assumptions">锁扣是参数化概念模型。未提供的质量、驱动和摩擦参数作为仿真假设记录；仿真通过不代表已经完成实机验证。</div></section></div>
+<section class="panel"><h2>实际结果怎么读</h2><div style="overflow:auto"><table><thead><tr><th>场景</th><th>完成</th><th>纯运动 / 完整流程</th><th>规划计算 · 墙钟</th><th>最大落点误差</th></tr></thead><tbody id="run-results"><tr><td colspan="5">正在汇总独立运行记录。</td></tr></tbody></table></div><p class="muted">完整流程含规划期间仿真推进、开合锁扣和规定等待。墙钟时间是计算机实际耗时；本机仿真运行较慢，视频保持正常仿真速度。</p><details><summary>展开实际关节、误差和力矩曲线</summary><img id="tracking-plot" alt="实际关节轨迹、跟踪误差与电机力矩比例" style="width:100%;display:none"><p class="muted">颜色对应六个电机。实线是实际角度，虚线是控制参考；空白是规划或等待阶段。力矩比例低于 1 才在设定电机能力以内。</p></details></section>
+<section class="panel"><h2>五步看懂运动规划</h2><div class="grid"><div class="lesson"><h3>① IK：终点怎么摆</h3><p>目标是夹爪的位置和朝向，电机需要六个关节角。逆运动学把二者联系起来。同一个目标可能存在多种关节姿势。</p></div><div class="lesson"><h3>② 避障：中间怎么走</h3><p>不仅检查夹爪，还检查肘部、相机和提着的电池。找到终点姿势，不代表途中一定走得过去。</p></div><div class="lesson"><h3>③ 优化：减少无效运动</h3><p>比较不同关节解和路线，删除多余绕行。样条可以表达曲线，但“光滑”本身并不保证避碰。</p></div><div class="lesson"><h3>④ 排时间：何时加减速</h3><p>同一条路线可以快走或慢走。速度、加速度、jerk 和力矩约束决定能压缩多少运动时间。</p></div><div class="lesson"><h3>⑤ 执行：用反馈说话</h3><p>控制器跟随参考轨迹，Gazebo 计算物理响应。记录实际误差、碰撞和是否放稳，才能判断方案能否执行。</p></div><div class="lesson"><h3>锁扣如何提起电池</h3><p>张开 → 对准把手 → 闭合 → 提升 → 搬运 → 下放 → 打开 → 垂直撤离。每一步都要更新碰撞模型。</p></div></div>
+<details><summary>这里的“最优”是什么意思？</summary><p>对多个 IK 解、直接 Ruckig 与 B 样条候选进行验证，选择其中执行时间最短的一条。避障失败时使用 RRT-Connect 后备。它不保证全局最优；质量、加速度、jerk 和锁扣结构仍需实机标定。</p></details><details><summary>多项式与 B 样条属于哪一步？</summary><p>它们是表达曲线的方法。用无量纲进度表达时是路径；加上时间后是轨迹。可以优化多项式系数或 B 样条控制点，也可以用分段多项式在控制器采样点之间插值。直接优化带时间的关节样条，可以同时处理路线、快慢和平滑性。</p></details>
+<details><summary>为什么压缩一点时间，电机负担会明显增加？</summary><p>相同路径均匀缩短为一半时间，速度变为 2 倍、加速度 4 倍、jerk 8 倍。下面是单关节五次多项式的知识示意，不是本次实验数据。</p><label>示意运动时长：<input id="duration" type="range" min="0.5" max="4" step="0.1" value="2"> <b id="duration-value">2.0 s</b></label><canvas id="concept"></canvas><small>蓝线：关节角度；绿色：归一化显示的速度。真实限值取决于机器人与负载。</small></details></section>
+<section class="panel"><h2>制作记录</h2><div id="events"></div><details><summary>完整记录与复现文件</summary><p><a href="progress.json">进度数据 JSON</a> · <a href="../architecture/MOTION_PLANNING_PLAN.md">规划原理与实际方案</a> · <a href="../../README.md">工程运行说明</a></p><div id="all-events"></div></details></section>
+<section class="panel"><h2>自己运行一次</h2><p><code>bash scripts/run_demo.sh --task sequence --order CAB</code></p><p class="muted">在项目根目录执行。程序会创建新的运行目录，保存轨迹、执行记录和 MP4；首次构建见工程 README。正式任务状态机仍由 SJM 对接。</p></section>
+<p class="foot">指标只由实际运行记录更新。网页每 10 秒读取一次进度；直接打开本地文件时显示最近嵌入的快照。更新时间以记录为准。</p>
+</main><script id="snapshot" type="application/json">{
+  "status": "基线已验收 · GaP 论文与方案已整理",
+  "stage": 5,
+  "events": [
+    {
+      "time": "2026-09-05T13:42:15+08:00",
+      "title": "开始实现规划演示",
+      "message": "已确认用户授权 ground truth 输入；找到电池 STEP，现有 ROS 2 Humble 与 Gazebo Harmonic 开发库可用于实现。正在转换 CAD 并构建匹配 Harmonic 的控制插件。"
+    },
+    {
+      "time": "2026-09-05T14:02:59+08:00",
+      "title": "模型与接口已生成",
+      "message": "从 STEP 保留 70×80×80 mm 几何；已生成两张原底图场景、半圆锁扣、腕部 D435i 和 ROS action 接口。Harmonic 控制插件已构建，正在加入电机力矩限幅并联调执行反馈。"
+    },
+    {
+      "time": "2026-09-05T14:28:55+08:00",
+      "title": "轨迹内核与仿真启动已打通",
+      "message": "已实现多候选 IK、Ruckig、五次 B 样条、RRT-Connect 后备规划，以及全模型逆动力学和 FCL 验证。数学测试通过；Gazebo 已返回真实状态，正在调节腕部控制增益并验证图像和执行跟踪。"
+    },
+    {
+      "time": "2026-09-05T14:48:00+08:00",
+      "title": "首次真实场景规划通过",
+      "message": "已加载完整机械臂碰撞网格。C 电池上方目标通过多逆解候选比较、FCL、力矩及控制器插值检查；首条轨迹 2.030 秒，尚待实际搬运验证。"
+    },
+    {
+      "time": "2026-09-05T14:51:17+08:00",
+      "title": "动力学独立交叉验证通过",
+      "message": "64 组静态和动态状态覆盖空载、偏置相机、锁扣和电池，Newton–Euler 与 PyBullet 最大力矩差 2.41×10⁻¹² N·m。底图纹理已修复，保持 PDF 原尺寸和坐标。"
+    },
+    {
+      "time": "2026-09-05T14:57:00+08:00",
+      "title": "第一块电池抓放实测通过",
+      "message": "C→P1 全流程执行通过：纯运动累计 6.395 秒，最大关节跟踪误差 0.001102 rad；释放后落点误差 0.018 mm，静置 3 秒无漂移。这是理想仿真结果，后续将加入物理接触监测并连续搬运三块。"
+    },
+    {
+      "time": "2026-09-05T15:12:28+08:00",
+      "title": "三块连续搬运通过",
+      "message": "CAB→P1/P2/P3 连续完成，仿真流程 37.416 秒，纯运动 19.142 秒；38301 个物理步未记录非预期接触。正在验证基础任务，并修复录像字幕和收尾归档。"
+    },
+    {
+      "time": "2026-09-05T15:29:18+08:00",
+      "title": "短动作插值修复通过",
+      "message": "1000 组短动作不再出现 jerk 超限；实际 JTC 的 40875 个采样检查通过，最大位置表示误差 1.88×10⁻⁸ rad。基础任务视频已生成，最终三块录像正在重跑。"
+    },
+    {
+      "time": "2026-09-05T15:43:11+08:00",
+      "title": "最终版本交付完成",
+      "message": "基础 1 次与序列 3 次抓放全部通过；两个场景的 14 项接口检查通过。视频、CSV、物理接触、候选轨迹和独立验证记录已归档。"
+    },
+    {
+      "time": "2026-09-05T16:24:45+08:00",
+      "title": "详细技术报告完成",
+      "message": "已整理 14 章、19 页技术报告：从 IK、多项式与 B 样条讲到动力学、控制器插值、实际规划案例和最终验收数据。网页、PDF 与 Markdown 均已生成，包含章节导航、实测图和 SJM 对接说明。"
+    },
+    {
+      "time": "2026-09-05T21:01:21+08:00",
+      "title": "GaP 论文与 S3 研究方案完成",
+      "message": "feat/motion-planning-v2 转向 GaP 研究：已归档 52 页论文，保留公式、结果表、插图与原始提示词，核对官方轨迹与 ROS 接口并制定分阶段对照方案。下一步是人工单电池图和 ROS 适配器；当前尚无 GaP 运行结果。"
+    }
+  ],
+  "metrics": {
+    "success": "4 / 4",
+    "execution_time": "37.54 s",
+    "tracking_error": "0.239°",
+    "validation": "零非预期碰撞"
+  },
+  "artifacts": {
+    "video": "../../data/videos/sequence_demo.mp4",
+    "poster": "../../data/videos/sequence_demo_poster.png",
+    "caption": "1280×720 / 25 fps，按仿真时间播放，序列视频 38.36 秒。右上角为腕部相机；本机完成序列实际耗时 409.4 秒。",
+    "links": [
+      {
+        "url": "../research/gap/README.md",
+        "label": "GaP 研究入口"
+      },
+      {
+        "url": "../research/gap/paper/gap_2607.05369v1.pdf",
+        "label": "GaP 原论文"
+      },
+      {
+        "url": "../reports/motion_planning_report.html",
+        "label": "详细通俗技术报告"
+      },
+      {
+        "url": "../reports/motion_planning_report.pdf",
+        "label": "下载技术报告 PDF"
+      },
+      {
+        "url": "../../data/videos/sequence_demo.mp4",
+        "label": "下载序列视频"
+      },
+      {
+        "url": "../../data/videos/basic_demo_final.mp4",
+        "label": "查看基础任务视频"
+      },
+      {
+        "url": "../VALIDATION.md",
+        "label": "验收记录"
+      },
+      {
+        "url": "../../data/runs/sequence_demo/summary.json",
+        "label": "完整数据"
+      }
+    ],
+    "results": [
+      {
+        "task": "序列 CAB → P1/P2/P3",
+        "success": "3 / 3",
+        "times": "19.32 / 37.54 s",
+        "compute": "22.67 s",
+        "placement": "0.045 mm"
+      },
+      {
+        "task": "基础 C → T0",
+        "success": "1 / 1",
+        "times": "6.50 / 14.61 s",
+        "compute": "7.44 s",
+        "placement": "0.012 mm"
+      }
+    ],
+    "plot": "../../data/runs/sequence_demo/figures/tracking.svg"
+  },
+  "updated": "2026-09-05T21:01:21+08:00",
+  "current": "feat/motion-planning-v2 转向 GaP 研究：已归档 52 页论文，保留公式、结果表、插图与原始提示词，核对官方轨迹与 ROS 接口并制定分阶段对照方案。下一步是人工单电池图和 ROS 适配器；当前尚无 GaP 运行结果。",
+  "assumptions": "理想输入；电池质量 0.4 kg。半圆锁扣闭合并对准后建立刚性机械连接，不瞬移物体。相机噪声、实机控制和锁扣强度尚未验证；本页结果仅覆盖所记录的仿真条件。"
+}</script><script>
+const stages=['模型与环境','规划与优化','物理执行','验证与调优','录像与交付'];let lastVideo='';
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(d){document.getElementById('badge').textContent=d.status;document.getElementById('current').textContent=d.current;document.getElementById('updated').textContent='更新于 '+d.updated;document.getElementById('pipeline').innerHTML=stages.map((s,i)=>`<div class="stage ${i<d.stage?'done':i===d.stage?'active':''}"><b>${i+1}. ${s}</b><span>${i<d.stage?'已完成':i===d.stage?'进行中':'待完成'}</span></div>`).join('');let m=d.metrics||{};for(let [id,k] of [['success','success'],['time','execution_time'],['error','tracking_error'],['valid','validation']])document.getElementById('m-'+id).textContent=m[k]??(id==='success'||id==='valid'?'待实测':'—');let events=[...(d.events||[])].reverse();let markup=e=>`<div class="log"><time>${esc(e.time)}</time><p><b>${esc(e.title)}</b><br>${esc(e.message)}</p></div>`;document.getElementById('events').innerHTML=events.slice(0,5).map(markup).join('');document.getElementById('all-events').innerHTML=events.slice(5).map(markup).join('');if(d.assumptions)document.getElementById('assumptions').textContent=d.assumptions;let a=d.artifacts||{};if(a.video&&a.video!==lastVideo){lastVideo=a.video;let video=document.createElement('video');video.controls=true;video.preload='metadata';video.src=a.video;let area=document.getElementById('video-area');area.className='';area.replaceChildren(video)}document.getElementById('video-caption').textContent=a.caption||'';document.getElementById('artifact-links').innerHTML=(a.links||[]).map(x=>`<a href="${esc(x.url)}">${esc(x.label)}</a>`).join(' · ');if(a.poster&&document.querySelector('#video-area video'))document.querySelector('#video-area video').poster=a.poster;if(a.results)document.getElementById('run-results').innerHTML=a.results.map(r=>`<tr>${[r.task,r.success,r.times,r.compute,r.placement].map(x=>`<td>${esc(x)}</td>`).join('')}</tr>`).join('');if(a.plot){let el=document.getElementById('tracking-plot');el.src=a.plot;el.style.display='block'}}
+render(JSON.parse(document.getElementById('snapshot').textContent));async function update(){try{let r=await fetch('progress.json?t='+Date.now(),{cache:'no-store'});if(r.ok)render(await r.json())}catch(e){}}update();setInterval(update,10000);
+function chart(){let el=document.getElementById('concept'),r=el.getBoundingClientRect(),w=Math.max(r.width,500),h=155;el.width=w*devicePixelRatio;el.height=h*devicePixelRatio;let c=el.getContext('2d');c.scale(devicePixelRatio,devicePixelRatio);let T=+document.getElementById('duration').value;document.getElementById('duration-value').textContent=T.toFixed(1)+' s';c.clearRect(0,0,w,h);c.strokeStyle='#dce3ed';c.beginPath();c.moveTo(25,10);c.lineTo(25,135);c.lineTo(w-10,135);c.stroke();for(let kind=0;kind<2;kind++){c.strokeStyle=kind?'#16836b':'#265cff';c.lineWidth=2;c.beginPath();for(let i=0;i<=200;i++){let u=i/200,v=kind?(30*u*u-60*u*u*u+30*u*u*u*u)/T/4:(10*u**3-15*u**4+6*u**5);let x=25+(w-40)*u,y=135-110*v;i?c.lineTo(x,y):c.moveTo(x,y)}c.stroke()}}document.getElementById('duration').addEventListener('input',chart);document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',chart));addEventListener('resize',chart);
+</script></body></html>

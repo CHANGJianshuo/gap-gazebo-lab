@@ -1,0 +1,88 @@
+{
+  "retrieved_at_utc": "2026-09-05T12:14:18.119591+00:00",
+  "arxiv_id": "2607.05369v1",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "downloads": [
+    {
+      "file": "gap_2607.05369v1.pdf",
+      "url": "https://arxiv.org/pdf/2607.05369v1",
+      "bytes": 8896857,
+      "sha256": "64d8f12afef21edbae7b11a97f1d20a13cd0e53efd5699e7e86ea4781efbb0ef"
+    },
+    {
+      "file": "arxiv_2607.05369v1.html",
+      "url": "https://arxiv.org/html/2607.05369v1",
+      "bytes": 1995778,
+      "sha256": "89f7355619dd21962331363b1571c0a0f15cb1b4a390aa5645c90301c42aff30"
+    },
+    {
+      "file": "arxiv_abstract.html",
+      "url": "https://arxiv.org/abs/2607.05369v1",
+      "bytes": 45588,
+      "sha256": "7a85d9f4ef8b1fa775837e3c817caddc83d3b13ef8a534643fe573118748926b"
+    }
+  ],
+  "image_downloads": [
+    {
+      "file": "images/GaP-v4.png",
+      "url": "https://arxiv.org/html/2607.05369v1/GaP-v4.png",
+      "bytes": 1124616,
+      "sha256": "9e9bc6405bc4ff869e472420ebbbf45a298c922ba183789113678edddf627e3b"
+    },
+    {
+      "file": "images/figures/rehearsal-new.png",
+      "url": "https://arxiv.org/html/2607.05369v1/figures/rehearsal-new.png",
+      "bytes": 550046,
+      "sha256": "ba443062341a6fce4aabce8cb8ccc737439cfae96854e51599a20a5f32cad625"
+    },
+    {
+      "file": "images/figures/usb-insertion_setup.png",
+      "url": "https://arxiv.org/html/2607.05369v1/figures/usb-insertion_setup.png",
+      "bytes": 2667807,
+      "sha256": "5fddf949fb261a37dbdad9149fa20f19292c963854947666cd565e287b379eae"
+    },
+    {
+      "file": "images/figures/usb-insertion_graph.png",
+      "url": "https://arxiv.org/html/2607.05369v1/figures/usb-insertion_graph.png",
+      "bytes": 1561178,
+      "sha256": "5ae042edff73ebeef3a9e2464c8dd96efeaa34a1a2df625ea70fb34c24fb7c45"
+    },
+    {
+      "file": "images/figures/crate_washing.png",
+      "url": "https://arxiv.org/html/2607.05369v1/figures/crate_washing.png",
+      "bytes": 358463,
+      "sha256": "d7e952f75d1fcab1d8ae08fb8258a0bb0e932091aaff562a2e4c5614fb54819d"
+    },
+    {
+      "file": "images/posvar.svg",
+      "url": "https://arxiv.org/html/2607.05369v1/posvar.svg",
+      "bytes": 130418,
+      "sha256": "3e48ab08964700387df167fda54a367ee36feb80998de3c04c076d41bfe65301"
+    },
+    {
+      "file": "images/packing.svg",
+      "url": "https://arxiv.org/html/2607.05369v1/packing.svg",
+      "bytes": 130253,
+      "sha256": "0a2550b9ad51a3217a785a6cc627c42563dba2338b2195d0e4d06dff1bf8cd44"
+    },
+    {
+      "file": "images/popcorn.svg",
+      "url": "https://arxiv.org/html/2607.05369v1/popcorn.svg",
+      "bytes": 74879,
+      "sha256": "096e573ee616d8145c1893502fedf0feec39f32f92282234e704191336d29f9d"
+    },
+    {
+      "file": "images/crate_washing_bosch.svg",
+      "url": "https://arxiv.org/html/2607.05369v1/crate_washing_bosch.svg",
+      "bytes": 142023,
+      "sha256": "5fe093a13ef0ca6d44c913051026e6b8aa56e49bec037624d524068578a366f3"
+    },
+    {
+      "file": "images/full_popcorn_cycle_cartesian.svg",
+      "url": "https://arxiv.org/html/2607.05369v1/full_popcorn_cycle_cartesian.svg",
+      "bytes": 386307,
+      "sha256": "94e8bed9916b14e07c18c39b711f329a07edfb93bb3deb0ef348793f1729efa9"
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "source": "2607.05369v1",
+  "conversion": "same-version HTML with PDF retained; not OCR",
+  "pdf_pages": 52,
+  "math_occurrences": 150,
+  "headings": [
+    {
+      "level": 1,
+      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation (VA) Tasks"
+    },
+    {
+      "level": 6,
+      "title": "Abstract"
+    },
+    {
+      "level": 2,
+      "title": "1 Introduction"
+    },
+    {
+      "level": 2,
+      "title": "2 Related Work"
+    },
+    {
+      "level": 2,
+      "title": "3 Problem Formulation"
+    },
+    {
+      "level": 5,
+      "title": "Assumptions"
+    },
+    {
+      "level": 5,
+      "title": "Variational Automation Task Class"
+    },
+    {
+      "level": 5,
+      "title": "Policy Representation via Directed Execution Graphs"
+    },
+    {
+      "level": 5,
+      "title": "Problem Definition"
+    },
+    {
+      "level": 2,
+      "title": "4 Graph-as-Policy"
+    },
+    {
+      "level": 3,
+      "title": "4.1 Modular Open Robot Skill Library (MORSL)"
+    },
+    {
+      "level": 3,
+      "title": "4.2 Self-Learning through Internal Simulation Rehearsal"
+    },
+    {
+      "level": 2,
+      "title": "5 Experiments"
+    },
+    {
+      "level": 3,
+      "title": "5.1 Simulation and Real-World Variational Automation Benchmarks"
+    },
+    {
+      "level": 3,
+      "title": "5.2 Baselines"
+    },
+    {
+      "level": 3,
+      "title": "5.3 Benchmarks I and II: Fulfill Grocery Orders and Pack Grocery Items"
+    },
+    {
+      "level": 4,
+      "title": "5.3.1 Simulation Results"
+    },
+    {
+      "level": 4,
+      "title": "5.3.2 Real Physical Experiment Results"
+    },
+    {
+      "level": 3,
+      "title": "5.4 Ablation Studies"
+    },
+    {
+      "level": 3,
+      "title": "5.5 Benchmark III a, b: Make Popcorn in sim and real"
+    },
+    {
+      "level": 3,
+      "title": "5.6 Benchmark IV: Insert Cables (Real)"
+    },
+    {
+      "level": 3,
+      "title": "5.7 Benchmark V: Wash Crates (Simulation)"
+    },
+    {
+      "level": 2,
+      "title": "6 Conclusion"
+    },
+    {
+      "level": 2,
+      "title": "References"
+    },
+    {
+      "level": 2,
+      "title": "Appendix"
+    },
+    {
+      "level": 2,
+      "title": "Contents"
+    },
+    {
+      "level": 2,
+      "title": "Appendix A More Related Work"
+    },
+    {
+      "level": 2,
+      "title": "Appendix B Integrating ROS with GaP in Cable Insertion Benchmark"
+    },
+    {
+      "level": 2,
+      "title": "Appendix C Sample Generated Graphs"
+    },
+    {
+      "level": 3,
+      "title": "C.1 Fulfill Grocery Orders"
+    },
+    {
+      "level": 3,
+      "title": "C.2 Pack Grocery Items"
+    },
+    {
+      "level": 3,
+      "title": "C.3 Fulfill Grocery Orders with VLA Policy"
+    },
+    {
+      "level": 3,
+      "title": "C.4 Wash Crates"
+    },
+    {
+      "level": 3,
+      "title": "C.5 Make Popcorn"
+    },
+    {
+      "level": 2,
+      "title": "Appendix D MORSL Library"
+    },
+    {
+      "level": 3,
+      "title": "D.1 Composite and atomic skills"
+    },
+    {
+      "level": 5,
+      "title": "Perception."
+    },
+    {
+      "level": 5,
+      "title": "Grasping."
+    },
+    {
+      "level": 5,
+      "title": "Transport, policy, and bimanual."
+    },
+    {
+      "level": 3,
+      "title": "D.2 Primitive skills (one per gRPC method)"
+    },
+    {
+      "level": 5,
+      "title": "Detection and segmentation."
+    },
+    {
+      "level": 5,
+      "title": "Vision–language."
+    },
+    {
+      "level": 5,
+      "title": "Grasp generation."
+    },
+    {
+      "level": 5,
+      "title": "Motion planning and IK."
+    },
+    {
+      "level": 5,
+      "title": "Geometry."
+    },
+    {
+      "level": 5,
+      "title": "Robot and environment control."
+    },
+    {
+      "level": 2,
+      "title": "Appendix E Self-Learning"
+    },
+    {
+      "level": 3,
+      "title": "E.1 Pseudo-code"
+    },
+    {
+      "level": 3,
+      "title": "E.2 Sample Feedback"
+    },
+    {
+      "level": 2,
+      "title": "Appendix F Sample LLM Prompts and Outputs"
+    },
+    {
+      "level": 3,
+      "title": "F.1 Behavior Agent Prompt"
+    },
+    {
+      "level": 3,
+      "title": "F.2 Behavior Agent Output"
+    },
+    {
+      "level": 3,
+      "title": "F.3 Skill Agent Prompt"
+    },
+    {
+      "level": 2,
+      "title": "Appendix G Sample Generation Outputs"
+    }
+  ],
+  "prose_paragraphs": 68,
+  "local_assets": 10,
+  "image_occurrences": 11,
+  "result_tables": [
+    {
+      "id": "S5.T1.4.1",
+      "rows": [
+        [
+          "",
+          "LIBERO",
+          "LIBERO-Pro",
+          "Fulfill Grocery Orders",
+          "Fulfill Grocery Orders",
+          "Fulfill Grocery Orders",
+          "Fulfill Grocery Orders",
+          "Pack Grocery Items",
+          "Pack Grocery Items"
+        ],
+        [
+          "Method",
+          "object",
+          "object_swap",
+          "X-Y 20$\\times$20 $cm^{2}$",
+          "basket_swap",
+          "permutation",
+          "mixed_all",
+          "fixed",
+          "varied"
+        ],
+        [
+          "CaP-X",
+          "-",
+          "0.22",
+          "0.07",
+          "0.05",
+          "0.11",
+          "0.10",
+          "0.01",
+          "0.01"
+        ],
+        [
+          "$\\pi_{0.5}$",
+          "0.96",
+          "0.24",
+          "0.78",
+          "0.15",
+          "0.20",
+          "0.20",
+          "0.17",
+          "0.18"
+        ],
+        [
+          "MolmoAct2",
+          "**0.97**",
+          "0.43",
+          "0.90",
+          "0.26",
+          "0.10",
+          "0.20",
+          "0.18",
+          "0.18"
+        ],
+        [
+          "TipTop",
+          "0.22",
+          "0.22",
+          "0.29",
+          "0.24",
+          "0.31",
+          "0.24",
+          "0.34",
+          "0.46"
+        ],
+        [
+          "$\\pi_{0.5}$ w/GaP",
+          "0.85",
+          "0.60",
+          "0.79",
+          "0.32",
+          "0.50",
+          "0.39",
+          "0.67",
+          "0.66"
+        ],
+        [
+          "MolmoAct2 w/GaP",
+          "0.70",
+          "0.62",
+          "0.84",
+          "0.58",
+          "0.39",
+          "0.66",
+          "0.59",
+          "0.59"
+        ],
+        [
+          "GaP",
+          "0.95",
+          "**0.95**",
+          "**0.95**",
+          "**0.97**",
+          "**0.93**",
+          "**0.97**",
+          "**0.99**",
+          "**0.98**"
+        ]
+      ]
+    },
+    {
+      "id": "S5.T2.4.1",
+      "rows": [
+        [
+          "Success Rate",
+          "TipTop",
+          "GaP"
+        ],
+        [
+          "Fulfill Grocery Orders",
+          "8/25",
+          "**25/25**"
+        ],
+        [
+          "$\\rightarrow$ object",
+          "3/5",
+          "5/5"
+        ],
+        [
+          "$\\rightarrow$ 20x20",
+          "2/5",
+          "5/5"
+        ],
+        [
+          "$\\rightarrow$ basket swap",
+          "1/5",
+          "5/5"
+        ],
+        [
+          "$\\rightarrow$ tall basket",
+          "0/5",
+          "5/5"
+        ],
+        [
+          "$\\rightarrow$ permutation",
+          "2/5",
+          "5/5"
+        ],
+        [
+          "Pack Grocery Items",
+          "10 /30",
+          "**28/30**"
+        ],
+        [
+          "Make Popcorn",
+          "0/ 20",
+          "**18/20**"
+        ],
+        [
+          "$\\rightarrow$ pan pick and place",
+          "2/5",
+          "5/5"
+        ]
+      ]
+    },
+    {
+      "id": "S5.T3.1",
+      "rows": [
+        [
+          "**Variation**",
+          "**SR (Per trial)**",
+          "**SR (All)**",
+          "**ET (All)**"
+        ],
+        [
+          "*Insertion Goal Condition*",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Individual port<sup>∗</sup>",
+          "5/5",
+          "-",
+          "26.0"
+        ],
+        [
+          "Ascending order",
+          "32/35",
+          "2/5",
+          "247.0"
+        ],
+        [
+          "Descending order",
+          "32/35",
+          "4/5",
+          "223.2"
+        ],
+        [
+          "Odd index port",
+          "20/20",
+          "5/5",
+          "136.8"
+        ],
+        [
+          "Even index port",
+          "14/15",
+          "4/5",
+          "104.6"
+        ],
+        [
+          "*Position/Orientation*",
+          "",
+          "",
+          ""
+        ],
+        [
+          "-$15^{\\circ}$<sup>∗</sup>",
+          "4/5",
+          "-",
+          "24.0"
+        ],
+        [
+          "$15^{\\circ}$<sup>∗</sup>",
+          "5/5",
+          "-",
+          "25.6"
+        ],
+        [
+          "-$5$ cm<sup>∗</sup>",
+          "5/5",
+          "-",
+          "29.4"
+        ],
+        [
+          "$5$ cm<sup>∗</sup>",
+          "4/5",
+          "-",
+          "28.0"
+        ]
+      ]
+    },
+    {
+      "id": "S5.F5.2.1",
+      "rows": [
+        [
+          "Method",
+          "SR",
+          "Avg(Dur)",
+          "Throughput"
+        ],
+        [
+          "Hand-Engineered",
+          "0.99",
+          "176",
+          "19"
+        ],
+        [
+          "GaP",
+          "0.95",
+          "179",
+          "18"
+        ]
+      ]
+    }
+  ],
+  "embedded_listings": [
+    {
+      "id": "A6.SS1.p1.1",
+      "file": "listings/A6.SS1.p1.1.txt",
+      "bytes": 14368,
+      "sha256": "d1e4f87ee96b57a797216f324a0448ba7c2751c8aee39e873e6513b98711d3fb"
+    },
+    {
+      "id": "A6.SS2.p1.1",
+      "file": "listings/A6.SS2.p1.1.txt",
+      "bytes": 2803,
+      "sha256": "647e4816875124e23e5902f6fbdd8e17402acc0527901daaee86a1474c64369e"
+    },
+    {
+      "id": "A6.SS3.p1.1",
+      "file": "listings/A6.SS3.p1.1.txt",
+      "bytes": 32665,
+      "sha256": "31996c91a8ba2d06f12762a4ce19f18066ad645dea70ced9764cdf4df81091ce"
+    },
+    {
+      "id": "A7.p1.1",
+      "file": "listings/A7.p1.1.txt",
+      "bytes": 1027,
+      "sha256": "bb69ce58753363777c32cf2f0ea579abccd556282ad0f3c4d9774e8bf8c4e2ee"
+    }
+  ],
+  "missing_internal_anchors": [],
+  "checks": {
+    "pdf_has_52_pages": true,
+    "all_math_occurrences_converted_once": true,
+    "all_headings_converted": true,
+    "all_prose_paragraphs_visited": true,
+    "four_result_tables": true,
+    "four_exact_embedded_listings": true,
+    "all_eleven_image_occurrences_local": true,
+    "internal_reference_targets_present": true,
+    "no_replacement_character_in_markdown": true
+  },
+  "markdown_sha256": "517cb225d1ab4c625e8ae97c472e0f54f8873e802901cd5bf91cf7397cd59a57",
+  "limits": "Layout differs from PDF; original typos retained. Counts verify structural coverage, not all scientific claims."
+}

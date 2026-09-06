@@ -1,0 +1,26 @@
+# Empty start_state means: use the most recent simulator joint state.
+sensor_msgs/JointState start_state
+# world or base_link; quaternion must be valid for free/cartesian modes.
+geometry_msgs/PoseStamped target_pose
+# joint mode uses goal_state instead of target_pose.
+sensor_msgs/JointState goal_state
+# free, cartesian, or joint
+string mode
+# Only latch/handle contact is intended; an empty string allows no target contact.
+string touching_object
+float64 velocity_scaling
+float64 acceleration_scaling
+float64 planning_timeout
+uint32 seed
+---
+bool success
+string reason
+moveit_msgs/RobotTrajectory trajectory
+float64 planning_time
+float64 duration
+float64 minimum_clearance
+float64 maximum_torque_ratio
+string diagnostics_json
+---
+string stage
+uint32 candidates_evaluated

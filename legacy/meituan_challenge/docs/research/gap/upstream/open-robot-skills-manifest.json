@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/graph-robots/open-robot-skills",
+  "commit": "925d78eaf4873c3130c79b9b8f21971ec4e8b887",
+  "retrieved_at_utc": "2026-09-05T12:17:10.494123+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/graph-robots/open-robot-skills/925d78eaf4873c3130c79b9b8f21971ec4e8b887/README.md",
+      "sha256": "7a21147bd9a26ffbb031cb307b4cb92bc7b47f8d03d41510ee26dd2b0283c4b2"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/graph-robots/open-robot-skills/925d78eaf4873c3130c79b9b8f21971ec4e8b887/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/graph-robots/open-robot-skills/925d78eaf4873c3130c79b9b8f21971ec4e8b887/pyproject.toml",
+      "sha256": "ce73d0783aa2726f46260bf17af3dd9469093089f3d79dfd6142b470f484ab25"
+    }
+  ]
+}

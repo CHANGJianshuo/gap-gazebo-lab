@@ -1,0 +1,2 @@
+quintic_bspline_14 duration=1.29568 max_interpolation_error=7.94799e-16 PASS
+ruckig_direct duration=1.15301 max_interpolation_error=2.93737e-16 PASS
