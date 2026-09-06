@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "meta": {
+    "name": "Panda transfer across a barrier",
+    "source": "independent Gazebo adaptation; official GaP v3 runtime"
+  },
+  "nodes": {
+    "observe": {
+      "type": "tool",
+      "tool": "gazebo.observe",
+      "inputs": {}
+    },
+    "pregrasp": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.36
+        ],
+        "mode": "free"
+      }
+    },
+    "descend": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.17
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "close": {
+      "type": "tool",
+      "tool": "gazebo.gripper",
+      "inputs": {
+        "close": true
+      }
+    },
+    "low_lift": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.25
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "carry": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.25
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "place": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.178
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "release": {
+      "type": "tool",
+      "tool": "gazebo.gripper",
+      "inputs": {
+        "close": false
+      }
+    },
+    "retreat": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.42
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "verify": {
+      "type": "tool",
+      "tool": "gazebo.verify",
+      "inputs": {}
+    },
+    "done": {
+      "type": "end",
+      "status": "success"
+    },
+    "lift_clearance": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5000000280450652,
+          -0.2399999941352766,
+          0.49
+        ],
+        "mode": "cartesian"
+      }
+    },
+    "transfer_clearance": {
+      "type": "tool",
+      "tool": "gazebo.move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.49
+        ],
+        "mode": "cartesian"
+      }
+    }
+  },
+  "edges": [
+    [
+      "START",
+      "observe"
+    ],
+    [
+      "observe",
+      "pregrasp"
+    ],
+    [
+      "pregrasp",
+      "descend"
+    ],
+    [
+      "descend",
+      "close"
+    ],
+    [
+      "close",
+      "low_lift"
+    ],
+    [
+      "carry",
+      "place"
+    ],
+    [
+      "place",
+      "release"
+    ],
+    [
+      "release",
+      "retreat"
+    ],
+    [
+      "retreat",
+      "verify"
+    ],
+    [
+      "verify",
+      "done"
+    ],
+    [
+      "low_lift",
+      "lift_clearance"
+    ],
+    [
+      "lift_clearance",
+      "transfer_clearance"
+    ],
+    [
+      "transfer_clearance",
+      "carry"
+    ]
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "running": false,
+  "phase": "success",
+  "round": 1,
+  "provider": "rules",
+  "versions": [
+    {
+      "index": 0,
+      "hash": "9d0e3b4041b1",
+      "graph": {
+        "version": 3,
+        "meta": {
+          "name": "Panda transfer across a barrier",
+          "source": "independent Gazebo adaptation; official GaP v3 runtime"
+        },
+        "nodes": {
+          "observe": {
+            "type": "tool",
+            "tool": "gazebo.observe",
+            "inputs": {}
+          },
+          "pregrasp": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.36
+              ],
+              "mode": "free"
+            }
+          },
+          "descend": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.17
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "close": {
+            "type": "tool",
+            "tool": "gazebo.gripper",
+            "inputs": {
+              "close": true
+            }
+          },
+          "low_lift": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.25
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "carry": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.25
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "place": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.178
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "release": {
+            "type": "tool",
+            "tool": "gazebo.gripper",
+            "inputs": {
+              "close": false
+            }
+          },
+          "retreat": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.42
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "verify": {
+            "type": "tool",
+            "tool": "gazebo.verify",
+            "inputs": {}
+          },
+          "done": {
+            "type": "end",
+            "status": "success"
+          }
+        },
+        "edges": [
+          [
+            "START",
+            "observe"
+          ],
+          [
+            "observe",
+            "pregrasp"
+          ],
+          [
+            "pregrasp",
+            "descend"
+          ],
+          [
+            "descend",
+            "close"
+          ],
+          [
+            "close",
+            "low_lift"
+          ],
+          [
+            "low_lift",
+            "carry"
+          ],
+          [
+            "carry",
+            "place"
+          ],
+          [
+            "place",
+            "release"
+          ],
+          [
+            "release",
+            "retreat"
+          ],
+          [
+            "retreat",
+            "verify"
+          ],
+          [
+            "verify",
+            "done"
+          ]
+        ]
+      },
+      "status": "failure",
+      "feedback": {
+        "node": "carry",
+        "error": "Node 'carry' failed: {\"code\": \"CARTESIAN_BLOCKED\", \"fraction\": 0.20833333333333334, \"requested_target\": [0.5, 0.24, 0.25], \"world\": {\"attached\": true, \"contacts\": [], \"cube\": [0.5000000843847288, -0.2399999868818862, 0.24999528936192122], \"sim_time\": 34.051, \"target\": [0.5, 0.24, 0.17], \"tcp\": [0.5000000843761772, -0.2399999850316168, 0.24999529837381354]}, \"suggestion\": \"insert lift and transfer at safe clearance; keep collision checks enabled\"}",
+        "world": {
+          "attached": true,
+          "contacts": [],
+          "cube": [
+            0.5000000280536165,
+            -0.23999999598554642,
+            0.24999843284954026
+          ],
+          "sim_time": 34.101,
+          "target": [
+            0.5,
+            0.24,
+            0.17
+          ],
+          "tcp": [
+            0.5000000280450652,
+            -0.2399999941352766,
+            0.24999844186143244
+          ]
+        }
+      },
+      "patch": {
+        "reason": "直线搬运被隔板阻挡；先升到 0.49 m，再横移，最后沿原 carry 节点下降。此建议由显式规则生成，不是大模型。",
+        "insert_before": "carry",
+        "nodes": [
+          {
+            "id": "lift_clearance",
+            "xyz": [
+              0.5000000280450652,
+              -0.2399999941352766,
+              0.49
+            ],
+            "mode": "cartesian"
+          },
+          {
+            "id": "transfer_clearance",
+            "xyz": [
+              0.5,
+              0.24,
+              0.49
+            ],
+            "mode": "cartesian"
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "hash": "84137c5f2a78",
+      "graph": {
+        "version": 3,
+        "meta": {
+          "name": "Panda transfer across a barrier",
+          "source": "independent Gazebo adaptation; official GaP v3 runtime"
+        },
+        "nodes": {
+          "observe": {
+            "type": "tool",
+            "tool": "gazebo.observe",
+            "inputs": {}
+          },
+          "pregrasp": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.36
+              ],
+              "mode": "free"
+            }
+          },
+          "descend": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.17
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "close": {
+            "type": "tool",
+            "tool": "gazebo.gripper",
+            "inputs": {
+              "close": true
+            }
+          },
+          "low_lift": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                -0.24,
+                0.25
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "carry": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.25
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "place": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.178
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "release": {
+            "type": "tool",
+            "tool": "gazebo.gripper",
+            "inputs": {
+              "close": false
+            }
+          },
+          "retreat": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.42
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "verify": {
+            "type": "tool",
+            "tool": "gazebo.verify",
+            "inputs": {}
+          },
+          "done": {
+            "type": "end",
+            "status": "success"
+          },
+          "lift_clearance": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5000000280450652,
+                -0.2399999941352766,
+                0.49
+              ],
+              "mode": "cartesian"
+            }
+          },
+          "transfer_clearance": {
+            "type": "tool",
+            "tool": "gazebo.move",
+            "inputs": {
+              "xyz": [
+                0.5,
+                0.24,
+                0.49
+              ],
+              "mode": "cartesian"
+            }
+          }
+        },
+        "edges": [
+          [
+            "START",
+            "observe"
+          ],
+          [
+            "observe",
+            "pregrasp"
+          ],
+          [
+            "pregrasp",
+            "descend"
+          ],
+          [
+            "descend",
+            "close"
+          ],
+          [
+            "close",
+            "low_lift"
+          ],
+          [
+            "carry",
+            "place"
+          ],
+          [
+            "place",
+            "release"
+          ],
+          [
+            "release",
+            "retreat"
+          ],
+          [
+            "retreat",
+            "verify"
+          ],
+          [
+            "verify",
+            "done"
+          ],
+          [
+            "low_lift",
+            "lift_clearance"
+          ],
+          [
+            "lift_clearance",
+            "transfer_clearance"
+          ],
+          [
+            "transfer_clearance",
+            "carry"
+          ]
+        ]
+      },
+      "status": "success",
+      "feedback": null
+    }
+  ],
+  "events": [
+    {
+      "time": 1788658825.5394154,
+      "kind": "run_started",
+      "provider": "rules",
+      "resume_semantics": "successful prefix cached; same physical episode, no hidden reset"
+    },
+    {
+      "time": 1788658825.5513027,
+      "kind": "node_start",
+      "node": "observe"
+    },
+    {
+      "time": 1788658825.5568116,
+      "kind": "skill_input",
+      "node": "observe",
+      "op": "observe",
+      "inputs": {}
+    },
+    {
+      "time": 1788658825.5659971,
+      "kind": "skill_output",
+      "node": "observe",
+      "outputs": {
+        "attached": false,
+        "contacts": [],
+        "cube": [
+          0.5,
+          -0.24,
+          0.16999989593771525
+        ],
+        "sim_time": 26.401,
+        "target": [
+          0.5,
+          0.24,
+          0.17
+        ],
+        "tcp": [
+          0.3070195700515904,
+          -5.941128581405585e-12,
+          0.48686955827661177
+        ]
+      }
+    },
+    {
+      "time": 1788658825.5685658,
+      "kind": "node_end",
+      "node": "observe",
+      "success": true
+    },
+    {
+      "time": 1788658825.5703676,
+      "kind": "node_start",
+      "node": "pregrasp"
+    },
+    {
+      "time": 1788658825.5753324,
+      "kind": "skill_input",
+      "node": "pregrasp",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.36
+        ],
+        "mode": "free"
+      }
+    },
+    {
+      "time": 1788658830.3963182,
+      "kind": "skill_output",
+      "node": "pregrasp",
+      "outputs": {
+        "target": [
+          0.5,
+          -0.24,
+          0.36
+        ],
+        "tcp": [
+          0.5000216810450127,
+          -0.2396203332535365,
+          0.3600103400618209
+        ],
+        "position_error_m": 0.00038042584423443593,
+        "waypoints": 32,
+        "wall_s": 4.685210114985239,
+        "mode": "free"
+      }
+    },
+    {
+      "time": 1788658830.397575,
+      "kind": "node_end",
+      "node": "pregrasp",
+      "success": true
+    },
+    {
+      "time": 1788658830.3983366,
+      "kind": "node_start",
+      "node": "descend"
+    },
+    {
+      "time": 1788658830.4030676,
+      "kind": "skill_input",
+      "node": "descend",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.17
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658832.677536,
+      "kind": "skill_output",
+      "node": "descend",
+      "outputs": {
+        "target": [
+          0.5,
+          -0.24,
+          0.17
+        ],
+        "tcp": [
+          0.5000013362091992,
+          -0.23999962030969926,
+          0.1700690457530829
+        ],
+        "position_error_m": 6.905972515534678e-05,
+        "waypoints": 11,
+        "wall_s": 2.1605720210063737,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658832.6789863,
+      "kind": "node_end",
+      "node": "descend",
+      "success": true
+    },
+    {
+      "time": 1788658832.6815693,
+      "kind": "node_start",
+      "node": "close"
+    },
+    {
+      "time": 1788658832.6855743,
+      "kind": "skill_input",
+      "node": "close",
+      "op": "gripper",
+      "inputs": {
+        "close": true
+      }
+    },
+    {
+      "time": 1788658834.3773196,
+      "kind": "skill_output",
+      "node": "close",
+      "outputs": {
+        "attached": true,
+        "detail": "position-gated fixed grasp constraint; measured relative pose retained"
+      }
+    },
+    {
+      "time": 1788658834.3824315,
+      "kind": "node_end",
+      "node": "close",
+      "success": true
+    },
+    {
+      "time": 1788658834.3845415,
+      "kind": "node_start",
+      "node": "low_lift"
+    },
+    {
+      "time": 1788658834.394807,
+      "kind": "skill_input",
+      "node": "low_lift",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          -0.24,
+          0.25
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658835.7207546,
+      "kind": "skill_output",
+      "node": "low_lift",
+      "outputs": {
+        "target": [
+          0.5,
+          -0.24,
+          0.25
+        ],
+        "tcp": [
+          0.5000035927141554,
+          -0.23999941777922942,
+          0.24979657272917385
+        ],
+        "position_error_m": 0.00020345982672705183,
+        "waypoints": 8,
+        "wall_s": 1.2964682140154764,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658835.725073,
+      "kind": "node_end",
+      "node": "low_lift",
+      "success": true
+    },
+    {
+      "time": 1788658835.7272272,
+      "kind": "node_start",
+      "node": "carry"
+    },
+    {
+      "time": 1788658835.733416,
+      "kind": "skill_input",
+      "node": "carry",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.25
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658835.9704077,
+      "kind": "node_end",
+      "node": "carry",
+      "success": false
+    },
+    {
+      "time": 1788658835.9819918,
+      "kind": "execution_failed",
+      "node": "carry",
+      "error": "Node 'carry' failed: {\"code\": \"CARTESIAN_BLOCKED\", \"fraction\": 0.20833333333333334, \"requested_target\": [0.5, 0.24, 0.25], \"world\": {\"attached\": true, \"contacts\": [], \"cube\": [0.5000000843847288, -0.2399999868818862, 0.24999528936192122], \"sim_time\": 34.051, \"target\": [0.5, 0.24, 0.17], \"tcp\": [0.5000000843761772, -0.2399999850316168, 0.24999529837381354]}, \"suggestion\": \"insert lift and transfer at safe clearance; keep collision checks enabled\"}",
+      "world": {
+        "attached": true,
+        "contacts": [],
+        "cube": [
+          0.5000000280536165,
+          -0.23999999598554642,
+          0.24999843284954026
+        ],
+        "sim_time": 34.101,
+        "target": [
+          0.5,
+          0.24,
+          0.17
+        ],
+        "tcp": [
+          0.5000000280450652,
+          -0.2399999941352766,
+          0.24999844186143244
+        ]
+      }
+    },
+    {
+      "time": 1788658835.9851522,
+      "kind": "graph_repaired",
+      "patch": {
+        "reason": "直线搬运被隔板阻挡；先升到 0.49 m，再横移，最后沿原 carry 节点下降。此建议由显式规则生成，不是大模型。",
+        "insert_before": "carry",
+        "nodes": [
+          {
+            "id": "lift_clearance",
+            "xyz": [
+              0.5000000280450652,
+              -0.2399999941352766,
+              0.49
+            ],
+            "mode": "cartesian"
+          },
+          {
+            "id": "transfer_clearance",
+            "xyz": [
+              0.5,
+              0.24,
+              0.49
+            ],
+            "mode": "cartesian"
+          }
+        ]
+      },
+      "source": "rules"
+    },
+    {
+      "time": 1788658837.004094,
+      "kind": "node_start",
+      "node": "observe"
+    },
+    {
+      "time": 1788658837.0415678,
+      "kind": "node_cached",
+      "node": "observe"
+    },
+    {
+      "time": 1788658837.0451214,
+      "kind": "node_end",
+      "node": "observe",
+      "success": true
+    },
+    {
+      "time": 1788658837.046829,
+      "kind": "node_start",
+      "node": "pregrasp"
+    },
+    {
+      "time": 1788658837.051278,
+      "kind": "node_cached",
+      "node": "pregrasp"
+    },
+    {
+      "time": 1788658837.0523555,
+      "kind": "node_end",
+      "node": "pregrasp",
+      "success": true
+    },
+    {
+      "time": 1788658837.053483,
+      "kind": "node_start",
+      "node": "descend"
+    },
+    {
+      "time": 1788658837.0598686,
+      "kind": "node_cached",
+      "node": "descend"
+    },
+    {
+      "time": 1788658837.0616581,
+      "kind": "node_end",
+      "node": "descend",
+      "success": true
+    },
+    {
+      "time": 1788658837.0662298,
+      "kind": "node_start",
+      "node": "close"
+    },
+    {
+      "time": 1788658837.0721402,
+      "kind": "node_cached",
+      "node": "close"
+    },
+    {
+      "time": 1788658837.0742111,
+      "kind": "node_end",
+      "node": "close",
+      "success": true
+    },
+    {
+      "time": 1788658837.0756571,
+      "kind": "node_start",
+      "node": "low_lift"
+    },
+    {
+      "time": 1788658837.081677,
+      "kind": "node_cached",
+      "node": "low_lift"
+    },
+    {
+      "time": 1788658837.0829625,
+      "kind": "node_end",
+      "node": "low_lift",
+      "success": true
+    },
+    {
+      "time": 1788658837.0841,
+      "kind": "node_start",
+      "node": "lift_clearance"
+    },
+    {
+      "time": 1788658837.0900102,
+      "kind": "skill_input",
+      "node": "lift_clearance",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5000000280450652,
+          -0.2399999941352766,
+          0.49
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658840.1904373,
+      "kind": "skill_output",
+      "node": "lift_clearance",
+      "outputs": {
+        "target": [
+          0.5000000280450652,
+          -0.2399999941352766,
+          0.49
+        ],
+        "tcp": [
+          0.5000004936094574,
+          -0.24000030965906125,
+          0.48996380939011214
+        ],
+        "position_error_m": 3.619497961757757e-05,
+        "waypoints": 13,
+        "wall_s": 3.084979826991912,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658840.1922336,
+      "kind": "node_end",
+      "node": "lift_clearance",
+      "success": true
+    },
+    {
+      "time": 1788658840.1946297,
+      "kind": "node_start",
+      "node": "transfer_clearance"
+    },
+    {
+      "time": 1788658840.2008414,
+      "kind": "skill_input",
+      "node": "transfer_clearance",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.49
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658844.2978044,
+      "kind": "skill_output",
+      "node": "transfer_clearance",
+      "outputs": {
+        "target": [
+          0.5,
+          0.24,
+          0.49
+        ],
+        "tcp": [
+          0.5000065411671044,
+          0.23960059467926134,
+          0.4900014842311342
+        ],
+        "position_error_m": 0.0003994616377619897,
+        "waypoints": 15,
+        "wall_s": 4.0843191140156705,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658844.299558,
+      "kind": "node_end",
+      "node": "transfer_clearance",
+      "success": true
+    },
+    {
+      "time": 1788658844.3008096,
+      "kind": "node_start",
+      "node": "carry"
+    },
+    {
+      "time": 1788658844.310188,
+      "kind": "skill_input",
+      "node": "carry",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.25
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658847.299786,
+      "kind": "skill_output",
+      "node": "carry",
+      "outputs": {
+        "target": [
+          0.5,
+          0.24,
+          0.25
+        ],
+        "tcp": [
+          0.5000015866889088,
+          0.24000042964428936,
+          0.25010777415837376
+        ],
+        "position_error_m": 0.0001077866939333506,
+        "waypoints": 13,
+        "wall_s": 2.974791703018127,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658847.302291,
+      "kind": "node_end",
+      "node": "carry",
+      "success": true
+    },
+    {
+      "time": 1788658847.303366,
+      "kind": "node_start",
+      "node": "place"
+    },
+    {
+      "time": 1788658847.3092928,
+      "kind": "skill_input",
+      "node": "place",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.178
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658848.4141467,
+      "kind": "skill_output",
+      "node": "place",
+      "outputs": {
+        "target": [
+          0.5,
+          0.24,
+          0.178
+        ],
+        "tcp": [
+          0.5000015679033776,
+          0.24000038543306568,
+          0.17810992046511392
+        ],
+        "position_error_m": 0.00010993232250122293,
+        "waypoints": 7,
+        "wall_s": 1.0900762479868717,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658848.4163756,
+      "kind": "node_end",
+      "node": "place",
+      "success": true
+    },
+    {
+      "time": 1788658848.4175708,
+      "kind": "node_start",
+      "node": "release"
+    },
+    {
+      "time": 1788658848.4249647,
+      "kind": "skill_input",
+      "node": "release",
+      "op": "gripper",
+      "inputs": {
+        "close": false
+      }
+    },
+    {
+      "time": 1788658850.3600097,
+      "kind": "skill_output",
+      "node": "release",
+      "outputs": {
+        "attached": false,
+        "detail": "released"
+      }
+    },
+    {
+      "time": 1788658850.3618495,
+      "kind": "node_end",
+      "node": "release",
+      "success": true
+    },
+    {
+      "time": 1788658850.36333,
+      "kind": "node_start",
+      "node": "retreat"
+    },
+    {
+      "time": 1788658850.3690138,
+      "kind": "skill_input",
+      "node": "retreat",
+      "op": "move",
+      "inputs": {
+        "xyz": [
+          0.5,
+          0.24,
+          0.42
+        ],
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658853.4100778,
+      "kind": "skill_output",
+      "node": "retreat",
+      "outputs": {
+        "target": [
+          0.5,
+          0.24,
+          0.42
+        ],
+        "tcp": [
+          0.5000031681198259,
+          0.24000141850683462,
+          0.4197707594067419
+        ],
+        "position_error_m": 0.00022926687231736008,
+        "waypoints": 12,
+        "wall_s": 2.846435614017537,
+        "mode": "cartesian"
+      }
+    },
+    {
+      "time": 1788658853.4141574,
+      "kind": "node_end",
+      "node": "retreat",
+      "success": true
+    },
+    {
+      "time": 1788658853.4185455,
+      "kind": "node_start",
+      "node": "verify"
+    },
+    {
+      "time": 1788658853.4268062,
+      "kind": "skill_input",
+      "node": "verify",
+      "op": "verify",
+      "inputs": {}
+    },
+    {
+      "time": 1788658853.9400103,
+      "kind": "skill_output",
+      "node": "verify",
+      "outputs": {
+        "success": true,
+        "world": {
+          "attached": false,
+          "contacts": [],
+          "cube": [
+            0.49999999976099085,
+            0.23999999748053996,
+            0.1699998788758373
+          ],
+          "sim_time": 46.751,
+          "target": [
+            0.5,
+            0.24,
+            0.17
+          ],
+          "tcp": [
+            0.5000000095722725,
+            0.24000000408762318,
+            0.41999930094625726
+          ]
+        },
+        "settle_displacement_m": 0.0,
+        "unexpected_contacts": 0
+      }
+    },
+    {
+      "time": 1788658853.9422948,
+      "kind": "node_end",
+      "node": "verify",
+      "success": true
+    },
+    {
+      "time": 1788658854.4577005,
+      "kind": "verified_success",
+      "result": {
+        "success": true,
+        "world": {
+          "attached": false,
+          "contacts": [],
+          "cube": [
+            0.49999999976099085,
+            0.23999999748053996,
+            0.1699998788758373
+          ],
+          "sim_time": 47.101,
+          "target": [
+            0.5,
+            0.24,
+            0.17
+          ],
+          "tcp": [
+            0.5000000095722725,
+            0.24000000408762318,
+            0.41999930094625726
+          ]
+        },
+        "settle_displacement_m": 0.0,
+        "unexpected_contacts": 0
+      }
+    }
+  ],
+  "error": null,
+  "run_id": "20260906-094025-382943",
+  "node_status": {
+    "observe": "cached",
+    "pregrasp": "cached",
+    "descend": "cached",
+    "close": "cached",
+    "low_lift": "cached",
+    "lift_clearance": "success",
+    "transfer_clearance": "success",
+    "carry": "success",
+    "place": "success",
+    "release": "success",
+    "retreat": "success",
+    "verify": "success"
+  },
+  "latest_world": {}
+}

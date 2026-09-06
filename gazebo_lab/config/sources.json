@@ -1,0 +1,5 @@
+{
+  "moveit_resources_commit": "c55b102711fc0aebe80c6952d2ce97c38110abba",
+  "controller": "gz_ros2_control position command / idealized velocity servo",
+  "inertials": "upstream Panda identified parameters; not hardware calibration"
+}

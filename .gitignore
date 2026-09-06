@@ -1,0 +1,11 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.pem
+*.key
+gazebo_lab/build/
+gazebo_lab/deps/
+gazebo_lab/outputs/

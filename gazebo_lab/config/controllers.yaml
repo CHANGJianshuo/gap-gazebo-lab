@@ -1,0 +1,47 @@
+arm_controller:
+  ros__parameters:
+    action_monitor_rate: 20.0
+    command_interfaces:
+    - position
+    constraints:
+      goal_time: 3.0
+      stopped_velocity_tolerance: 0.1
+    joints:
+    - panda_joint1
+    - panda_joint2
+    - panda_joint3
+    - panda_joint4
+    - panda_joint5
+    - panda_joint6
+    - panda_joint7
+    state_interfaces:
+    - position
+    - velocity
+    state_publish_rate: 50.0
+    use_sim_time: true
+controller_manager:
+  ros__parameters:
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    hand_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    update_rate: 250
+    use_sim_time: true
+hand_controller:
+  ros__parameters:
+    action_monitor_rate: 20.0
+    command_interfaces:
+    - position
+    constraints:
+      goal_time: 3.0
+      stopped_velocity_tolerance: 0.1
+    joints:
+    - panda_finger_joint1
+    - panda_finger_joint2
+    state_interfaces:
+    - position
+    - velocity
+    state_publish_rate: 50.0
+    use_sim_time: true

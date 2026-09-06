@@ -1,0 +1,43 @@
+........................................................................ [ 18%]
+........................................................................ [ 37%]
+........................................................................ [ 56%]
+..........FF............................................................ [ 74%]
+.........................................................sss............ [ 93%]
+.........................                                                [100%]
+=================================== FAILURES ===================================
+____________________ test_probe_llm_providers_keys_and_adc _____________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f6e48cea5a0>
+tmp_path = PosixPath('/tmp/pytest-of-chang/pytest-108/test_probe_llm_providers_keys_0')
+
+    def test_probe_llm_providers_keys_and_adc(monkeypatch, tmp_path):
+        monkeypatch.setenv("OPENROUTER_API_KEY", "sk-test")
+        creds = tmp_path / "adc.json"
+        creds.write_text("{}")
+        monkeypatch.setenv("GOOGLE_APPLICATION_CREDENTIALS", str(creds))
+        probes = probe_llm_providers()
+        assert probes["openrouter"].ok
+>       assert probes["vertex"].ok
+E       assert False
+E        +  where False = ProbeResult(status='missing', detail='ADC via $GOOGLE_APPLICATION_CREDENTIALS; google-genai not installed', fix_hint="uv sync --extra vertex  (or pip install 'graph-as-policy[vertex]')").ok
+
+tests/skills/test_capability.py:118: AssertionError
+_______________ test_probe_vertex_gcloud_adc_and_broken_pointer ________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f6e48ce2240>
+tmp_path = PosixPath('/tmp/pytest-of-chang/pytest-108/test_probe_vertex_gcloud_adc_a0')
+
+    def test_probe_vertex_gcloud_adc_and_broken_pointer(monkeypatch, tmp_path):
+        gcloud = tmp_path / "cloudsdk"
+        gcloud.mkdir()
+        (gcloud / "application_default_credentials.json").write_text("{}")
+        monkeypatch.setenv("CLOUDSDK_CONFIG", str(gcloud))
+>       assert probe_llm_providers()["vertex"].ok
+E       assert False
+E        +  where False = ProbeResult(status='missing', detail='gcloud ADC (/tmp/pytest-of-chang/pytest-108/test_probe_vertex_gcloud_adc_a0/clou...ials.json); google-genai not installed', fix_hint="uv sync --extra vertex  (or pip install 'graph-as-policy[vertex]')").ok
+
+tests/skills/test_capability.py:127: AssertionError
+=========================== short test summary info ============================
+FAILED tests/skills/test_capability.py::test_probe_llm_providers_keys_and_adc
+FAILED tests/skills/test_capability.py::test_probe_vertex_gcloud_adc_and_broken_pointer
+2 failed, 380 passed, 3 skipped, 2 deselected in 25.42s

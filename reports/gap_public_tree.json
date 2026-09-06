@@ -1,0 +1,493 @@
+{
+  "sha": "61c1c6984c8b47cf2ee15916e133f8aad006878c",
+  "url": "https://api.github.com/repos/graph-robots/gap/git/trees/61c1c6984c8b47cf2ee15916e133f8aad006878c",
+  "tree": [
+    {
+      "path": ".nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc6ff2d4822938c83585f877bf7c6355b7283057",
+      "size": 1654,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/fc6ff2d4822938c83585f877bf7c6355b7283057"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b8c45755fd4bc0971a9960d549a9b00fd509bd5",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/5b8c45755fd4bc0971a9960d549a9b00fd509bd5"
+    },
+    {
+      "path": "assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cbabbad83f00f70bc0d6408695422ea3e16d238",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/7cbabbad83f00f70bc0d6408695422ea3e16d238"
+    },
+    {
+      "path": "assets/css/site.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39c8fc2bea98c4bc4f353a184d77600d118c754",
+      "size": 16620,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/d39c8fc2bea98c4bc4f353a184d77600d118c754"
+    },
+    {
+      "path": "assets/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "842993f42bb71c911728f0b4df44b1c2d7bad3fc",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/842993f42bb71c911728f0b4df44b1c2d7bad3fc"
+    },
+    {
+      "path": "assets/data/packing_graph.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26d1761284a3a5c97806168de2dfeb7565c5601",
+      "size": 50937,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/f26d1761284a3a5c97806168de2dfeb7565c5601"
+    },
+    {
+      "path": "assets/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "127c5a5ce10b420c294853bb97f66602c71b04b1",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/127c5a5ce10b420c294853bb97f66602c71b04b1"
+    },
+    {
+      "path": "assets/img/architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2688eb6d4ab3398db05313d8024e10f95c0099d1",
+      "size": 3582211,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/2688eb6d4ab3398db05313d8024e10f95c0099d1"
+    },
+    {
+      "path": "assets/img/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9de47fb44ed5576b800d407bc304aed92f44007c",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/9de47fb44ed5576b800d407bc304aed92f44007c"
+    },
+    {
+      "path": "assets/img/benchmark/cable.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8591938bbc71d8f516f0632ca900bd04e9ccfe8",
+      "size": 276130,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/e8591938bbc71d8f516f0632ca900bd04e9ccfe8"
+    },
+    {
+      "path": "assets/img/benchmark/crate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a5f8b345b4821dbf3479be422f1f74d0b1e20a5",
+      "size": 160748,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/1a5f8b345b4821dbf3479be422f1f74d0b1e20a5"
+    },
+    {
+      "path": "assets/img/benchmark/fulfillment.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d192e47ee270b2e474c8b6b84b8bb4c09b6d91e",
+      "size": 537691,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/6d192e47ee270b2e474c8b6b84b8bb4c09b6d91e"
+    },
+    {
+      "path": "assets/img/benchmark/packing.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e8beff7cac293bfd46775a1869e61f323842d7",
+      "size": 508575,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/40e8beff7cac293bfd46775a1869e61f323842d7"
+    },
+    {
+      "path": "assets/img/benchmark/popcorn.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ac9c072e6c967c4248cb8f0a3a209f5492f562",
+      "size": 432652,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/30ac9c072e6c967c4248cb8f0a3a209f5492f562"
+    },
+    {
+      "path": "assets/img/crate_washing_setup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff01f2ebf0d77d64cf5e2cb5332482e99f611ba7",
+      "size": 358463,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/ff01f2ebf0d77d64cf5e2cb5332482e99f611ba7"
+    },
+    {
+      "path": "assets/img/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05caff6ad29fdfc58071dc351981bcb07c6c2780",
+      "size": 647,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/05caff6ad29fdfc58071dc351981bcb07c6c2780"
+    },
+    {
+      "path": "assets/img/graphs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d77bb29602cad2085707081029ca331d36937a9b",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/d77bb29602cad2085707081029ca331d36937a9b"
+    },
+    {
+      "path": "assets/img/graphs/crate_bimanual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3fda4ab6a9cece1db563b817f207021f88dad2",
+      "size": 131202,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/7c3fda4ab6a9cece1db563b817f207021f88dad2"
+    },
+    {
+      "path": "assets/img/graphs/packing_final.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8505a21bf2bc990104abc7371f30fb51debb5d61",
+      "size": 155937,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/8505a21bf2bc990104abc7371f30fb51debb5d61"
+    },
+    {
+      "path": "assets/img/graphs/popcorn_full.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8a471f2b5a34b277634c0a492b1449e08505934",
+      "size": 663382,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/a8a471f2b5a34b277634c0a492b1449e08505934"
+    },
+    {
+      "path": "assets/img/logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "294b1469251e37eab0a0542bd59b64af5bf40cee",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/294b1469251e37eab0a0542bd59b64af5bf40cee"
+    },
+    {
+      "path": "assets/img/logos/bair_c.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b529ce6b4b145757680c6547dc2174b6079a89ae",
+      "size": 33138,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/b529ce6b4b145757680c6547dc2174b6079a89ae"
+    },
+    {
+      "path": "assets/img/logos/berkeley_c.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49659b1a40e932ff2e512a6cd47ca6014e1bed7a",
+      "size": 23618,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/49659b1a40e932ff2e512a6cd47ca6014e1bed7a"
+    },
+    {
+      "path": "assets/img/logos/bosch_c.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d867688a47e1bc1e4b8bbd1f82008ee7bee237f",
+      "size": 10837,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/9d867688a47e1bc1e4b8bbd1f82008ee7bee237f"
+    },
+    {
+      "path": "assets/img/logos/cmu_c.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84d34a63094310dc25955ff5a4d8952bd13338d",
+      "size": 34782,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/f84d34a63094310dc25955ff5a4d8952bd13338d"
+    },
+    {
+      "path": "assets/img/logos/nvidia_c.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ec1e4865f40e20f798c29f265badd481ca0b57",
+      "size": 46612,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/48ec1e4865f40e20f798c29f265badd481ca0b57"
+    },
+    {
+      "path": "assets/img/pipeline.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de090a23102f46303a499ae963904270bab562d5",
+      "size": 993423,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/de090a23102f46303a499ae963904270bab562d5"
+    },
+    {
+      "path": "assets/img/posters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6df5da64904203c45488061d53695e1a42fe8da5",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/6df5da64904203c45488061d53695e1a42fe8da5"
+    },
+    {
+      "path": "assets/img/posters/crate_agent.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aa81be8d2fd4f8d3f08c89be304b1da64b080d7",
+      "size": 70226,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/6aa81be8d2fd4f8d3f08c89be304b1da64b080d7"
+    },
+    {
+      "path": "assets/img/posters/crate_human.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f84d1380284b17e37edebe9706b12225fdff7a",
+      "size": 152987,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/e1f84d1380284b17e37edebe9706b12225fdff7a"
+    },
+    {
+      "path": "assets/img/posters/fulfillment_sim.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2069b16eb2d1f7e8dd4cf13822031e84df1edc0",
+      "size": 47328,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/e2069b16eb2d1f7e8dd4cf13822031e84df1edc0"
+    },
+    {
+      "path": "assets/img/posters/og_graph.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86aa44b46dae5ab4a37ba2adc29499d273b2a087",
+      "size": 173045,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/86aa44b46dae5ab4a37ba2adc29499d273b2a087"
+    },
+    {
+      "path": "assets/img/posters/packing_real.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ac87dd1fac8e1e985b1493ca78310b25f9e402",
+      "size": 59775,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/b8ac87dd1fac8e1e985b1493ca78310b25f9e402"
+    },
+    {
+      "path": "assets/img/posters/packing_sim.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61eaef84eddc308090cdf821cea6333612a38513",
+      "size": 48784,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/61eaef84eddc308090cdf821cea6333612a38513"
+    },
+    {
+      "path": "assets/img/posters/popcorn_real.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1b9783a27531ef48b2c10d184655f9fb651f87b",
+      "size": 49487,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/a1b9783a27531ef48b2c10d184655f9fb651f87b"
+    },
+    {
+      "path": "assets/img/posters/splash.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402390c729c684c551cf7440d4ce8a16deaa10c9",
+      "size": 186518,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/402390c729c684c551cf7440d4ce8a16deaa10c9"
+    },
+    {
+      "path": "assets/img/posters/usb_real.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0632f26d53e362b0b03583498f49acac4836c6a",
+      "size": 58919,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/c0632f26d53e362b0b03583498f49acac4836c6a"
+    },
+    {
+      "path": "assets/img/posters/var_pick_up_the_alphabet_soup_and_place_it_in_the_basket.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35cdd92e1caaeec9203484667ffbf3b330576430",
+      "size": 9718,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/35cdd92e1caaeec9203484667ffbf3b330576430"
+    },
+    {
+      "path": "assets/img/posters/var_pick_up_the_chocolate_pudding_and_place_it_in_the_basket.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd988db249b3e1ba3187bad1cf0c27c681f1fa7",
+      "size": 9358,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/6dd988db249b3e1ba3187bad1cf0c27c681f1fa7"
+    },
+    {
+      "path": "assets/img/posters/var_popcorn_all_init_states_clean.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a3d01c64baa2c9c3e37d1b5c8155cbb55926486",
+      "size": 19731,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/6a3d01c64baa2c9c3e37d1b5c8155cbb55926486"
+    },
+    {
+      "path": "assets/img/posters/working_placement.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "245a52679bf7c030e32e6d109168a9e51068c40a",
+      "size": 30029,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/245a52679bf7c030e32e6d109168a9e51068c40a"
+    },
+    {
+      "path": "assets/img/self_learning_popcorn.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a120347d4da478b46354483d0bce5517ffda75d3",
+      "size": 550046,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/a120347d4da478b46354483d0bce5517ffda75d3"
+    },
+    {
+      "path": "assets/img/usb_setup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc3a4d09d678f8900ee1e880fda9c79a355e85c",
+      "size": 2667807,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/7dc3a4d09d678f8900ee1e880fda9c79a355e85c"
+    },
+    {
+      "path": "assets/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20b6607829784ad179b310a1d234245d764713cb",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/20b6607829784ad179b310a1d234245d764713cb"
+    },
+    {
+      "path": "assets/js/site.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e20be1f17b8d59532ae998ccf68111d76dedee4",
+      "size": 11119,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/8e20be1f17b8d59532ae998ccf68111d76dedee4"
+    },
+    {
+      "path": "assets/video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9412858b96f49f335e00a83a74eb2bb3ad1da8af",
+      "url": "https://api.github.com/repos/graph-robots/gap/git/trees/9412858b96f49f335e00a83a74eb2bb3ad1da8af"
+    },
+    {
+      "path": "assets/video/crate_agent.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757508be3e91521c5ce9570732bc37ba258e9280",
+      "size": 635727,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/757508be3e91521c5ce9570732bc37ba258e9280"
+    },
+    {
+      "path": "assets/video/crate_human.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40513a12cc8dae5643d147f62f12e0d2e30339c6",
+      "size": 5195676,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/40513a12cc8dae5643d147f62f12e0d2e30339c6"
+    },
+    {
+      "path": "assets/video/crate_top.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "835addd76a87afbd1783b37d8f7f09ffe146ba48",
+      "size": 549844,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/835addd76a87afbd1783b37d8f7f09ffe146ba48"
+    },
+    {
+      "path": "assets/video/fulfillment_sim.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "418a3f4b8876ce4bf2ae2dbb6b930dc8bff7677c",
+      "size": 280438,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/418a3f4b8876ce4bf2ae2dbb6b930dc8bff7677c"
+    },
+    {
+      "path": "assets/video/graph_anim.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f19622c9223e4f45a75341a28929fa88bbad3cf",
+      "size": 213083,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/0f19622c9223e4f45a75341a28929fa88bbad3cf"
+    },
+    {
+      "path": "assets/video/packing_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a22efcd318f00d515e8013042f04fec49a8a237",
+      "size": 4077025,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/8a22efcd318f00d515e8013042f04fec49a8a237"
+    },
+    {
+      "path": "assets/video/packing_sim.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d063e269de974cd341d2392fdd64caa97a539a",
+      "size": 990334,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/65d063e269de974cd341d2392fdd64caa97a539a"
+    },
+    {
+      "path": "assets/video/popcorn_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18dde3ebe01351dfb36c638fa9c47ff946a0f1e",
+      "size": 5007935,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/b18dde3ebe01351dfb36c638fa9c47ff946a0f1e"
+    },
+    {
+      "path": "assets/video/splash.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd932489b0d7d1ea24300e9a48c513bbb767e37",
+      "size": 16481979,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/dfd932489b0d7d1ea24300e9a48c513bbb767e37"
+    },
+    {
+      "path": "assets/video/usb_real.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22c6d22a9df56c7ac7c1189f1d4c69297b17c0e",
+      "size": 2449349,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/e22c6d22a9df56c7ac7c1189f1d4c69297b17c0e"
+    },
+    {
+      "path": "assets/video/var_pick_up_the_alphabet_soup_and_place_it_in_the_basket.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dec80d471cd6c06ef11b6584884f6afd5d23f32",
+      "size": 36416,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/1dec80d471cd6c06ef11b6584884f6afd5d23f32"
+    },
+    {
+      "path": "assets/video/var_pick_up_the_chocolate_pudding_and_place_it_in_the_basket.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a56aeaaa26e5cb2a1e4a45e5be22b972a4c5d74",
+      "size": 48285,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/2a56aeaaa26e5cb2a1e4a45e5be22b972a4c5d74"
+    },
+    {
+      "path": "assets/video/var_popcorn_all_init_states_clean.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62b139566ce10e22997b13641adcc01be7ac93c",
+      "size": 92853,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/c62b139566ce10e22997b13641adcc01be7ac93c"
+    },
+    {
+      "path": "assets/video/working_placement.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b22889ee0651d2bd95ab2e6ac767040f55be2b9",
+      "size": 485863,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/8b22889ee0651d2bd95ab2e6ac767040f55be2b9"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89fa876d97d3fd402c3a71d280b2534a0bfec8b3",
+      "size": 29488,
+      "url": "https://api.github.com/repos/graph-robots/gap/git/blobs/89fa876d97d3fd402c3a71d280b2534a0bfec8b3"
+    }
+  ],
+  "truncated": false
+}

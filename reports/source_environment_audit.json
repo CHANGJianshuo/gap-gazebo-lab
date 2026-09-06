@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-09-05T13:42:30.307181+00:00",
+  "repositories": [
+    {
+      "repository": "graph-as-policy",
+      "url": "https://github.com/graph-robots/graph-as-policy.git",
+      "commit": "93e929c9a1668cacba2e8be604e99a7538abbee9",
+      "commit_date": "2026-08-23T07:39:31+00:00",
+      "branches": [
+        "origin/HEAD -> origin/main",
+        "  origin/jaimyn/push-skill",
+        "  origin/main",
+        "  origin/tsh"
+      ],
+      "license_file_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "repository": "open-robot-skills",
+      "url": "https://github.com/graph-robots/open-robot-skills.git",
+      "commit": "925d78eaf4873c3130c79b9b8f21971ec4e8b887",
+      "commit_date": "2026-07-06T08:51:26+00:00",
+      "branches": [
+        "origin/HEAD -> origin/main",
+        "  origin/feat/grasp-proposal-stages",
+        "  origin/main",
+        "  origin/per-policy-skills",
+        "  origin/rigid_tasks_skills"
+      ],
+      "license_file_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ],
+  "host": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "system_python": "3.10.12",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 7899 MiB, 592.27",
+    "nvcc_in_path": null,
+    "provider_env_presence_only": {
+      "OPENROUTER_API_KEY": false,
+      "GOOGLE_API_KEY": false,
+      "GEMINI_API_KEY": false,
+      "HF_TOKEN": false
+    }
+  },
+  "submodules": [
+    {
+      "path": "third_party/LIBERO-PRO",
+      "commit": "2da49576af2b71845557fc7085d02097d1741c32",
+      "url": "https://github.com/KeplerC/LIBERO-PRO.git",
+      "root_license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6"
+        }
+      ]
+    },
+    {
+      "path": "third_party/Variational-Automation-Benchmark",
+      "commit": "fd2bc0f63369ba39137df018bbca8f6b372ffa0b",
+      "url": "https://github.com/ehehee/Variational-Automation-Benchmark.git",
+      "root_license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6"
+        }
+      ]
+    },
+    {
+      "path": "third_party/robosuite",
+      "commit": "a498b087d4bc5a3981e3d27030d09bc537a537f3",
+      "url": "https://github.com/Max-Fu/robosuite.git",
+      "root_license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "177978cbece0a4c454c2aaec5b3f145b39270814874c43109da9e829c39d9cba"
+        }
+      ]
+    },
+    {
+      "path": "third_party/robots_realtime",
+      "commit": "b91fa9db001f68483025ba2f78d7d8853348d07f",
+      "url": "https://github.com/graph-robots/controllers.git",
+      "root_license_files": []
+    },
+    {
+      "path": "third_party/robots_realtime/dependencies/i2rt",
+      "commit": "7b6d5016f05ca63f9ef0185b7143e63f2c7a5708",
+      "url": "https://github.com/i2rt-robotics/i2rt.git",
+      "root_license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "7cd0a0224a287ebd6c45703eb6623d264c7810f8958d65de8f99e87ccd9f4891"
+        }
+      ]
+    },
+    {
+      "path": "third_party/robots_realtime/dependencies/lerobot_teleoperator_yamactiveleader",
+      "commit": "6ee63311df25bc50aa599292d07e1cb49e2f9e1e",
+      "url": "https://github.com/uynitsuj/lerobot_teleoperator_yamactiveleader.git",
+      "root_license_files": []
+    }
+  ],
+  "recursive_clone_complete": true,
+  "completed_at_utc": "2026-09-05T13:53:50.343017+00:00"
+}

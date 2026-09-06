@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+build/
+deps/
+outputs/
+config/panda.urdf
+config/panda.srdf
+config/rsp.yaml
+config/move_group.yaml
+.env

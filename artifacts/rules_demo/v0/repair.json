@@ -1,0 +1,24 @@
+{
+  "reason": "直线搬运被隔板阻挡；先升到 0.49 m，再横移，最后沿原 carry 节点下降。此建议由显式规则生成，不是大模型。",
+  "insert_before": "carry",
+  "nodes": [
+    {
+      "id": "lift_clearance",
+      "xyz": [
+        0.5000000280450652,
+        -0.2399999941352766,
+        0.49
+      ],
+      "mode": "cartesian"
+    },
+    {
+      "id": "transfer_clearance",
+      "xyz": [
+        0.5,
+        0.24,
+        0.49
+      ],
+      "mode": "cartesian"
+    }
+  ]
+}

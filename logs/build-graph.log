@@ -1,0 +1,5 @@
+built /home/chang/gap_reproduction/outputs/authored_graph/  (workflow.json + 5 scripts + checkpoints/grasp_sg.py)
+validate: 0 error(s), 0 warning(s)
+
+run it with:
+  MUJOCO_GL=egl gap run /home/chang/gap_reproduction/outputs/authored_graph --sim libero_object_all_variance/0

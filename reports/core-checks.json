@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-09-05T13:53:50.343017+00:00",
+  "execution_method": "individual commands; scripts/run_core_checks.py provides the equivalent rerun sequence",
+  "scope": "offline core tests, authored graph validation and skill format/import probes",
+  "excludes": [
+    "live LLM generation",
+    "vision model inference",
+    "robot physical simulation",
+    "paper rehearsal/self-learning",
+    "paper benchmark success rates"
+  ],
+  "results": {
+    "core_tests": {
+      "exit_code": 0,
+      "junit": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "385",
+          "time": "26.385",
+          "timestamp": "2026-09-05T21:47:34.321839+08:00",
+          "hostname": "CJS-LAPTOP"
+        }
+      ],
+      "log": "logs/core-tests.log"
+    },
+    "build_graph": {
+      "exit_code": 0,
+      "errors": 0,
+      "warnings": 0,
+      "log": "logs/build-graph.log"
+    },
+    "skills_check": {
+      "exit_code": 0,
+      "pass": 18,
+      "warn": 0,
+      "fail": 0,
+      "note": "tool bundle environments absent; this is not an inference readiness test",
+      "log": "logs/skills-check.log"
+    }
+  }
+}

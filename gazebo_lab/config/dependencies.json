@@ -1,0 +1,17 @@
+{
+  "gap": {
+    "path": "../graph-as-policy",
+    "commit": "93e929c9a1668cacba2e8be604e99a7538abbee9",
+    "url": "https://github.com/graph-robots/graph-as-policy.git"
+  },
+  "moveit_resources": {
+    "path": "deps/moveit_resources",
+    "commit": "c55b102711fc0aebe80c6952d2ce97c38110abba",
+    "url": "https://github.com/moveit/moveit_resources.git"
+  },
+  "gz_ros2_control": {
+    "path": "deps/gz_ros2_control",
+    "commit": "c88a5fd9170af120c263c1201f0744a40f93d673",
+    "url": "https://github.com/ros-controls/gz_ros2_control.git"
+  }
+}

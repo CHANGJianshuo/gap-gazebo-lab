@@ -1,0 +1,20 @@
+[tool] curobo: PASS (venv missing — run `gap skills install curobo`)
+[tool] gemini-er: PASS (venv missing — run `gap skills install gemini-er`)
+[tool] geometry: PASS (venv missing — run `gap skills install geometry`)
+[tool] grounding-dino: PASS (venv missing — run `gap skills install grounding-dino`)
+[tool] molmo: PASS (venv missing — run `gap skills install molmo`)
+[tool] sam3: PASS (venv missing — run `gap skills install sam3`)
+[tool] vlm: PASS (venv missing — run `gap skills install vlm`)
+[skill] grasping-direct-ik: PASS
+[skill] grasping-short-axis: PASS
+[skill] grasping-with-planner: PASS
+[skill] perceiving-next-item: PASS
+[skill] perceiving-object-parts: PASS
+[skill] perceiving-objects: PASS
+[skill] perceiving-objects-oneshot: PASS
+[skill] tracking-objects: PASS
+[skill] transporting-objects: PASS
+[policy] molmoact-libero: PASS (venv missing — run `gap skills install molmoact-libero`)
+[policy] pi05-libero: PASS (venv missing — run `gap skills install pi05-libero`)
+
+18 bundle(s): 18 PASS, 0 WARN, 0 FAIL

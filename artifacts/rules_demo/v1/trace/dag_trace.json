@@ -1,0 +1,1206 @@
+{
+  "nodes": [
+    {
+      "id": "n_0000",
+      "name": "observe",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0040803,
+      "finished_at": 1788658837.0452683,
+      "duration_ms": 41.19,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0001",
+      "name": "pregrasp",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0468178,
+      "finished_at": 1788658837.0524232,
+      "duration_ms": 5.61,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0002",
+      "name": "descend",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0534732,
+      "finished_at": 1788658837.0617912,
+      "duration_ms": 8.32,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0003",
+      "name": "close",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0662146,
+      "finished_at": 1788658837.0742896,
+      "duration_ms": 8.07,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0004",
+      "name": "low_lift",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0756457,
+      "finished_at": 1788658837.0830646,
+      "duration_ms": 7.42,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0005",
+      "name": "carry",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658844.3007984,
+      "finished_at": 1788658847.3023748,
+      "duration_ms": 3001.58,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0006",
+      "name": "place",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658847.3033574,
+      "finished_at": 1788658848.4164586,
+      "duration_ms": 1113.1,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0007",
+      "name": "release",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658848.417562,
+      "finished_at": 1788658850.361933,
+      "duration_ms": 1944.37,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0008",
+      "name": "retreat",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658850.3633113,
+      "finished_at": 1788658853.4143374,
+      "duration_ms": 3051.03,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0009",
+      "name": "verify",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658853.4185302,
+      "finished_at": 1788658853.9423769,
+      "duration_ms": 523.85,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0010",
+      "name": "done",
+      "node_type": "end",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 0.0,
+      "finished_at": 0.0,
+      "duration_ms": 0.0,
+      "status": "pending",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": false,
+      "has_output": false,
+      "visits": 0,
+      "assets": []
+    },
+    {
+      "id": "n_0011",
+      "name": "lift_clearance",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658837.0840914,
+      "finished_at": 1788658840.1923068,
+      "duration_ms": 3108.22,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    },
+    {
+      "id": "n_0012",
+      "name": "transfer_clearance",
+      "node_type": "tool",
+      "service": null,
+      "method": null,
+      "script": null,
+      "started_at": 1788658840.194617,
+      "finished_at": 1788658844.2996335,
+      "duration_ms": 4105.02,
+      "status": "ok",
+      "condition": null,
+      "condition_result": null,
+      "error_message": null,
+      "has_inputs": true,
+      "has_output": true,
+      "visits": 1,
+      "assets": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "n_0000",
+      "to": "n_0001",
+      "from_id": "n_0000",
+      "to_id": "n_0001",
+      "from_name": "observe",
+      "to_name": "pregrasp"
+    },
+    {
+      "from": "n_0001",
+      "to": "n_0002",
+      "from_id": "n_0001",
+      "to_id": "n_0002",
+      "from_name": "pregrasp",
+      "to_name": "descend"
+    },
+    {
+      "from": "n_0002",
+      "to": "n_0003",
+      "from_id": "n_0002",
+      "to_id": "n_0003",
+      "from_name": "descend",
+      "to_name": "close"
+    },
+    {
+      "from": "n_0003",
+      "to": "n_0004",
+      "from_id": "n_0003",
+      "to_id": "n_0004",
+      "from_name": "close",
+      "to_name": "low_lift"
+    },
+    {
+      "from": "n_0005",
+      "to": "n_0006",
+      "from_id": "n_0005",
+      "to_id": "n_0006",
+      "from_name": "carry",
+      "to_name": "place"
+    },
+    {
+      "from": "n_0006",
+      "to": "n_0007",
+      "from_id": "n_0006",
+      "to_id": "n_0007",
+      "from_name": "place",
+      "to_name": "release"
+    },
+    {
+      "from": "n_0007",
+      "to": "n_0008",
+      "from_id": "n_0007",
+      "to_id": "n_0008",
+      "from_name": "release",
+      "to_name": "retreat"
+    },
+    {
+      "from": "n_0008",
+      "to": "n_0009",
+      "from_id": "n_0008",
+      "to_id": "n_0009",
+      "from_name": "retreat",
+      "to_name": "verify"
+    },
+    {
+      "from": "n_0009",
+      "to": "n_0010",
+      "from_id": "n_0009",
+      "to_id": "n_0010",
+      "from_name": "verify",
+      "to_name": "done"
+    },
+    {
+      "from": "n_0004",
+      "to": "n_0011",
+      "from_id": "n_0004",
+      "to_id": "n_0011",
+      "from_name": "low_lift",
+      "to_name": "lift_clearance"
+    },
+    {
+      "from": "n_0011",
+      "to": "n_0012",
+      "from_id": "n_0011",
+      "to_id": "n_0012",
+      "from_name": "lift_clearance",
+      "to_name": "transfer_clearance"
+    },
+    {
+      "from": "n_0012",
+      "to": "n_0005",
+      "from_id": "n_0012",
+      "to_id": "n_0005",
+      "from_name": "transfer_clearance",
+      "to_name": "carry"
+    }
+  ],
+  "events": [
+    {
+      "seq": 0,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9985788,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 1,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9985943,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 2,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9985986,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 3,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.998602,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 4,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986045,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 5,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986076,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 6,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986105,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 7,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986124,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 8,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986157,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 9,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986184,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 10,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986217,
+      "node_id": "n_0010",
+      "node_name": "done",
+      "status": null,
+      "detail": {
+        "node_type": "end"
+      }
+    },
+    {
+      "seq": 11,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.998624,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 12,
+      "event_type": "node_registered",
+      "timestamp": 1788658836.9986262,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": null,
+      "detail": {
+        "node_type": "tool"
+      }
+    },
+    {
+      "seq": 13,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.998808,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": null,
+      "detail": {
+        "from_name": "observe",
+        "to_name": "pregrasp",
+        "to_id": "n_0001"
+      }
+    },
+    {
+      "seq": 14,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988105,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": null,
+      "detail": {
+        "from_name": "pregrasp",
+        "to_name": "descend",
+        "to_id": "n_0002"
+      }
+    },
+    {
+      "seq": 15,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988124,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": null,
+      "detail": {
+        "from_name": "descend",
+        "to_name": "close",
+        "to_id": "n_0003"
+      }
+    },
+    {
+      "seq": 16,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988139,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": null,
+      "detail": {
+        "from_name": "close",
+        "to_name": "low_lift",
+        "to_id": "n_0004"
+      }
+    },
+    {
+      "seq": 17,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988163,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": null,
+      "detail": {
+        "from_name": "carry",
+        "to_name": "place",
+        "to_id": "n_0006"
+      }
+    },
+    {
+      "seq": 18,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988177,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": null,
+      "detail": {
+        "from_name": "place",
+        "to_name": "release",
+        "to_id": "n_0007"
+      }
+    },
+    {
+      "seq": 19,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988194,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": null,
+      "detail": {
+        "from_name": "release",
+        "to_name": "retreat",
+        "to_id": "n_0008"
+      }
+    },
+    {
+      "seq": 20,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988208,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": null,
+      "detail": {
+        "from_name": "retreat",
+        "to_name": "verify",
+        "to_id": "n_0009"
+      }
+    },
+    {
+      "seq": 21,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988222,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": null,
+      "detail": {
+        "from_name": "verify",
+        "to_name": "done",
+        "to_id": "n_0010"
+      }
+    },
+    {
+      "seq": 22,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988236,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": null,
+      "detail": {
+        "from_name": "low_lift",
+        "to_name": "lift_clearance",
+        "to_id": "n_0011"
+      }
+    },
+    {
+      "seq": 23,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.998825,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": null,
+      "detail": {
+        "from_name": "lift_clearance",
+        "to_name": "transfer_clearance",
+        "to_id": "n_0012"
+      }
+    },
+    {
+      "seq": 24,
+      "event_type": "edge_registered",
+      "timestamp": 1788658836.9988263,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": null,
+      "detail": {
+        "from_name": "transfer_clearance",
+        "to_name": "carry",
+        "to_id": "n_0005"
+      }
+    },
+    {
+      "seq": 25,
+      "event_type": "node_started",
+      "timestamp": 1788658837.004083,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 26,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.041483,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": []
+      }
+    },
+    {
+      "seq": 27,
+      "event_type": "output_recorded",
+      "timestamp": 1788658837.0450943,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 28,
+      "event_type": "node_finished",
+      "timestamp": 1788658837.0452805,
+      "node_id": "n_0000",
+      "node_name": "observe",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 41.19
+      }
+    },
+    {
+      "seq": 29,
+      "event_type": "node_started",
+      "timestamp": 1788658837.0468192,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 30,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.0511837,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 31,
+      "event_type": "output_recorded",
+      "timestamp": 1788658837.0523443,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 32,
+      "event_type": "node_finished",
+      "timestamp": 1788658837.0524323,
+      "node_id": "n_0001",
+      "node_name": "pregrasp",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 5.61
+      }
+    },
+    {
+      "seq": 33,
+      "event_type": "node_started",
+      "timestamp": 1788658837.053475,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 34,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.0596793,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 35,
+      "event_type": "output_recorded",
+      "timestamp": 1788658837.0616438,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 36,
+      "event_type": "node_finished",
+      "timestamp": 1788658837.0617988,
+      "node_id": "n_0002",
+      "node_name": "descend",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 8.32
+      }
+    },
+    {
+      "seq": 37,
+      "event_type": "node_started",
+      "timestamp": 1788658837.066217,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 38,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.0720181,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "close"
+        ]
+      }
+    },
+    {
+      "seq": 39,
+      "event_type": "output_recorded",
+      "timestamp": 1788658837.0741918,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 40,
+      "event_type": "node_finished",
+      "timestamp": 1788658837.0743017,
+      "node_id": "n_0003",
+      "node_name": "close",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 8.07
+      }
+    },
+    {
+      "seq": 41,
+      "event_type": "node_started",
+      "timestamp": 1788658837.0756478,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 42,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.0815501,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 43,
+      "event_type": "output_recorded",
+      "timestamp": 1788658837.0829465,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 44,
+      "event_type": "node_finished",
+      "timestamp": 1788658837.0830736,
+      "node_id": "n_0004",
+      "node_name": "low_lift",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 7.42
+      }
+    },
+    {
+      "seq": 45,
+      "event_type": "node_started",
+      "timestamp": 1788658837.0840929,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 46,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658837.0898905,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 47,
+      "event_type": "output_recorded",
+      "timestamp": 1788658840.1922178,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 48,
+      "event_type": "node_finished",
+      "timestamp": 1788658840.1923134,
+      "node_id": "n_0011",
+      "node_name": "lift_clearance",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 3108.22
+      }
+    },
+    {
+      "seq": 49,
+      "event_type": "node_started",
+      "timestamp": 1788658840.1946192,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 50,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658840.2007205,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 51,
+      "event_type": "output_recorded",
+      "timestamp": 1788658844.2995422,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 52,
+      "event_type": "node_finished",
+      "timestamp": 1788658844.2996428,
+      "node_id": "n_0012",
+      "node_name": "transfer_clearance",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 4105.02
+      }
+    },
+    {
+      "seq": 53,
+      "event_type": "node_started",
+      "timestamp": 1788658844.3008006,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 54,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658844.310064,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 55,
+      "event_type": "output_recorded",
+      "timestamp": 1788658847.3022738,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 56,
+      "event_type": "node_finished",
+      "timestamp": 1788658847.3023846,
+      "node_id": "n_0005",
+      "node_name": "carry",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 3001.58
+      }
+    },
+    {
+      "seq": 57,
+      "event_type": "node_started",
+      "timestamp": 1788658847.303359,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 58,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658847.309164,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 59,
+      "event_type": "output_recorded",
+      "timestamp": 1788658848.4163623,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 60,
+      "event_type": "node_finished",
+      "timestamp": 1788658848.4164677,
+      "node_id": "n_0006",
+      "node_name": "place",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 1113.1
+      }
+    },
+    {
+      "seq": 61,
+      "event_type": "node_started",
+      "timestamp": 1788658848.4175637,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 62,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658848.424861,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "close"
+        ]
+      }
+    },
+    {
+      "seq": 63,
+      "event_type": "output_recorded",
+      "timestamp": 1788658850.3618333,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 64,
+      "event_type": "node_finished",
+      "timestamp": 1788658850.3619404,
+      "node_id": "n_0007",
+      "node_name": "release",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 1944.37
+      }
+    },
+    {
+      "seq": 65,
+      "event_type": "node_started",
+      "timestamp": 1788658850.3633146,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 66,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658850.3689198,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": [
+          "mode",
+          "xyz"
+        ]
+      }
+    },
+    {
+      "seq": 67,
+      "event_type": "output_recorded",
+      "timestamp": 1788658853.4141273,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 68,
+      "event_type": "node_finished",
+      "timestamp": 1788658853.4143496,
+      "node_id": "n_0008",
+      "node_name": "retreat",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 3051.03
+      }
+    },
+    {
+      "seq": 69,
+      "event_type": "node_started",
+      "timestamp": 1788658853.4185324,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": "running",
+      "detail": {}
+    },
+    {
+      "seq": 70,
+      "event_type": "inputs_recorded",
+      "timestamp": 1788658853.4266675,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": null,
+      "detail": {
+        "asset_count": 0,
+        "keys": []
+      }
+    },
+    {
+      "seq": 71,
+      "event_type": "output_recorded",
+      "timestamp": 1788658853.94228,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": null,
+      "detail": {
+        "asset_count": 0
+      }
+    },
+    {
+      "seq": 72,
+      "event_type": "node_finished",
+      "timestamp": 1788658853.9423864,
+      "node_id": "n_0009",
+      "node_name": "verify",
+      "status": "ok",
+      "detail": {
+        "success": true,
+        "duration_ms": 523.85
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[submodule "graph-as-policy"]
+	path = graph-as-policy
+	url = https://github.com/graph-robots/graph-as-policy.git
+[submodule "open-robot-skills"]
+	path = open-robot-skills
+	url = https://github.com/graph-robots/open-robot-skills.git
